@@ -1,0 +1,24 @@
+# CreateFolderRequest
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**FoldName** | **string** | 文件夹名 | [default to '']
+**ParentId** | **number** | 父文件夹ID | [default to 0]
+**ProjectName** | **string** | 项目名 | [default to '']
+
+## Example
+
+```typescript
+import { CreateFolderRequest } from './api';
+
+const instance: CreateFolderRequest = {
+    FoldName,
+    ParentId,
+    ProjectName,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

@@ -1,0 +1,20 @@
+# CreateArtifactRepository200Response
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Response** | [**CreateArtifactRepository200ResponseResponse**](CreateArtifactRepository200ResponseResponse.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { CreateArtifactRepository200Response } from './api';
+
+const instance: CreateArtifactRepository200Response = {
+    Response,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

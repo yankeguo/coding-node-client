@@ -1,0 +1,37 @@
+{
+  "name": "@yankeguo/coding-node-client",
+  "version": "202506.11.0",
+  "description": "An Axios based Node.js client for CODING.NET OpenAPI",
+  "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankeguo/coding-node-client.git"
+  },
+  "keywords": [
+    "coding.net",
+    "openapi",
+    "client"
+  ],
+  "author": "GUO YANKE <hi@yankeguo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yankeguo/coding-node-client/issues"
+  },
+  "homepage": "https://github.com/yankeguo/coding-node-client#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  }
+}
