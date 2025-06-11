@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **string** | service-hook-id | [default to undefined]
-**ProjectId** | **number** | 项目或者研发空间id | [default to undefined]
+**Id** | **string** | service-hook-id | [optional] [default to undefined]
+**ProjectId** | **number** | 项目或者研发空间id | [optional] [default to undefined]
 **TargetType** | **string** | 目标数据类型：PROJECT,SPACE_NODE,PROGRAM,默认PROJECT | [optional] [default to undefined]
 
 ## Example

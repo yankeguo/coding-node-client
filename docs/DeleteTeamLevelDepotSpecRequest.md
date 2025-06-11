@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotSpecName** | **string** | 仓库规范名字 | [default to undefined]
+**DepotSpecName** | **string** | 仓库规范名字 | [optional] [default to undefined]
 
 ## Example
 

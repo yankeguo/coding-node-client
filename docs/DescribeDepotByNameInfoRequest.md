@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotName** | **string** | 仓库名 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**TeamGk** | **string** | 团队GK | [default to undefined]
+**DepotName** | **string** | 仓库名 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**TeamGk** | **string** | 团队GK | [optional] [default to undefined]
 
 ## Example
 

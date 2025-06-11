@@ -6,9 +6,9 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **AttachmentIds** | **Array&lt;number&gt;** | 附件 ID 数组：来自“生成附件预上传信息”接口 | [optional] [default to undefined]
-**Name** | **string** | 测试报告标题 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**RunIds** | **Array&lt;number&gt;** | 测试计划 ID 数组 | [default to undefined]
+**Name** | **string** | 测试报告标题 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**RunIds** | **Array&lt;number&gt;** | 测试计划 ID 数组 | [optional] [default to undefined]
 
 ## Example
 

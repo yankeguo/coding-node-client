@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommitMessage** | **string** | 提交信息 | [default to undefined]
-**DepotId** | **number** | 仓库id | [default to undefined]
+**CommitMessage** | **string** | 提交信息 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可 | [optional] [default to undefined]
-**Paths** | **Array&lt;string&gt;** | 文件路径列表 | [default to undefined]
-**Ref** | **string** | 分支名 | [default to undefined]
+**Paths** | **Array&lt;string&gt;** | 文件路径列表 | [optional] [default to undefined]
+**Ref** | **string** | 分支名 | [optional] [default to undefined]
 
 ## Example
 

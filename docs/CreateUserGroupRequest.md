@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Description** | **string** | 用户组描述 | [default to undefined]
-**Name** | **string** | 用户组名称 | [default to undefined]
+**Description** | **string** | 用户组描述 | [optional] [default to undefined]
+**Name** | **string** | 用户组名称 | [optional] [default to undefined]
 
 ## Example
 

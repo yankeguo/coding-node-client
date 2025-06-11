@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectName** | **string** | 项目名 | [default to '']
-**Id** | **Array&lt;number&gt;** | 要删除的公告ID列表 | [default to undefined]
+**ProjectName** | **string** | 项目名 | [optional] [default to '']
+**Id** | **Array&lt;number&gt;** | 要删除的公告ID列表 | [optional] [default to undefined]
 
 ## Example
 

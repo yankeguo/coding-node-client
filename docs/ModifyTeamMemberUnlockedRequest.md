@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**UserId** | **number** | 用户Id | [default to undefined]
+**UserId** | **number** | 用户Id | [optional] [default to undefined]
 
 ## Example
 

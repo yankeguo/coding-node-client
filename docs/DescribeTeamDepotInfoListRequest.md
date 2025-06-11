@@ -6,8 +6,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **DepotName** | **string** | 仓库名 | [optional] [default to undefined]
-**PageNumber** | **number** | 页码 | [default to undefined]
-**PageSize** | **number** | 页码大小 | [default to undefined]
+**PageNumber** | **number** | 页码 | [optional] [default to undefined]
+**PageSize** | **number** | 页码大小 | [optional] [default to undefined]
 **ProjectName** | **string** | 项目名 | [optional] [default to undefined]
 
 ## Example

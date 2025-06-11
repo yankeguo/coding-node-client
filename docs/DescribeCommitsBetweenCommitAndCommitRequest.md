@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库id | [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，选择其一即可 | [optional] [default to undefined]
-**Source** | **string** | 查询起点sha值 | [default to undefined]
-**Target** | **string** | 查询目标sha值 | [default to undefined]
+**Source** | **string** | 查询起点sha值 | [optional] [default to undefined]
+**Target** | **string** | 查询目标sha值 | [optional] [default to undefined]
 
 ## Example
 

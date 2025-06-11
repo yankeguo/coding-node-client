@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与仓库ID二选一 | [optional] [default to undefined]
-**Description** | **string** | 仓库描述信息 | [default to undefined]
+**Description** | **string** | 仓库描述信息 | [optional] [default to undefined]
 
 ## Example
 

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**FilePushRuleId** | **number** | 文件推送规则 ID | [default to undefined]
-**IsDenyForAllUser** | **boolean** | 拒绝所有人推送 | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**FilePushRuleId** | **number** | 文件推送规则 ID | [optional] [default to undefined]
+**IsDenyForAllUser** | **boolean** | 拒绝所有人推送 | [optional] [default to undefined]
 
 ## Example
 

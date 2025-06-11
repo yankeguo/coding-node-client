@@ -8,9 +8,9 @@ Name | Type | Description | Notes
 **Assignee** | **number** | 处理人 ID | [optional] [default to undefined]
 **EndAt** | **object** | 结束时间，格式：2020-01-01 | [optional] [default to undefined]
 **Goal** | **string** | 目标 | [optional] [default to undefined]
-**IterationCode** | **number** | 迭代编号 | [default to undefined]
-**Name** | **string** | 标题 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IterationCode** | **number** | 迭代编号 | [optional] [default to undefined]
+**Name** | **string** | 标题 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **StartAt** | **object** | 开始时间，格式：2020-01-01 | [optional] [default to undefined]
 
 ## Example

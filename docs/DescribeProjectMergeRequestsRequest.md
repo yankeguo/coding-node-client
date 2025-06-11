@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **MergerGlobalKey** | **string** | 合并请求合并者全局 key | [optional] [default to undefined]
 **PageNumber** | **number** | 页数 默认 1 | [optional] [default to undefined]
 **PageSize** | **number** | 每页条数 默认 10 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目 Id | [default to undefined]
+**ProjectId** | **number** | 项目 Id | [optional] [default to undefined]
 **ReviewerEmail** | **string** | 合并请求评审者邮箱 | [optional] [default to undefined]
 **ReviewerGlobalKey** | **string** | 合并请求评审者全局 key | [optional] [default to undefined]
 **Sort** | **string** | 排序 action_at：以更新时间排序  created_at：以创建时间排序 | [optional] [default to undefined]

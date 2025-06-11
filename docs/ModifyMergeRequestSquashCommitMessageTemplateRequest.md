@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommitMessageTemplate** | **string** | 合并请求合并提交消息模版 | [default to undefined]
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
+**CommitMessageTemplate** | **string** | 合并请求合并提交消息模版 | [optional] [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 
 ## Example
 

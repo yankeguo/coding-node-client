@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotName** | **string** | 仓库名 | [default to undefined]
+**DepotName** | **string** | 仓库名 | [optional] [default to undefined]
 **Description** | **string** | 仓库描述 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目Id | [default to undefined]
-**Template** | **string** | 仓库模板。目前支持：Spring, Ruby on Rails，Ruby Sinatra，Node.js，Android，Python，Hexo，Jekyll。对应模板参数分别为：SPRING,ROR,SINATRA,NODEJS,ANDROID,FLASK,CLOUD_API_HEXO,CLOUD_API_JEKYLL。如果设置了自定义模版，可以传入自定义模版的仓库Id | [default to undefined]
+**ProjectId** | **number** | 项目Id | [optional] [default to undefined]
+**Template** | **string** | 仓库模板。目前支持：Spring, Ruby on Rails，Ruby Sinatra，Node.js，Android，Python，Hexo，Jekyll。对应模板参数分别为：SPRING,ROR,SINATRA,NODEJS,ANDROID,FLASK,CLOUD_API_HEXO,CLOUD_API_JEKYLL。如果设置了自定义模版，可以传入自定义模版的仓库Id | [optional] [default to undefined]
 
 ## Example
 

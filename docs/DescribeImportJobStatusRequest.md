@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**JobId** | **string** | 任务Id | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**JobId** | **string** | 任务Id | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

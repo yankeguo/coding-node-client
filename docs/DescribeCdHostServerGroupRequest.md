@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **number** | 主机组 ID | [default to undefined]
+**Id** | **number** | 主机组 ID | [optional] [default to undefined]
 
 ## Example
 

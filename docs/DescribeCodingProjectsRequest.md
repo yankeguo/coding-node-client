@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PageNumber** | **number** | 页数 | [default to undefined]
-**PageSize** | **number** | 每页条数 | [default to undefined]
+**PageNumber** | **number** | 页数 | [optional] [default to undefined]
+**PageSize** | **number** | 每页条数 | [optional] [default to undefined]
 **ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example

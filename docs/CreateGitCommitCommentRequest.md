@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Content** | **string** | 评论的内容 | [default to undefined]
-**DepotId** | **number** | 仓库id | [default to undefined]
+**Content** | **string** | 评论的内容 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可 | [optional] [default to undefined]
-**Index** | **number** | diff信息中的第几行 | [default to undefined]
-**Path** | **string** | 文件路径 | [default to undefined]
-**Sha** | **string** | 提交id | [default to undefined]
+**Index** | **number** | diff信息中的第几行 | [optional] [default to undefined]
+**Path** | **string** | 文件路径 | [optional] [default to undefined]
+**Sha** | **string** | 提交id | [optional] [default to undefined]
 
 ## Example
 

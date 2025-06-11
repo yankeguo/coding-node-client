@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Grants** | [**Array&lt;GrantInfo&gt;**](GrantInfo.md) | 授权信息 | [default to undefined]
-**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [default to undefined]
+**Grants** | [**Array&lt;GrantInfo&gt;**](GrantInfo.md) | 授权信息 | [optional] [default to undefined]
+**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [optional] [default to undefined]
 
 ## Example
 

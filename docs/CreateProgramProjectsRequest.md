@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProgramId** | **number** | 项目集 ID | [default to 0]
-**ProjectId** | **Array&lt;number&gt;** | 项目 ID | [default to undefined]
+**ProgramId** | **number** | 项目集 ID | [optional] [default to 0]
+**ProjectId** | **Array&lt;number&gt;** | 项目 ID | [optional] [default to undefined]
 
 ## Example
 

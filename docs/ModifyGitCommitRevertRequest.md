@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BranchName** | **string** | 分支名 | [default to undefined]
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**BranchName** | **string** | 分支名 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可 | [optional] [default to undefined]
-**Message** | **string** | 提交描述 | [default to undefined]
-**Sha** | **string** | 欲还原的提交 ID | [default to undefined]
+**Message** | **string** | 提交描述 | [optional] [default to undefined]
+**Sha** | **string** | 欲还原的提交 ID | [optional] [default to undefined]
 
 ## Example
 

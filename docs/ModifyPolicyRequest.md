@@ -7,10 +7,10 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Alias** | **string** | 显示名称 | [optional] [default to undefined]
 **Description** | **string** | 描述 | [optional] [default to undefined]
-**Id** | **number** | 权限组 ID | [default to undefined]
+**Id** | **number** | 权限组 ID | [optional] [default to undefined]
 **Name** | **string** | 名称 | [optional] [default to undefined]
-**PolicyDocument** | [**PolicyDocument**](PolicyDocument.md) |  | [default to undefined]
-**ResourceType** | **Array&lt;string&gt;** | 适用的资源类型 | [default to undefined]
+**PolicyDocument** | [**PolicyDocument**](PolicyDocument.md) |  | [optional] [default to undefined]
+**ResourceType** | **Array&lt;string&gt;** | 适用的资源类型 | [optional] [default to undefined]
 
 ## Example
 

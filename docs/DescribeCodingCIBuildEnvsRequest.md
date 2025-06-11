@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BuildId** | **number** | 构建ID | [default to undefined]
-**Type** | **string** | SYSTEM（系统内置环境变量） Param（触发构建输入环境变量） Env（构建计划填写环境变量） | [default to undefined]
+**BuildId** | **number** | 构建ID | [optional] [default to undefined]
+**Type** | **string** | SYSTEM（系统内置环境变量） Param（触发构建输入环境变量） Env（构建计划填写环境变量） | [optional] [default to undefined]
 
 ## Example
 

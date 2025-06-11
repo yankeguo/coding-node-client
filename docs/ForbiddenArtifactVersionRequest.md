@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ForbiddenAction** | **string** | FORBIDDEN 禁止下载，UNFORBIDDEN 解除禁止下载 | [default to undefined]
+**ForbiddenAction** | **string** | FORBIDDEN 禁止下载，UNFORBIDDEN 解除禁止下载 | [optional] [default to undefined]
 **ForbiddenNote** | **string** | 禁止下载说明 | [optional] [default to undefined]
-**Package** | **string** | 包名 | [default to undefined]
-**PackageVersion** | **string** | 版本号 | [default to undefined]
-**ProjectId** | **number** | 项目 ID | [default to undefined]
-**Repository** | **string** | 仓库名 | [default to undefined]
+**Package** | **string** | 包名 | [optional] [default to undefined]
+**PackageVersion** | **string** | 版本号 | [optional] [default to undefined]
+**ProjectId** | **number** | 项目 ID | [optional] [default to undefined]
+**Repository** | **string** | 仓库名 | [optional] [default to undefined]
 
 ## Example
 

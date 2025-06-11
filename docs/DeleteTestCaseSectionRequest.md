@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**SectionId** | **number** | 分组 ID | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**SectionId** | **number** | 分组 ID | [optional] [default to undefined]
 
 ## Example
 

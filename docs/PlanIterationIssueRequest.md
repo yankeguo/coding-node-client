@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueCode** | **Array&lt;number&gt;** | 需要规划的事项编号列表 | [default to undefined]
-**IterationCode** | **number** | 迭代编号，将事项移出迭代请传 0 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IssueCode** | **Array&lt;number&gt;** | 需要规划的事项编号列表 | [optional] [default to undefined]
+**IterationCode** | **number** | 迭代编号，将事项移出迭代请传 0 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **SingleMode** | **boolean** | 单个事项移动模式，即未规划的子事项的迭代跟随传入的事项一同规划，否则仅规划传入的事项 | [optional] [default to undefined]
 
 ## Example

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FileName** | **string** | 文件名 | [default to '']
-**FileSize** | **number** | 文件大小 | [default to 0]
-**ProjectName** | **string** | 项目名 | [default to '']
+**FileName** | **string** | 文件名 | [optional] [default to '']
+**FileSize** | **number** | 文件大小 | [optional] [default to 0]
+**ProjectName** | **string** | 项目名 | [optional] [default to '']
 
 ## Example
 

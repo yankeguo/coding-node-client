@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BranchName** | **string** | 分支名称 | [default to undefined]
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
+**BranchName** | **string** | 分支名称 | [optional] [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 **FilePath** | **string** | 文件路径（如需查询某个路径下的代码片段，需要输入此参数） | [optional] [default to undefined]
-**KeyWord** | **string** | 查询代码片段关键字 | [default to undefined]
-**PageNumber** | **number** | 页码数量 | [default to undefined]
-**PageSize** | **number** | 页码大小 | [default to undefined]
+**KeyWord** | **string** | 查询代码片段关键字 | [optional] [default to undefined]
+**PageNumber** | **number** | 页码数量 | [optional] [default to undefined]
+**PageSize** | **number** | 页码大小 | [optional] [default to undefined]
 
 ## Example
 

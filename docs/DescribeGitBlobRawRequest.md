@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BlobSha** | **string** | Blob ID | [default to undefined]
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**BlobSha** | **string** | Blob ID | [optional] [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与仓库ID二选一 | [optional] [default to undefined]
 
 ## Example

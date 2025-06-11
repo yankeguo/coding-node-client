@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueCode** | **number** | 事项 Code | [default to undefined]
+**IssueCode** | **number** | 事项 Code | [optional] [default to undefined]
 **IssueType** | **string** | 事项类型，可不填 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

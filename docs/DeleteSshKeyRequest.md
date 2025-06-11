@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**SshKeyId** | **number** | ssh id | [default to undefined]
+**SshKeyId** | **number** | ssh id | [optional] [default to undefined]
 
 ## Example
 

@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**TaskJsonContent** | **string** | 任务 JSON 配置 | [default to undefined]
+**TaskJsonContent** | **string** | 任务 JSON 配置 | [optional] [default to undefined]
 
 ## Example
 

@@ -34,13 +34,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateUploadToken')
 let createUploadTokenRequest: CreateUploadTokenRequest; // (optional)
 
 const { status, data } = await apiInstance.createUploadToken(
-    authorization,
-    action,
     createUploadTokenRequest
 );
 ```
@@ -50,8 +46,6 @@ const { status, data } = await apiInstance.createUploadToken(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createUploadTokenRequest** | **CreateUploadTokenRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateUploadToken'|
 
 
 ### Return type
@@ -60,7 +54,7 @@ const { status, data } = await apiInstance.createUploadToken(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -92,13 +86,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateWiki')
 let createWikiRequest: CreateWikiRequest; // (optional)
 
 const { status, data } = await apiInstance.createWiki(
-    authorization,
-    action,
     createWikiRequest
 );
 ```
@@ -108,8 +98,6 @@ const { status, data } = await apiInstance.createWiki(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createWikiRequest** | **CreateWikiRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateWiki'|
 
 
 ### Return type
@@ -118,7 +106,7 @@ const { status, data } = await apiInstance.createWiki(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -150,13 +138,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateWikiByZip')
 let createWikiByZipRequest: CreateWikiByZipRequest; // (optional)
 
 const { status, data } = await apiInstance.createWikiByZip(
-    authorization,
-    action,
     createWikiByZipRequest
 );
 ```
@@ -166,8 +150,6 @@ const { status, data } = await apiInstance.createWikiByZip(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createWikiByZipRequest** | **CreateWikiByZipRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateWikiByZip'|
 
 
 ### Return type
@@ -176,7 +158,7 @@ const { status, data } = await apiInstance.createWikiByZip(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -208,13 +190,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteWiki')
 let deleteWikiRequest: DeleteWikiRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteWiki(
-    authorization,
-    action,
     deleteWikiRequest
 );
 ```
@@ -224,8 +202,6 @@ const { status, data } = await apiInstance.deleteWiki(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteWikiRequest** | **DeleteWikiRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteWiki'|
 
 
 ### Return type
@@ -234,7 +210,7 @@ const { status, data } = await apiInstance.deleteWiki(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -266,13 +242,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeImportJobStatus')
 let describeImportJobStatusRequest: DescribeImportJobStatusRequest; // (optional)
 
 const { status, data } = await apiInstance.describeImportJobStatus(
-    authorization,
-    action,
     describeImportJobStatusRequest
 );
 ```
@@ -282,8 +254,6 @@ const { status, data } = await apiInstance.describeImportJobStatus(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeImportJobStatusRequest** | **DescribeImportJobStatusRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeImportJobStatus'|
 
 
 ### Return type
@@ -292,7 +262,7 @@ const { status, data } = await apiInstance.describeImportJobStatus(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -324,13 +294,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUpdateJobStatus')
 let describeImportJobStatusRequest: DescribeImportJobStatusRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUpdateJobStatus(
-    authorization,
-    action,
     describeImportJobStatusRequest
 );
 ```
@@ -340,8 +306,6 @@ const { status, data } = await apiInstance.describeUpdateJobStatus(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeImportJobStatusRequest** | **DescribeImportJobStatusRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUpdateJobStatus'|
 
 
 ### Return type
@@ -350,7 +314,7 @@ const { status, data } = await apiInstance.describeUpdateJobStatus(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -382,13 +346,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeWiki')
 let describeWikiRequest: DescribeWikiRequest; // (optional)
 
 const { status, data } = await apiInstance.describeWiki(
-    authorization,
-    action,
     describeWikiRequest
 );
 ```
@@ -398,8 +358,6 @@ const { status, data } = await apiInstance.describeWiki(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWikiRequest** | **DescribeWikiRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeWiki'|
 
 
 ### Return type
@@ -408,7 +366,7 @@ const { status, data } = await apiInstance.describeWiki(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -440,13 +398,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeWikiList')
 let describeWikiListRequest: DescribeWikiListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeWikiList(
-    authorization,
-    action,
     describeWikiListRequest
 );
 ```
@@ -456,8 +410,6 @@ const { status, data } = await apiInstance.describeWikiList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWikiListRequest** | **DescribeWikiListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeWikiList'|
 
 
 ### Return type
@@ -466,7 +418,7 @@ const { status, data } = await apiInstance.describeWikiList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -498,13 +450,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyWiki')
 let modifyWikiRequest: ModifyWikiRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyWiki(
-    authorization,
-    action,
     modifyWikiRequest
 );
 ```
@@ -514,8 +462,6 @@ const { status, data } = await apiInstance.modifyWiki(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyWikiRequest** | **ModifyWikiRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyWiki'|
 
 
 ### Return type
@@ -524,7 +470,7 @@ const { status, data } = await apiInstance.modifyWiki(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -556,13 +502,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyWikiByZip')
 let modifyWikiByZipRequest: ModifyWikiByZipRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyWikiByZip(
-    authorization,
-    action,
     modifyWikiByZipRequest
 );
 ```
@@ -572,8 +514,6 @@ const { status, data } = await apiInstance.modifyWikiByZip(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyWikiByZipRequest** | **ModifyWikiByZipRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyWikiByZip'|
 
 
 ### Return type
@@ -582,7 +522,7 @@ const { status, data } = await apiInstance.modifyWikiByZip(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -614,13 +554,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyWikiOrder')
 let modifyWikiOrderRequest: ModifyWikiOrderRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyWikiOrder(
-    authorization,
-    action,
     modifyWikiOrderRequest
 );
 ```
@@ -630,8 +566,6 @@ const { status, data } = await apiInstance.modifyWikiOrder(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyWikiOrderRequest** | **ModifyWikiOrderRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyWikiOrder'|
 
 
 ### Return type
@@ -640,7 +574,7 @@ const { status, data } = await apiInstance.modifyWikiOrder(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -672,13 +606,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new WikiApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyWikiTitle')
 let modifyWikiTitleRequest: ModifyWikiTitleRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyWikiTitle(
-    authorization,
-    action,
     modifyWikiTitleRequest
 );
 ```
@@ -688,8 +618,6 @@ const { status, data } = await apiInstance.modifyWikiTitle(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyWikiTitleRequest** | **ModifyWikiTitleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyWikiTitle'|
 
 
 ### Return type
@@ -698,7 +626,7 @@ const { status, data } = await apiInstance.modifyWikiTitle(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 

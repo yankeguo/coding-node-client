@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepartmentId** | **number** | 部门ID | [default to 0]
+**DepartmentId** | **number** | 部门ID | [optional] [default to 0]
 
 ## Example
 

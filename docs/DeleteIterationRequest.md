@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IterationCode** | **number** | 迭代编号 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IterationCode** | **number** | 迭代编号 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

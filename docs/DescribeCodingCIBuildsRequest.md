@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**JobId** | **number** | 构建计划 ID | [default to undefined]
-**PageNumber** | **number** | 页码 | [default to undefined]
-**PageSize** | **number** | 每页条数 | [default to undefined]
+**JobId** | **number** | 构建计划 ID | [optional] [default to undefined]
+**PageNumber** | **number** | 页码 | [optional] [default to undefined]
+**PageSize** | **number** | 每页条数 | [optional] [default to undefined]
 
 ## Example
 

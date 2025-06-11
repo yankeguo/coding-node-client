@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Account** | **string** | 部署账号 从 DescribeCdPipeline 获取 | [default to '']
-**ServerGroupName** | **string** | 主机组名称 从 DescribeCdPipeline 获取 | [default to '']
+**Account** | **string** | 部署账号 从 DescribeCdPipeline 获取 | [optional] [default to '']
+**ServerGroupName** | **string** | 主机组名称 从 DescribeCdPipeline 获取 | [optional] [default to '']
 
 ## Example
 

@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Content** | **string** | 描述内容 | [default to undefined]
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**Content** | **string** | 描述内容 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与仓库ID二选一   | [optional] [default to undefined]
-**DestBranch** | **string** | 目标分支名 | [default to undefined]
-**SrcBranch** | **string** | 源分支名 | [default to undefined]
-**Title** | **string** | 标题 | [default to undefined]
+**DestBranch** | **string** | 目标分支名 | [optional] [default to undefined]
+**SrcBranch** | **string** | 源分支名 | [optional] [default to undefined]
+**Title** | **string** | 标题 | [optional] [default to undefined]
 
 ## Example
 

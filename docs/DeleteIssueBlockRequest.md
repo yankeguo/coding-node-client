@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BlockIssueCode** | **number** | 前置事项 Code | [default to undefined]
-**IssueCode** | **number** | 事项 Code | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**BlockIssueCode** | **number** | 前置事项 Code | [optional] [default to undefined]
+**IssueCode** | **number** | 事项 Code | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

@@ -340,14 +340,18 @@ This package is auto-generated from the official CODING.NET OpenAPI specificatio
 
 ### Required Patch
 
-The official OpenAPI specification contains invalid type definitions that need to be corrected before code generation:
+The official OpenAPI specification contains issues that need to be corrected before code generation:
 
-```diff
-- "type": "uint64"
-+ "type": "integer"
-```
-
-The official spec uses `uint64` as a type, which is not a valid OpenAPI/JSON Schema type. This needs to be changed to `integer` for proper code generation.
+1. Replace all `"type": "uint64"` with `"type": "integer"`:
+   ```diff
+   - "type": "uint64"
+   + "type": "integer"
+   ```
+2. Remove `Authorization` header and `Action` query parameters from all endpoint parameters.
+3. Clear all `required` arrays in `requestBody.content["application/json"].schema` to make request body fields optional.
+4. Add authentication support to all endpoints by:
+   - Adding `securitySchemes` to the `components` section with `BasicAuth`, `BearerAuth`, and `ApiKeyAuth` schemes
+   - Adding `security` arrays to all path operations to support multiple authentication methods
 
 ## Contributing
 

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Heteronym** | **boolean** | 多音字 | [default to false]
-**Style** | **string** | 风格 | [default to undefined]
-**Value** | **string** | 汉字 | [default to '']
+**Heteronym** | **boolean** | 多音字 | [optional] [default to false]
+**Style** | **string** | 风格 | [optional] [default to undefined]
+**Value** | **string** | 汉字 | [optional] [default to '']
 
 ## Example
 

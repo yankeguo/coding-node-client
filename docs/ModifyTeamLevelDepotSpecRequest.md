@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Param** | [**DepotSpecTeamLevelParam**](DepotSpecTeamLevelParam.md) |  | [default to undefined]
+**Param** | [**DepotSpecTeamLevelParam**](DepotSpecTeamLevelParam.md) |  | [optional] [default to undefined]
 
 ## Example
 

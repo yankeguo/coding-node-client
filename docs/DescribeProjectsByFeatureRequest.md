@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MenuName** | **string** | 一级菜单名称 | [default to undefined]
+**MenuName** | **string** | 一级菜单名称 | [optional] [default to undefined]
 
 ## Example
 

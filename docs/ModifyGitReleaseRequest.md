@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库id | [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 **Description** | **string** | 描述 | [optional] [default to undefined]
 **Pre** | **boolean** | 是否预发布 | [optional] [default to undefined]
-**ReleaseId** | **number** | 项目下仓库版本唯一标识符 | [default to undefined]
-**TagName** | **string** | 标签名称 | [default to undefined]
+**ReleaseId** | **number** | 项目下仓库版本唯一标识符 | [optional] [default to undefined]
+**TagName** | **string** | 标签名称 | [optional] [default to undefined]
 **Title** | **string** | 标题 | [optional] [default to undefined]
 
 ## Example

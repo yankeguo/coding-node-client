@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Application** | **Array&lt;string&gt;** | 应用名列表 | [default to undefined]
-**EndAt** | **string** | 结束时间（格式：yyyy-MM-dd HH:mm:ss） | [default to undefined]
-**StartAt** | **string** | 开始时间（格式：yyyy-MM-dd HH:mm:ss） | [default to undefined]
+**Application** | **Array&lt;string&gt;** | 应用名列表 | [optional] [default to undefined]
+**EndAt** | **string** | 结束时间（格式：yyyy-MM-dd HH:mm:ss） | [optional] [default to undefined]
+**StartAt** | **string** | 开始时间（格式：yyyy-MM-dd HH:mm:ss） | [optional] [default to undefined]
 
 ## Example
 

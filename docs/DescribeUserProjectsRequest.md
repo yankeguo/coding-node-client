@@ -6,7 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
-**UserId** | **number** | 用户编号 | [default to undefined]
+**UserId** | **number** | 用户编号 | [optional] [default to undefined]
 
 ## Example
 

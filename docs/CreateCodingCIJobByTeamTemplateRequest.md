@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 描述信息 | [default to 0]
-**DepotType** | **string** | 仓库类型 | [default to undefined]
-**JobName** | **string** | 构建计划名称 | [default to '']
-**ProjectId** | **number** | 项目 ID | [default to 0]
-**TemplateId** | **number** | 团队构建模版 ID | [default to 0]
+**DepotId** | **number** | 描述信息 | [optional] [default to 0]
+**DepotType** | **string** | 仓库类型 | [optional] [default to undefined]
+**JobName** | **string** | 构建计划名称 | [optional] [default to '']
+**ProjectId** | **number** | 项目 ID | [optional] [default to 0]
+**TemplateId** | **number** | 团队构建模版 ID | [optional] [default to 0]
 
 ## Example
 

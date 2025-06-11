@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Branch** | **string** | 分支名称 | [default to undefined]
-**DepotId** | **number** | 仓库id | [default to undefined]
+**Branch** | **string** | 分支名称 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 
 ## Example

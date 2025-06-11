@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueCode** | **Array&lt;number&gt;** | 事项code列表 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IssueCode** | **Array&lt;number&gt;** | 事项code列表 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

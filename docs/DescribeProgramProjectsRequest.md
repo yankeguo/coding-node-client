@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProgramId** | **number** | 项目集 ID | [default to undefined]
+**ProgramId** | **number** | 项目集 ID | [optional] [default to undefined]
 
 ## Example
 

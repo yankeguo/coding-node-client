@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Content** | **string** | 合并请求内容 | [default to undefined]
-**DepotId** | **number** | 仓库id | [default to undefined]
+**Content** | **string** | 合并请求内容 | [optional] [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径与depotId选择其一就可以 | [optional] [default to undefined]
-**DestBranch** | **string** | 目标分支 | [default to undefined]
+**DestBranch** | **string** | 目标分支 | [optional] [default to undefined]
 **Reviewers** | **string** | 评审者 | [optional] [default to undefined]
-**SrcBranch** | **string** | 源分支 | [default to undefined]
-**Title** | **string** | 合并请求title | [default to undefined]
+**SrcBranch** | **string** | 源分支 | [optional] [default to undefined]
+**Title** | **string** | 合并请求title | [optional] [default to undefined]
 
 ## Example
 

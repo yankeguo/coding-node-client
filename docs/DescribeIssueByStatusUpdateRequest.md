@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **ShowImageOutUrl** | **boolean** | 是否展示事项描述中对外的路径 | [optional] [default to undefined]
-**Status** | **string** | 修改之后的状态 | [default to undefined]
-**UpdatedAt** | **string** | 状态更新时间 | [default to undefined]
+**Status** | **string** | 修改之后的状态 | [optional] [default to undefined]
+**UpdatedAt** | **string** | 状态更新时间 | [optional] [default to undefined]
 
 ## Example
 

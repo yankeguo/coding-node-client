@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **CreatedAtStartDate** | **string** | mr创建开始时间 | [optional] [default to undefined]
 **CreatorEmails** | **Array&lt;string&gt;** | 合并请求创建者邮箱列表 | [optional] [default to undefined]
 **CreatorGlobalKeys** | **Array&lt;string&gt;** | 合并请求创建者 Global Key 列表 | [optional] [default to undefined]
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 **IsSortDirectionAsc** | **boolean** | 是否升序 | [optional] [default to undefined]
 **KeyWord** | **string** | 关键词 | [optional] [default to undefined]

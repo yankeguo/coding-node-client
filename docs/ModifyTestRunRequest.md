@@ -14,8 +14,8 @@ Name | Type | Description | Notes
 **GitReleaseId** | **number** | 发布版本 ID | [optional] [default to undefined]
 **IncludeAll** | **boolean** | 是否包含全部用例 | [optional] [default to undefined]
 **Name** | **string** | 标题 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**RunId** | **number** | 计划 ID | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**RunId** | **number** | 计划 ID | [optional] [default to undefined]
 **SectionId** | **number** | 分组 ID | [optional] [default to undefined]
 
 ## Example

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Application** | **string** | CD 应用名 | [default to undefined]
-**PipelineNameOrId** | **string** | 部署流程名称或 ID | [default to undefined]
-**TriggerJsonContent** | **string** | 触发参数 JSON 配置 | [default to undefined]
+**Application** | **string** | CD 应用名 | [optional] [default to undefined]
+**PipelineNameOrId** | **string** | 部署流程名称或 ID | [optional] [default to undefined]
+**TriggerJsonContent** | **string** | 触发参数 JSON 配置 | [optional] [default to undefined]
 
 ## Example
 

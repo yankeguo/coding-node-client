@@ -8,9 +8,9 @@ Name | Type | Description | Notes
 **After** | **number** | 在第几层级之后 | [optional] [default to undefined]
 **Before** | **number** | 在第几层级之前 | [optional] [default to undefined]
 **Forced** | **boolean** | 是否检查权限,默认false | [optional] [default to undefined]
-**Iid** | **number** | wiki Iid | [default to undefined]
-**ParentIid** | **number** | 父级 Iid | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**Iid** | **number** | wiki Iid | [optional] [default to undefined]
+**ParentIid** | **number** | 父级 Iid | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

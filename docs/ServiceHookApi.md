@@ -32,13 +32,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateServiceHook')
 let createServiceHookRequest: CreateServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.createServiceHook(
-    authorization,
-    action,
     createServiceHookRequest
 );
 ```
@@ -48,8 +44,6 @@ const { status, data } = await apiInstance.createServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createServiceHookRequest** | **CreateServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateServiceHook'|
 
 
 ### Return type
@@ -58,7 +52,7 @@ const { status, data } = await apiInstance.createServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -90,13 +84,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteServiceHook')
 let deleteServiceHookRequest: DeleteServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteServiceHook(
-    authorization,
-    action,
     deleteServiceHookRequest
 );
 ```
@@ -106,8 +96,6 @@ const { status, data } = await apiInstance.deleteServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteServiceHookRequest** | **DeleteServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteServiceHook'|
 
 
 ### Return type
@@ -116,7 +104,7 @@ const { status, data } = await apiInstance.deleteServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -147,13 +135,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeEvents')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeEvents(
-    authorization,
-    action,
     body
 );
 ```
@@ -163,8 +147,6 @@ const { status, data } = await apiInstance.describeEvents(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeEvents'|
 
 
 ### Return type
@@ -173,7 +155,7 @@ const { status, data } = await apiInstance.describeEvents(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -205,13 +187,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeServiceHook')
 let describeServiceHookRequest: DescribeServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.describeServiceHook(
-    authorization,
-    action,
     describeServiceHookRequest
 );
 ```
@@ -221,8 +199,6 @@ const { status, data } = await apiInstance.describeServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeServiceHookRequest** | **DescribeServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeServiceHook'|
 
 
 ### Return type
@@ -231,7 +207,7 @@ const { status, data } = await apiInstance.describeServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -263,13 +239,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeServiceHookLogs')
 let describeServiceHookLogsRequest: DescribeServiceHookLogsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeServiceHookLogs(
-    authorization,
-    action,
     describeServiceHookLogsRequest
 );
 ```
@@ -279,8 +251,6 @@ const { status, data } = await apiInstance.describeServiceHookLogs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeServiceHookLogsRequest** | **DescribeServiceHookLogsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeServiceHookLogs'|
 
 
 ### Return type
@@ -289,7 +259,7 @@ const { status, data } = await apiInstance.describeServiceHookLogs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -321,13 +291,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeServiceHooks')
 let describeServiceHooksRequest: DescribeServiceHooksRequest; // (optional)
 
 const { status, data } = await apiInstance.describeServiceHooks(
-    authorization,
-    action,
     describeServiceHooksRequest
 );
 ```
@@ -337,8 +303,6 @@ const { status, data } = await apiInstance.describeServiceHooks(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeServiceHooksRequest** | **DescribeServiceHooksRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeServiceHooks'|
 
 
 ### Return type
@@ -347,7 +311,7 @@ const { status, data } = await apiInstance.describeServiceHooks(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -379,13 +343,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'EnabledServiceHook')
 let enabledServiceHookRequest: EnabledServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.enabledServiceHook(
-    authorization,
-    action,
     enabledServiceHookRequest
 );
 ```
@@ -395,8 +355,6 @@ const { status, data } = await apiInstance.enabledServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **enabledServiceHookRequest** | **EnabledServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'EnabledServiceHook'|
 
 
 ### Return type
@@ -405,7 +363,7 @@ const { status, data } = await apiInstance.enabledServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -437,13 +395,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyServiceHook')
 let modifyServiceHookRequest: ModifyServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyServiceHook(
-    authorization,
-    action,
     modifyServiceHookRequest
 );
 ```
@@ -453,8 +407,6 @@ const { status, data } = await apiInstance.modifyServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyServiceHookRequest** | **ModifyServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyServiceHook'|
 
 
 ### Return type
@@ -463,7 +415,7 @@ const { status, data } = await apiInstance.modifyServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -495,13 +447,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'PingServiceHook')
 let pingServiceHookRequest: PingServiceHookRequest; // (optional)
 
 const { status, data } = await apiInstance.pingServiceHook(
-    authorization,
-    action,
     pingServiceHookRequest
 );
 ```
@@ -511,8 +459,6 @@ const { status, data } = await apiInstance.pingServiceHook(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **pingServiceHookRequest** | **PingServiceHookRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'PingServiceHook'|
 
 
 ### Return type
@@ -521,7 +467,7 @@ const { status, data } = await apiInstance.pingServiceHook(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -553,13 +499,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new ServiceHookApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ResendServiceHookLog')
 let resendServiceHookLogRequest: ResendServiceHookLogRequest; // (optional)
 
 const { status, data } = await apiInstance.resendServiceHookLog(
-    authorization,
-    action,
     resendServiceHookLogRequest
 );
 ```
@@ -569,8 +511,6 @@ const { status, data } = await apiInstance.resendServiceHookLog(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **resendServiceHookLogRequest** | **ResendServiceHookLogRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ResendServiceHookLog'|
 
 
 ### Return type
@@ -579,7 +519,7 @@ const { status, data } = await apiInstance.resendServiceHookLog(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 

@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可  | [optional] [default to undefined]
-**DestRef** | **string** | 分支2 | [default to undefined]
-**SrcRef** | **string** | 分支1 | [default to undefined]
+**DestRef** | **string** | 分支2 | [optional] [default to undefined]
+**SrcRef** | **string** | 分支1 | [optional] [default to undefined]
 
 ## Example
 

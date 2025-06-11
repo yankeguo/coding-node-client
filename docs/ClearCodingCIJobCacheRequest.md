@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **number** | 构建计划ID | [default to undefined]
+**Id** | **number** | 构建计划ID | [optional] [default to undefined]
 
 ## Example
 

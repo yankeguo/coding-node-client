@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectId** | **number** | 项目编号 | [default to undefined]
+**ProjectId** | **number** | 项目编号 | [optional] [default to undefined]
 
 ## Example
 

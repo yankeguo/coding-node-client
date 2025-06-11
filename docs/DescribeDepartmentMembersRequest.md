@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepartmentId** | **number** | 部门名 | [default to 0]
+**DepartmentId** | **number** | 部门名 | [optional] [default to 0]
 **KeyWords** | **string** | 关键词 | [optional] [default to '']
-**PageNumber** | **number** | 页数 | [default to 0]
-**PageSize** | **number** | 每页数量 | [default to 0]
+**PageNumber** | **number** | 页数 | [optional] [default to 0]
+**PageSize** | **number** | 每页数量 | [optional] [default to 0]
 **Pointer** | **boolean** | 是否仅查询当前部门的直接成员 | [optional] [default to false]
 
 ## Example

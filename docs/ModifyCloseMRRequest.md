@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库id | [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可 | [optional] [default to undefined]
-**MergeId** | **number** | 合并请求id | [default to undefined]
+**MergeId** | **number** | 合并请求id | [optional] [default to undefined]
 
 ## Example
 

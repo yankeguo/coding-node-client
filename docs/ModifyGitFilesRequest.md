@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，DepotId与DepotPath二选一即可 | [optional] [default to undefined]
-**GitFiles** | [**Array&lt;GitFile&gt;**](GitFile.md) | 修改的文件 | [default to undefined]
-**LastCommitSha** | **string** | 最后次提交 Sha | [default to undefined]
-**Message** | **string** | 提交文本 | [default to undefined]
+**GitFiles** | [**Array&lt;GitFile&gt;**](GitFile.md) | 修改的文件 | [optional] [default to undefined]
+**LastCommitSha** | **string** | 最后次提交 Sha | [optional] [default to undefined]
+**Message** | **string** | 提交文本 | [optional] [default to undefined]
 **NewRef** | **string** | 要提交的新分支 | [optional] [default to undefined]
-**Ref** | **string** | 基于改动的分支 | [default to undefined]
+**Ref** | **string** | 基于改动的分支 | [optional] [default to undefined]
 
 ## Example
 

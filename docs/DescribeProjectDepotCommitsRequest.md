@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Branch** | **string** | 分支名称 | [default to undefined]
-**DepotType** | **string** | 仓库类型 | [default to undefined]
-**Id** | **number** | 仓库 Id | [default to undefined]
-**ProjectId** | **number** | 项目 Id | [default to undefined]
+**Branch** | **string** | 分支名称 | [optional] [default to undefined]
+**DepotType** | **string** | 仓库类型 | [optional] [default to undefined]
+**Id** | **number** | 仓库 Id | [optional] [default to undefined]
+**ProjectId** | **number** | 项目 Id | [optional] [default to undefined]
 
 ## Example
 

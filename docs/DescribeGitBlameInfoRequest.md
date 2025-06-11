@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommitSha** | **string** | 提交sha | [default to undefined]
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**FilePath** | **string** | 文件路径 | [default to undefined]
+**CommitSha** | **string** | 提交sha | [optional] [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**FilePath** | **string** | 文件路径 | [optional] [default to undefined]
 **LineEnd** | **number** | 结束行 | [optional] [default to undefined]
 **LineSnat** | **number** | 开始行 | [optional] [default to undefined]
 

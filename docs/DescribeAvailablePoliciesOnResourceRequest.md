@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Filter** | [**DescribeAvailablePoliciesOnResourceRequestFilter**](DescribeAvailablePoliciesOnResourceRequestFilter.md) |  | [default to undefined]
-**PageNumber** | **number** | 请求页数 | [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to undefined]
-**Resource** | [**ResourceInfoOfPolicyScope**](ResourceInfoOfPolicyScope.md) |  | [default to undefined]
+**Filter** | [**DescribeAvailablePoliciesOnResourceRequestFilter**](DescribeAvailablePoliciesOnResourceRequestFilter.md) |  | [optional] [default to undefined]
+**PageNumber** | **number** | 请求页数 | [optional] [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to undefined]
+**Resource** | [**ResourceInfoOfPolicyScope**](ResourceInfoOfPolicyScope.md) |  | [optional] [default to undefined]
 
 ## Example
 

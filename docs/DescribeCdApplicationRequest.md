@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Application** | **string** | 应用名称 | [default to undefined]
+**Application** | **string** | 应用名称 | [optional] [default to undefined]
 
 ## Example
 

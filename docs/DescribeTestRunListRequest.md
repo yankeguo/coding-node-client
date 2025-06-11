@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **IterationId** | **Array&lt;number&gt;** | 迭代 ID（与参数IterationStatus、GitReleaseState、SectionId互斥） | [optional] [default to undefined]
 **IterationStatus** | **Array&lt;string&gt;** | 迭代状态: WAIT_PROCESS、PROCESSING、COMPLETED（与参数IterationId、GitReleaseState、SectionId互斥） | [optional] [default to undefined]
 **Keyword** | **string** | 计划名称 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **SectionId** | **number** | 分组 ID（与参数IterationId、IterationStatus、GitReleaseState互斥） | [optional] [default to undefined]
 **State** | **number** | 状态: 0-未开始 1-进行中 2-已测完 | [optional] [default to undefined]
 

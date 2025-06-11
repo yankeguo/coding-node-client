@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**TaskExecutionId** | **string** | 任务执行记录 ID | [default to undefined]
+**TaskExecutionId** | **string** | 任务执行记录 ID | [optional] [default to undefined]
 
 ## Example
 

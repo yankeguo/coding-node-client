@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepartmentIds** | **Array&lt;number&gt;** | 部门ID信息 | [default to undefined]
-**RefIds** | **Array&lt;number&gt;** | 用户refIds | [default to undefined]
+**DepartmentIds** | **Array&lt;number&gt;** | 部门ID信息 | [optional] [default to undefined]
+**RefIds** | **Array&lt;number&gt;** | 用户refIds | [optional] [default to undefined]
 
 ## Example
 

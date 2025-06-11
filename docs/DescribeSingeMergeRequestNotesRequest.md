@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**MergeId** | **number** | 合并请求的Iid | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**MergeId** | **number** | 合并请求的Iid | [optional] [default to undefined]
 
 ## Example
 

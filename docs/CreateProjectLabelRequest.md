@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectId** | **number** | 项目ID | [default to 0]
-**Name** | **string** | 标签名 | [default to '']
-**Color** | **string** | 颜色 | [default to '']
+**ProjectId** | **number** | 项目ID | [optional] [default to 0]
+**Name** | **string** | 标签名 | [optional] [default to '']
+**Color** | **string** | 颜色 | [optional] [default to '']
 
 ## Example
 

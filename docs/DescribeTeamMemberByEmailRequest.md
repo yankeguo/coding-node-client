@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Email** | **string** | 用户邮箱 | [default to undefined]
+**Email** | **string** | 用户邮箱 | [optional] [default to undefined]
 
 ## Example
 

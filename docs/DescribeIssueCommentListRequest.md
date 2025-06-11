@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueCode** | **number** | 事项 Code | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IssueCode** | **number** | 事项 Code | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **ShowFileId** | **boolean** | 是否查询评论中图片FileId | [optional] [default to undefined]
 
 ## Example

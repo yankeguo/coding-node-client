@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与仓库ID二选一 | [optional] [default to undefined]
-**MergeId** | **number** | iid | [default to undefined]
-**ReviewerGlobalKey** | **string** | 评审者的GK | [default to undefined]
+**MergeId** | **number** | iid | [optional] [default to undefined]
+**ReviewerGlobalKey** | **string** | 评审者的GK | [optional] [default to undefined]
 
 ## Example
 

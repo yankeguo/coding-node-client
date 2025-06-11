@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**DepotSpecName** | **string** | 选择的仓库规范名字（不使用仓库规范时，填空字符串） | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**DepotSpecName** | **string** | 选择的仓库规范名字（不使用仓库规范时，填空字符串） | [optional] [default to undefined]
 
 ## Example
 

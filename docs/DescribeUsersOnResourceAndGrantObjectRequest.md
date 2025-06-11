@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Grant** | [**DescribeUsersOnResourceAndGrantObjectGrantInfo**](DescribeUsersOnResourceAndGrantObjectGrantInfo.md) |  | [default to undefined]
-**PageNumber** | **number** | 请求页数 | [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to undefined]
-**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [default to undefined]
+**Grant** | [**DescribeUsersOnResourceAndGrantObjectGrantInfo**](DescribeUsersOnResourceAndGrantObjectGrantInfo.md) |  | [optional] [default to undefined]
+**PageNumber** | **number** | 请求页数 | [optional] [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to undefined]
+**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [optional] [default to undefined]
 
 ## Example
 

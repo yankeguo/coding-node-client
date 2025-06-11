@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**EndAt** | **string** | 结束时间（格式：yyyy-MM-dd HH:mm:ss） | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**StartAt** | **string** | 开始时间（格式：yyyy-MM-dd HH:mm:ss） | [default to undefined]
+**EndAt** | **string** | 结束时间（格式：yyyy-MM-dd HH:mm:ss） | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**StartAt** | **string** | 开始时间（格式：yyyy-MM-dd HH:mm:ss） | [optional] [default to undefined]
 
 ## Example
 

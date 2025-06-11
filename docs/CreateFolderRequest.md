@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FoldName** | **string** | 文件夹名 | [default to '']
-**ParentId** | **number** | 父文件夹ID | [default to 0]
-**ProjectName** | **string** | 项目名 | [default to '']
+**FoldName** | **string** | 文件夹名 | [optional] [default to '']
+**ParentId** | **number** | 父文件夹ID | [optional] [default to 0]
+**ProjectName** | **string** | 项目名 | [optional] [default to '']
 
 ## Example
 

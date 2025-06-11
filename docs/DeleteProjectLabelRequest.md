@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectId** | **number** | 项目ID | [default to 0]
-**LabelId** | **number** | 标签Id | [default to 0]
+**ProjectId** | **number** | 项目ID | [optional] [default to 0]
+**LabelId** | **number** | 标签Id | [optional] [default to 0]
 
 ## Example
 

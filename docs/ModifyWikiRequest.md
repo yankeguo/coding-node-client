@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Content** | **string** | 内容 | [default to undefined]
-**Iid** | **number** | wiki编号 | [default to undefined]
+**Content** | **string** | 内容 | [optional] [default to undefined]
+**Iid** | **number** | wiki编号 | [optional] [default to undefined]
 **Msg** | **string** | 备注 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**Title** | **string** | 标题 | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**Title** | **string** | 标题 | [optional] [default to undefined]
 
 ## Example
 

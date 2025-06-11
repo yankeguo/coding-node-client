@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **number** | 部门ID | [default to 0]
-**Name** | **string** | 部门名 | [default to '']
-**ParentId** | **number** | 父级部门ID | [default to 0]
+**Id** | **number** | 部门ID | [optional] [default to 0]
+**Name** | **string** | 部门名 | [optional] [default to '']
+**ParentId** | **number** | 父级部门ID | [optional] [default to 0]
 
 ## Example
 

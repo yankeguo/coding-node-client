@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommitSha** | **string** | 提交的ID | [default to undefined]
-**DepotPath** | **string** | 仓库路径，也可填写仓库ID的字符串形式 | [default to undefined]
+**CommitSha** | **string** | 提交的ID | [optional] [default to undefined]
+**DepotPath** | **string** | 仓库路径，也可填写仓库ID的字符串形式 | [optional] [default to undefined]
 
 ## Example
 

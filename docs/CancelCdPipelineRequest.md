@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PipelineExecutionId** | **string** | 部署流程执行记录 ID | [default to undefined]
+**PipelineExecutionId** | **string** | 部署流程执行记录 ID | [optional] [default to undefined]
 **Reason** | **string** | 取消原因 | [optional] [default to undefined]
 
 ## Example

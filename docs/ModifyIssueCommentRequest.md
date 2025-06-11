@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommentId** | **number** | 评论 ID | [default to undefined]
-**Content** | **string** | 评论内容 | [default to undefined]
-**IssueCode** | **number** | 事项 Code | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**CommentId** | **number** | 评论 ID | [optional] [default to undefined]
+**Content** | **string** | 评论内容 | [optional] [default to undefined]
+**IssueCode** | **number** | 事项 Code | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

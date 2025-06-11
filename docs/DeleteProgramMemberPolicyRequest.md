@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Policies** | **Array&lt;string&gt;** | 权限策略，默认策略名或者策略 ID | [default to undefined]
-**PrincipalId** | **string** | 身份 ID | [default to undefined]
-**PrincipalType** | **string** | 身份类型 | [default to undefined]
-**ProgramId** | **number** | 项目集 ID | [default to undefined]
+**Policies** | **Array&lt;string&gt;** | 权限策略，默认策略名或者策略 ID | [optional] [default to undefined]
+**PrincipalId** | **string** | 身份 ID | [optional] [default to undefined]
+**PrincipalType** | **string** | 身份类型 | [optional] [default to undefined]
+**ProgramId** | **number** | 项目集 ID | [optional] [default to undefined]
 
 ## Example
 

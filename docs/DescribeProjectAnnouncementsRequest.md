@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PageSize** | **number** | 每页数量 | [default to 0]
-**PageNumber** | **number** | 页数 | [default to 0]
-**ProjectName** | **string** | 项目名 | [default to '']
+**PageSize** | **number** | 每页数量 | [optional] [default to 0]
+**PageNumber** | **number** | 页数 | [optional] [default to 0]
+**ProjectName** | **string** | 项目名 | [optional] [default to '']
 
 ## Example
 

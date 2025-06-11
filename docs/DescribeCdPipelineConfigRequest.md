@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Application** | **string** | CD 应用名 | [default to undefined]
-**PipelineName** | **string** | 部署流程名称 | [default to undefined]
+**Application** | **string** | CD 应用名 | [optional] [default to undefined]
+**PipelineName** | **string** | 部署流程名称 | [optional] [default to undefined]
 
 ## Example
 

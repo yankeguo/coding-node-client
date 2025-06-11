@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FieldName** | **string** | 自定义属性名称 | [default to undefined]
-**IssueCode** | **number** | 事项编号 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**FieldName** | **string** | 自定义属性名称 | [optional] [default to undefined]
+**IssueCode** | **number** | 事项编号 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DefectCode** | **number** | 缺陷 Code | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**RequirementCode** | **number** | 需求 Code | [default to undefined]
+**DefectCode** | **number** | 缺陷 Code | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**RequirementCode** | **number** | 需求 Code | [optional] [default to undefined]
 
 ## Example
 

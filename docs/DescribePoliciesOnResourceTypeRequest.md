@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Filter** | [**DescribePoliciesOnResourceTypeRequestFilter**](DescribePoliciesOnResourceTypeRequestFilter.md) |  | [default to undefined]
-**PageNumber** | **number** | 请求页数 | [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to undefined]
+**Filter** | [**DescribePoliciesOnResourceTypeRequestFilter**](DescribePoliciesOnResourceTypeRequestFilter.md) |  | [optional] [default to undefined]
+**PageNumber** | **number** | 请求页数 | [optional] [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to undefined]
 
 ## Example
 

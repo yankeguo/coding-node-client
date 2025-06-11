@@ -6,7 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Filter** | [**Array&lt;Filter&gt;**](Filter.md) | 过滤参数 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目 ID | [default to undefined]
+**ProjectId** | **number** | 项目 ID | [optional] [default to undefined]
 
 ## Example
 

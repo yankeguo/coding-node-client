@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**AuthToken** | **string** | 获取预签名URL接口返回的 AuthToken | [default to '']
-**StorageKey** | **string** | 获取预签名URL接口返回的 StorageKey | [default to '']
+**AuthToken** | **string** | 获取预签名URL接口返回的 AuthToken | [optional] [default to '']
+**StorageKey** | **string** | 获取预签名URL接口返回的 StorageKey | [optional] [default to '']
 
 ## Example
 

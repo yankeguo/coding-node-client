@@ -12,9 +12,9 @@ Name | Type | Description | Notes
 **ExecuteType** | **number** | 执行类型：1-手动执行 2-自动化流水线执行 | [optional] [default to undefined]
 **GitDepotId** | **number** | 项目代码库 ID | [optional] [default to undefined]
 **GitReleaseId** | **number** | 发布版本 ID | [optional] [default to undefined]
-**IncludeAll** | **boolean** | 是否包含全部用例 | [default to undefined]
-**Name** | **string** | 标题 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IncludeAll** | **boolean** | 是否包含全部用例 | [optional] [default to undefined]
+**Name** | **string** | 标题 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **SectionId** | **number** | 分组 ID | [optional] [default to undefined]
 
 ## Example

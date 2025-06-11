@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PoolId** | **number** | 节点池 ID | [default to 0]
-**Enable** | **boolean** | 是否启用：启用true、禁用false | [default to false]
-**Id** | **number** | 节点ID | [default to 0]
+**PoolId** | **number** | 节点池 ID | [optional] [default to 0]
+**Enable** | **boolean** | 是否启用：启用true、禁用false | [optional] [default to false]
+**Id** | **number** | 节点ID | [optional] [default to 0]
 
 ## Example
 

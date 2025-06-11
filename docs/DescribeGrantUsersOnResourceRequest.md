@@ -7,9 +7,9 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **UserIdScope** | **Array&lt;number&gt;** |  | [optional] [default to undefined]
 **PolicyIdScope** | **Array&lt;number&gt;** |  | [optional] [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to 0]
-**PageNumber** | **number** | 请求页数 | [default to 0]
-**Resource** | [**RamGrantResourceInfoRequest**](.md) |  | [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to 0]
+**PageNumber** | **number** | 请求页数 | [optional] [default to 0]
+**Resource** | [**RamGrantResourceInfoRequest**](.md) |  | [optional] [default to undefined]
 
 ## Example
 

@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CommitMessage** | **string** | 提交信息 | [default to undefined]
-**DepotPath** | **string** | 仓库路径或仓库ID | [default to undefined]
-**FromBranch** | **string** | 源分支 | [default to undefined]
-**ToBranch** | **string** | 目标分支 | [default to undefined]
+**CommitMessage** | **string** | 提交信息 | [optional] [default to undefined]
+**DepotPath** | **string** | 仓库路径或仓库ID | [optional] [default to undefined]
+**FromBranch** | **string** | 源分支 | [optional] [default to undefined]
+**ToBranch** | **string** | 目标分支 | [optional] [default to undefined]
 
 ## Example
 

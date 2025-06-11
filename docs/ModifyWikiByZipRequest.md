@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**AuthToken** | **string** | 验证文件的token | [default to undefined]
-**FileName** | **string** | 文件名 | [default to undefined]
-**Iid** | **number** | wiki的Iid | [default to undefined]
-**Key** | **string** | 上传文件的uuid名称 b5d0d8e0-3aca-11eb-8673-a9b6d94ca755.png | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**Time** | **number** | 获取token的时间 | [default to undefined]
+**AuthToken** | **string** | 验证文件的token | [optional] [default to undefined]
+**FileName** | **string** | 文件名 | [optional] [default to undefined]
+**Iid** | **number** | wiki的Iid | [optional] [default to undefined]
+**Key** | **string** | 上传文件的uuid名称 b5d0d8e0-3aca-11eb-8673-a9b6d94ca755.png | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**Time** | **number** | 获取token的时间 | [optional] [default to undefined]
 
 ## Example
 

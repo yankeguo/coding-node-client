@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PageNumber** | **number** | 请求页数 | [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to undefined]
+**PageNumber** | **number** | 请求页数 | [optional] [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to undefined]
 **ShowDepartment** | **boolean** | 是否展示部门 | [optional] [default to false]
 
 ## Example

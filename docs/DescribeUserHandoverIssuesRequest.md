@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**WillDeleteUserId** | **number** | 用户ID | [default to undefined]
+**WillDeleteUserId** | **number** | 用户ID | [optional] [default to undefined]
 
 ## Example
 

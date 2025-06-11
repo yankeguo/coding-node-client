@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**JobId** | **number** | 构建计划 ID | [default to undefined]
+**JobId** | **number** | 构建计划 ID | [optional] [default to undefined]
 
 ## Example
 

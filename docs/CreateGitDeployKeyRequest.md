@@ -5,12 +5,12 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**AllowWrite** | **boolean** | 是否授予写入权限 | [default to undefined]
-**Content** | **string** | SSH key | [default to undefined]
-**DepotId** | **number** | 仓库 Id | [default to undefined]
+**AllowWrite** | **boolean** | 是否授予写入权限 | [optional] [default to undefined]
+**Content** | **string** | SSH key | [optional] [default to undefined]
+**DepotId** | **number** | 仓库 Id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 **ExpirationDate** | **string** | 过期时间，不填则为永不过期 | [optional] [default to undefined]
-**Title** | **string** | 部署公钥标题 | [default to undefined]
+**Title** | **string** | 部署公钥标题 | [optional] [default to undefined]
 
 ## Example
 

@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BuildId** | **number** | 构建 ID | [default to undefined]
-**Start** | **number** | 日志开始位置 | [default to undefined]
+**BuildId** | **number** | 构建 ID | [optional] [default to undefined]
+**Start** | **number** | 日志开始位置 | [optional] [default to undefined]
 
 ## Example
 

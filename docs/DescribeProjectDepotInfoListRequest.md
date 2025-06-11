@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **PageNumber** | **string** | 页号 | [optional] [default to undefined]
 **PageSize** | **string** | 每页的个数 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目id | [default to undefined]
+**ProjectId** | **number** | 项目id | [optional] [default to undefined]
 
 ## Example
 

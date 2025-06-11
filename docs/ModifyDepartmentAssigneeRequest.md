@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepartmentId** | **number** | 部门ID | [default to 0]
-**RefIds** | **Array&lt;number&gt;** | 用户refIds 必填 | [default to undefined]
+**DepartmentId** | **number** | 部门ID | [optional] [default to 0]
+**RefIds** | **Array&lt;number&gt;** | 用户refIds 必填 | [optional] [default to undefined]
 
 ## Example
 

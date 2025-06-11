@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ArtifactCreditId** | **number** | 授信清单ID | [default to 0]
+**ArtifactCreditId** | **number** | 授信清单ID | [optional] [default to 0]
 
 ## Example
 

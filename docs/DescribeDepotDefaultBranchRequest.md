@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 
 ## Example
 

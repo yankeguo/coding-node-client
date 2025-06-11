@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ServiceHookLogId** | **string** | logId | [default to '']
+**ServiceHookLogId** | **string** | logId | [optional] [default to '']
 
 ## Example
 

@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库id | [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 与DepotId二选一即可 | [optional] [default to undefined]
-**Sha** | **string** | 请求的sha值 | [default to undefined]
+**Sha** | **string** | 请求的sha值 | [optional] [default to undefined]
 
 ## Example
 

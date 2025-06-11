@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueCode** | **number** | 查询的目标事项的code | [default to undefined]
-**ProjectId** | **number** | 查询的事项所在的项目ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IssueCode** | **number** | 查询的目标事项的code | [optional] [default to undefined]
+**ProjectId** | **number** | 查询的事项所在的项目ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

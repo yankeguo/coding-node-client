@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FileName** | **string** | 文件名称 | [default to undefined]
-**Package** | **string** | 包名 | [default to undefined]
-**PackageVersion** | **string** | 版本号 | [default to undefined]
-**ProjectId** | **number** | 项目 ID | [default to undefined]
-**Repository** | **string** | 仓库名 | [default to undefined]
+**FileName** | **string** | 文件名称 | [optional] [default to undefined]
+**Package** | **string** | 包名 | [optional] [default to undefined]
+**PackageVersion** | **string** | 版本号 | [optional] [default to undefined]
+**ProjectId** | **number** | 项目 ID | [optional] [default to undefined]
+**Repository** | **string** | 仓库名 | [optional] [default to undefined]
 **Timeout** | **number** | 下载链接超时时间（单位：秒），默认：300 | [optional] [default to undefined]
 
 ## Example

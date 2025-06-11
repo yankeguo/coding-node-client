@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **number** | 云账号 ID | [default to undefined]
+**Id** | **number** | 云账号 ID | [optional] [default to undefined]
 
 ## Example
 

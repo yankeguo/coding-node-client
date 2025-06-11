@@ -5,11 +5,11 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Package** | **string** | 包名称 | [default to undefined]
+**Package** | **string** | 包名称 | [optional] [default to undefined]
 **PageNumber** | **number** | 页码，默认：1 | [optional] [default to undefined]
 **PageSize** | **number** | 每页展示数量，默认：10 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目 ID | [default to undefined]
-**Repository** | **string** | 仓库名称 | [default to undefined]
+**ProjectId** | **number** | 项目 ID | [optional] [default to undefined]
+**Repository** | **string** | 仓库名称 | [optional] [default to undefined]
 
 ## Example
 

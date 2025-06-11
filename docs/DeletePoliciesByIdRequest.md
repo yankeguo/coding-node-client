@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | **Array&lt;number&gt;** | 权限组 ID | [default to undefined]
+**Id** | **Array&lt;number&gt;** | 权限组 ID | [optional] [default to undefined]
 
 ## Example
 

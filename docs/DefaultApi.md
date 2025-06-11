@@ -420,13 +420,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ArchiveTestRun')
 let archiveTestRunRequest: ArchiveTestRunRequest; // (optional)
 
 const { status, data } = await apiInstance.archiveTestRun(
-    authorization,
-    action,
     archiveTestRunRequest
 );
 ```
@@ -436,8 +432,6 @@ const { status, data } = await apiInstance.archiveTestRun(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **archiveTestRunRequest** | **ArchiveTestRunRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ArchiveTestRun'|
 
 
 ### Return type
@@ -446,7 +440,7 @@ const { status, data } = await apiInstance.archiveTestRun(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -478,13 +472,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'AttachResourceScopeToPolicy')
 let attachResourceScopeToPolicyRequest: AttachResourceScopeToPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.attachResourceScopeToPolicy(
-    authorization,
-    action,
     attachResourceScopeToPolicyRequest
 );
 ```
@@ -494,8 +484,6 @@ const { status, data } = await apiInstance.attachResourceScopeToPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **attachResourceScopeToPolicyRequest** | **AttachResourceScopeToPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'AttachResourceScopeToPolicy'|
 
 
 ### Return type
@@ -504,7 +492,7 @@ const { status, data } = await apiInstance.attachResourceScopeToPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -536,13 +524,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'AttachToResource')
 let detachFromResourceRequest: DetachFromResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.attachToResource(
-    authorization,
-    action,
     detachFromResourceRequest
 );
 ```
@@ -552,8 +536,6 @@ const { status, data } = await apiInstance.attachToResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **detachFromResourceRequest** | **DetachFromResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'AttachToResource'|
 
 
 ### Return type
@@ -562,7 +544,7 @@ const { status, data } = await apiInstance.attachToResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -594,13 +576,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'BindCdApplicationToProject')
 let bindCdApplicationToProjectRequest: BindCdApplicationToProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.bindCdApplicationToProject(
-    authorization,
-    action,
     bindCdApplicationToProjectRequest
 );
 ```
@@ -610,8 +588,6 @@ const { status, data } = await apiInstance.bindCdApplicationToProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **bindCdApplicationToProjectRequest** | **BindCdApplicationToProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'BindCdApplicationToProject'|
 
 
 ### Return type
@@ -620,7 +596,7 @@ const { status, data } = await apiInstance.bindCdApplicationToProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -652,13 +628,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'BoundExternalDepot')
 let boundExternalDepotRequest: BoundExternalDepotRequest; // (optional)
 
 const { status, data } = await apiInstance.boundExternalDepot(
-    authorization,
-    action,
     boundExternalDepotRequest
 );
 ```
@@ -668,8 +640,6 @@ const { status, data } = await apiInstance.boundExternalDepot(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **boundExternalDepotRequest** | **BoundExternalDepotRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'BoundExternalDepot'|
 
 
 ### Return type
@@ -678,7 +648,7 @@ const { status, data } = await apiInstance.boundExternalDepot(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -710,13 +680,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CancelCdPipeline')
 let cancelCdPipelineRequest: CancelCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.cancelCdPipeline(
-    authorization,
-    action,
     cancelCdPipelineRequest
 );
 ```
@@ -726,8 +692,6 @@ const { status, data } = await apiInstance.cancelCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **cancelCdPipelineRequest** | **CancelCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CancelCdPipeline'|
 
 
 ### Return type
@@ -736,7 +700,7 @@ const { status, data } = await apiInstance.cancelCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -768,13 +732,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ClearCodingCIJobCache')
 let clearCodingCIJobCacheRequest: ClearCodingCIJobCacheRequest; // (optional)
 
 const { status, data } = await apiInstance.clearCodingCIJobCache(
-    authorization,
-    action,
     clearCodingCIJobCacheRequest
 );
 ```
@@ -784,8 +744,6 @@ const { status, data } = await apiInstance.clearCodingCIJobCache(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **clearCodingCIJobCacheRequest** | **ClearCodingCIJobCacheRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ClearCodingCIJobCache'|
 
 
 ### Return type
@@ -794,7 +752,7 @@ const { status, data } = await apiInstance.clearCodingCIJobCache(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -826,13 +784,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateArtifactCredit')
 let createArtifactCreditRequest: CreateArtifactCreditRequest; // (optional)
 
 const { status, data } = await apiInstance.createArtifactCredit(
-    authorization,
-    action,
     createArtifactCreditRequest
 );
 ```
@@ -842,8 +796,6 @@ const { status, data } = await apiInstance.createArtifactCredit(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createArtifactCreditRequest** | **CreateArtifactCreditRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateArtifactCredit'|
 
 
 ### Return type
@@ -852,7 +804,7 @@ const { status, data } = await apiInstance.createArtifactCredit(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -885,13 +837,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateArtifactProperties')
 let modifyArtifactPropertiesRequest: ModifyArtifactPropertiesRequest; // (optional)
 
 const { status, data } = await apiInstance.createArtifactProperties(
-    authorization,
-    action,
     modifyArtifactPropertiesRequest
 );
 ```
@@ -901,8 +849,6 @@ const { status, data } = await apiInstance.createArtifactProperties(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyArtifactPropertiesRequest** | **ModifyArtifactPropertiesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateArtifactProperties'|
 
 
 ### Return type
@@ -911,7 +857,7 @@ const { status, data } = await apiInstance.createArtifactProperties(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -943,13 +889,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateArtifactRepository')
 let createArtifactRepositoryRequest: CreateArtifactRepositoryRequest; // (optional)
 
 const { status, data } = await apiInstance.createArtifactRepository(
-    authorization,
-    action,
     createArtifactRepositoryRequest
 );
 ```
@@ -959,8 +901,6 @@ const { status, data } = await apiInstance.createArtifactRepository(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createArtifactRepositoryRequest** | **CreateArtifactRepositoryRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateArtifactRepository'|
 
 
 ### Return type
@@ -969,7 +909,7 @@ const { status, data } = await apiInstance.createArtifactRepository(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1001,13 +941,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateAttachmentPrepareSignUrl')
 let createAttachmentPrepareSignUrlRequest: CreateAttachmentPrepareSignUrlRequest; // (optional)
 
 const { status, data } = await apiInstance.createAttachmentPrepareSignUrl(
-    authorization,
-    action,
     createAttachmentPrepareSignUrlRequest
 );
 ```
@@ -1017,8 +953,6 @@ const { status, data } = await apiInstance.createAttachmentPrepareSignUrl(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createAttachmentPrepareSignUrlRequest** | **CreateAttachmentPrepareSignUrlRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateAttachmentPrepareSignUrl'|
 
 
 ### Return type
@@ -1027,7 +961,7 @@ const { status, data } = await apiInstance.createAttachmentPrepareSignUrl(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1059,13 +993,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateBinaryFiles')
 let createBinaryFilesRequest: CreateBinaryFilesRequest; // (optional)
 
 const { status, data } = await apiInstance.createBinaryFiles(
-    authorization,
-    action,
     createBinaryFilesRequest
 );
 ```
@@ -1075,8 +1005,6 @@ const { status, data } = await apiInstance.createBinaryFiles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createBinaryFilesRequest** | **CreateBinaryFilesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateBinaryFiles'|
 
 
 ### Return type
@@ -1085,7 +1013,7 @@ const { status, data } = await apiInstance.createBinaryFiles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1117,13 +1045,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateBranchProtection')
 let createBranchProtectionRequest: CreateBranchProtectionRequest; // (optional)
 
 const { status, data } = await apiInstance.createBranchProtection(
-    authorization,
-    action,
     createBranchProtectionRequest
 );
 ```
@@ -1133,8 +1057,6 @@ const { status, data } = await apiInstance.createBranchProtection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createBranchProtectionRequest** | **CreateBranchProtectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateBranchProtection'|
 
 
 ### Return type
@@ -1143,7 +1065,7 @@ const { status, data } = await apiInstance.createBranchProtection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1175,13 +1097,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateBranchProtectionMember')
 let createBranchProtectionMemberRequest: CreateBranchProtectionMemberRequest; // (optional)
 
 const { status, data } = await apiInstance.createBranchProtectionMember(
-    authorization,
-    action,
     createBranchProtectionMemberRequest
 );
 ```
@@ -1191,8 +1109,6 @@ const { status, data } = await apiInstance.createBranchProtectionMember(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createBranchProtectionMemberRequest** | **CreateBranchProtectionMemberRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateBranchProtectionMember'|
 
 
 ### Return type
@@ -1201,7 +1117,7 @@ const { status, data } = await apiInstance.createBranchProtectionMember(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1233,13 +1149,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCaseResult')
 let createCaseResultRequest: CreateCaseResultRequest; // (optional)
 
 const { status, data } = await apiInstance.createCaseResult(
-    authorization,
-    action,
     createCaseResultRequest
 );
 ```
@@ -1249,8 +1161,6 @@ const { status, data } = await apiInstance.createCaseResult(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCaseResultRequest** | **CreateCaseResultRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCaseResult'|
 
 
 ### Return type
@@ -1259,7 +1169,7 @@ const { status, data } = await apiInstance.createCaseResult(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1291,13 +1201,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCdCloudAccount')
 let createCdCloudAccountRequest: CreateCdCloudAccountRequest; // (optional)
 
 const { status, data } = await apiInstance.createCdCloudAccount(
-    authorization,
-    action,
     createCdCloudAccountRequest
 );
 ```
@@ -1307,8 +1213,6 @@ const { status, data } = await apiInstance.createCdCloudAccount(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCdCloudAccountRequest** | **CreateCdCloudAccountRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCdCloudAccount'|
 
 
 ### Return type
@@ -1317,7 +1221,7 @@ const { status, data } = await apiInstance.createCdCloudAccount(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1349,13 +1253,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCdHostServerGroup')
 let createCdHostServerGroupRequest: CreateCdHostServerGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.createCdHostServerGroup(
-    authorization,
-    action,
     createCdHostServerGroupRequest
 );
 ```
@@ -1365,8 +1265,6 @@ const { status, data } = await apiInstance.createCdHostServerGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCdHostServerGroupRequest** | **CreateCdHostServerGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCdHostServerGroup'|
 
 
 ### Return type
@@ -1375,7 +1273,7 @@ const { status, data } = await apiInstance.createCdHostServerGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1407,13 +1305,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCdPipeline')
 let createCdPipelineRequest: CreateCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.createCdPipeline(
-    authorization,
-    action,
     createCdPipelineRequest
 );
 ```
@@ -1423,8 +1317,6 @@ const { status, data } = await apiInstance.createCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCdPipelineRequest** | **CreateCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCdPipeline'|
 
 
 ### Return type
@@ -1433,7 +1325,7 @@ const { status, data } = await apiInstance.createCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1465,13 +1357,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCdTask')
 let createCdTaskRequest: CreateCdTaskRequest; // (optional)
 
 const { status, data } = await apiInstance.createCdTask(
-    authorization,
-    action,
     createCdTaskRequest
 );
 ```
@@ -1481,8 +1369,6 @@ const { status, data } = await apiInstance.createCdTask(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCdTaskRequest** | **CreateCdTaskRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCdTask'|
 
 
 ### Return type
@@ -1491,7 +1377,7 @@ const { status, data } = await apiInstance.createCdTask(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1523,13 +1409,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCodingCIJob')
 let createCodingCIJobRequest: CreateCodingCIJobRequest; // (optional)
 
 const { status, data } = await apiInstance.createCodingCIJob(
-    authorization,
-    action,
     createCodingCIJobRequest
 );
 ```
@@ -1539,8 +1421,6 @@ const { status, data } = await apiInstance.createCodingCIJob(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCodingCIJobRequest** | **CreateCodingCIJobRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCodingCIJob'|
 
 
 ### Return type
@@ -1549,7 +1429,7 @@ const { status, data } = await apiInstance.createCodingCIJob(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1581,13 +1461,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCodingCIJobByTeamTemplate')
 let createCodingCIJobByTeamTemplateRequest: CreateCodingCIJobByTeamTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.createCodingCIJobByTeamTemplate(
-    authorization,
-    action,
     createCodingCIJobByTeamTemplateRequest
 );
 ```
@@ -1597,8 +1473,6 @@ const { status, data } = await apiInstance.createCodingCIJobByTeamTemplate(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCodingCIJobByTeamTemplateRequest** | **CreateCodingCIJobByTeamTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCodingCIJobByTeamTemplate'|
 
 
 ### Return type
@@ -1607,7 +1481,7 @@ const { status, data } = await apiInstance.createCodingCIJobByTeamTemplate(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1640,13 +1514,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateCodingProject')
 let createCodingProjectRequest: CreateCodingProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.createCodingProject(
-    authorization,
-    action,
     createCodingProjectRequest
 );
 ```
@@ -1656,8 +1526,6 @@ const { status, data } = await apiInstance.createCodingProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createCodingProjectRequest** | **CreateCodingProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateCodingProject'|
 
 
 ### Return type
@@ -1666,7 +1534,7 @@ const { status, data } = await apiInstance.createCodingProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1698,13 +1566,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateDepartment')
 let createDepartmentRequest: CreateDepartmentRequest; // (optional)
 
 const { status, data } = await apiInstance.createDepartment(
-    authorization,
-    action,
     createDepartmentRequest
 );
 ```
@@ -1714,8 +1578,6 @@ const { status, data } = await apiInstance.createDepartment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createDepartmentRequest** | **CreateDepartmentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateDepartment'|
 
 
 ### Return type
@@ -1724,7 +1586,7 @@ const { status, data } = await apiInstance.createDepartment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1757,13 +1619,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateDepotByTemplate')
 let createDepotByTemplateRequest: CreateDepotByTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.createDepotByTemplate(
-    authorization,
-    action,
     createDepotByTemplateRequest
 );
 ```
@@ -1773,8 +1631,6 @@ const { status, data } = await apiInstance.createDepotByTemplate(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createDepotByTemplateRequest** | **CreateDepotByTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateDepotByTemplate'|
 
 
 ### Return type
@@ -1783,7 +1639,7 @@ const { status, data } = await apiInstance.createDepotByTemplate(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1815,13 +1671,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateDepotFilePushRule')
 let createDepotFilePushRuleRequest: CreateDepotFilePushRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.createDepotFilePushRule(
-    authorization,
-    action,
     createDepotFilePushRuleRequest
 );
 ```
@@ -1831,8 +1683,6 @@ const { status, data } = await apiInstance.createDepotFilePushRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createDepotFilePushRuleRequest** | **CreateDepotFilePushRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateDepotFilePushRule'|
 
 
 ### Return type
@@ -1841,7 +1691,7 @@ const { status, data } = await apiInstance.createDepotFilePushRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1873,13 +1723,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateDepotFilePushRulePrivilege')
 let modifyDepotFilePushRuleDenyPrivilegeRequest: ModifyDepotFilePushRuleDenyPrivilegeRequest; // (optional)
 
 const { status, data } = await apiInstance.createDepotFilePushRulePrivilege(
-    authorization,
-    action,
     modifyDepotFilePushRuleDenyPrivilegeRequest
 );
 ```
@@ -1889,8 +1735,6 @@ const { status, data } = await apiInstance.createDepotFilePushRulePrivilege(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotFilePushRuleDenyPrivilegeRequest** | **ModifyDepotFilePushRuleDenyPrivilegeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateDepotFilePushRulePrivilege'|
 
 
 ### Return type
@@ -1899,7 +1743,7 @@ const { status, data } = await apiInstance.createDepotFilePushRulePrivilege(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1931,13 +1775,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateFile')
 let createFileRequest: CreateFileRequest; // (optional)
 
 const { status, data } = await apiInstance.createFile(
-    authorization,
-    action,
     createFileRequest
 );
 ```
@@ -1947,8 +1787,6 @@ const { status, data } = await apiInstance.createFile(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createFileRequest** | **CreateFileRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateFile'|
 
 
 ### Return type
@@ -1957,7 +1795,7 @@ const { status, data } = await apiInstance.createFile(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -1990,13 +1828,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateFolder')
 let createFolderRequest: CreateFolderRequest; // (optional)
 
 const { status, data } = await apiInstance.createFolder(
-    authorization,
-    action,
     createFolderRequest
 );
 ```
@@ -2006,8 +1840,6 @@ const { status, data } = await apiInstance.createFolder(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createFolderRequest** | **CreateFolderRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateFolder'|
 
 
 ### Return type
@@ -2016,7 +1848,7 @@ const { status, data } = await apiInstance.createFolder(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2049,13 +1881,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitBranch')
 let createGitBranchRequest: CreateGitBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitBranch(
-    authorization,
-    action,
     createGitBranchRequest
 );
 ```
@@ -2065,8 +1893,6 @@ const { status, data } = await apiInstance.createGitBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitBranchRequest** | **CreateGitBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitBranch'|
 
 
 ### Return type
@@ -2075,7 +1901,7 @@ const { status, data } = await apiInstance.createGitBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2107,13 +1933,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitCommit')
 let createGitCommitRequest: CreateGitCommitRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitCommit(
-    authorization,
-    action,
     createGitCommitRequest
 );
 ```
@@ -2123,8 +1945,6 @@ const { status, data } = await apiInstance.createGitCommit(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitCommitRequest** | **CreateGitCommitRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitCommit'|
 
 
 ### Return type
@@ -2133,7 +1953,7 @@ const { status, data } = await apiInstance.createGitCommit(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2165,13 +1985,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitCommitComment')
 let createGitCommitCommentRequest: CreateGitCommitCommentRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitCommitComment(
-    authorization,
-    action,
     createGitCommitCommentRequest
 );
 ```
@@ -2181,8 +1997,6 @@ const { status, data } = await apiInstance.createGitCommitComment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitCommitCommentRequest** | **CreateGitCommitCommentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitCommitComment'|
 
 
 ### Return type
@@ -2191,7 +2005,7 @@ const { status, data } = await apiInstance.createGitCommitComment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2223,13 +2037,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitCommitNote')
 let createGitCommitNoteRequest: CreateGitCommitNoteRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitCommitNote(
-    authorization,
-    action,
     createGitCommitNoteRequest
 );
 ```
@@ -2239,8 +2049,6 @@ const { status, data } = await apiInstance.createGitCommitNote(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitCommitNoteRequest** | **CreateGitCommitNoteRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitCommitNote'|
 
 
 ### Return type
@@ -2249,7 +2057,7 @@ const { status, data } = await apiInstance.createGitCommitNote(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2281,13 +2089,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitDeployKey')
 let createGitDeployKeyRequest: CreateGitDeployKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitDeployKey(
-    authorization,
-    action,
     createGitDeployKeyRequest
 );
 ```
@@ -2297,8 +2101,6 @@ const { status, data } = await apiInstance.createGitDeployKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitDeployKeyRequest** | **CreateGitDeployKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitDeployKey'|
 
 
 ### Return type
@@ -2307,7 +2109,7 @@ const { status, data } = await apiInstance.createGitDeployKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2339,13 +2141,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitDepot')
 let createGitDepotRequest: CreateGitDepotRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitDepot(
-    authorization,
-    action,
     createGitDepotRequest
 );
 ```
@@ -2355,8 +2153,6 @@ const { status, data } = await apiInstance.createGitDepot(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitDepotRequest** | **CreateGitDepotRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitDepot'|
 
 
 ### Return type
@@ -2365,7 +2161,7 @@ const { status, data } = await apiInstance.createGitDepot(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2397,13 +2193,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitFiles')
 let createGitFilesRequest: CreateGitFilesRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitFiles(
-    authorization,
-    action,
     createGitFilesRequest
 );
 ```
@@ -2413,8 +2205,6 @@ const { status, data } = await apiInstance.createGitFiles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitFilesRequest** | **CreateGitFilesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitFiles'|
 
 
 ### Return type
@@ -2423,7 +2213,7 @@ const { status, data } = await apiInstance.createGitFiles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2455,13 +2245,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitMergeReq')
 let createGitMergeReqRequest: CreateGitMergeReqRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitMergeReq(
-    authorization,
-    action,
     createGitMergeReqRequest
 );
 ```
@@ -2471,8 +2257,6 @@ const { status, data } = await apiInstance.createGitMergeReq(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitMergeReqRequest** | **CreateGitMergeReqRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitMergeReq'|
 
 
 ### Return type
@@ -2481,7 +2265,7 @@ const { status, data } = await apiInstance.createGitMergeReq(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2513,13 +2297,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitMergeRequest')
 let createGitMergeRequestRequest: CreateGitMergeRequestRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitMergeRequest(
-    authorization,
-    action,
     createGitMergeRequestRequest
 );
 ```
@@ -2529,8 +2309,6 @@ const { status, data } = await apiInstance.createGitMergeRequest(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitMergeRequestRequest** | **CreateGitMergeRequestRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitMergeRequest'|
 
 
 ### Return type
@@ -2539,7 +2317,7 @@ const { status, data } = await apiInstance.createGitMergeRequest(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2571,13 +2349,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitProtectedTagRule')
 let createGitProtectedTagRuleRequest: CreateGitProtectedTagRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitProtectedTagRule(
-    authorization,
-    action,
     createGitProtectedTagRuleRequest
 );
 ```
@@ -2587,8 +2361,6 @@ const { status, data } = await apiInstance.createGitProtectedTagRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitProtectedTagRuleRequest** | **CreateGitProtectedTagRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitProtectedTagRule'|
 
 
 ### Return type
@@ -2597,7 +2369,7 @@ const { status, data } = await apiInstance.createGitProtectedTagRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2629,13 +2401,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitProtectedTagRules')
 let createGitProtectedTagRulesRequest: CreateGitProtectedTagRulesRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitProtectedTagRules(
-    authorization,
-    action,
     createGitProtectedTagRulesRequest
 );
 ```
@@ -2645,8 +2413,6 @@ const { status, data } = await apiInstance.createGitProtectedTagRules(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitProtectedTagRulesRequest** | **CreateGitProtectedTagRulesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitProtectedTagRules'|
 
 
 ### Return type
@@ -2655,7 +2421,7 @@ const { status, data } = await apiInstance.createGitProtectedTagRules(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2687,13 +2453,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitRelease')
 let createGitReleaseRequest: CreateGitReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitRelease(
-    authorization,
-    action,
     createGitReleaseRequest
 );
 ```
@@ -2703,8 +2465,6 @@ const { status, data } = await apiInstance.createGitRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitReleaseRequest** | **CreateGitReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitRelease'|
 
 
 ### Return type
@@ -2713,7 +2473,7 @@ const { status, data } = await apiInstance.createGitRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2745,13 +2505,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateGitTag')
 let createGitTagRequest: CreateGitTagRequest; // (optional)
 
 const { status, data } = await apiInstance.createGitTag(
-    authorization,
-    action,
     createGitTagRequest
 );
 ```
@@ -2761,8 +2517,6 @@ const { status, data } = await apiInstance.createGitTag(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createGitTagRequest** | **CreateGitTagRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateGitTag'|
 
 
 ### Return type
@@ -2771,7 +2525,7 @@ const { status, data } = await apiInstance.createGitTag(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2803,13 +2557,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIssue')
 let createIssueRequest: CreateIssueRequest; // (optional)
 
 const { status, data } = await apiInstance.createIssue(
-    authorization,
-    action,
     createIssueRequest
 );
 ```
@@ -2819,8 +2569,6 @@ const { status, data } = await apiInstance.createIssue(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIssueRequest** | **CreateIssueRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIssue'|
 
 
 ### Return type
@@ -2829,7 +2577,7 @@ const { status, data } = await apiInstance.createIssue(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2861,13 +2609,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIssueBlock')
 let createIssueBlockRequest: CreateIssueBlockRequest; // (optional)
 
 const { status, data } = await apiInstance.createIssueBlock(
-    authorization,
-    action,
     createIssueBlockRequest
 );
 ```
@@ -2877,8 +2621,6 @@ const { status, data } = await apiInstance.createIssueBlock(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIssueBlockRequest** | **CreateIssueBlockRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIssueBlock'|
 
 
 ### Return type
@@ -2887,7 +2629,7 @@ const { status, data } = await apiInstance.createIssueBlock(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2919,13 +2661,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIssueComment')
 let createIssueCommentRequest: CreateIssueCommentRequest; // (optional)
 
 const { status, data } = await apiInstance.createIssueComment(
-    authorization,
-    action,
     createIssueCommentRequest
 );
 ```
@@ -2935,8 +2673,6 @@ const { status, data } = await apiInstance.createIssueComment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIssueCommentRequest** | **CreateIssueCommentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIssueComment'|
 
 
 ### Return type
@@ -2945,7 +2681,7 @@ const { status, data } = await apiInstance.createIssueComment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -2977,13 +2713,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIssueModule')
 let createIssueModuleRequest: CreateIssueModuleRequest; // (optional)
 
 const { status, data } = await apiInstance.createIssueModule(
-    authorization,
-    action,
     createIssueModuleRequest
 );
 ```
@@ -2993,8 +2725,6 @@ const { status, data } = await apiInstance.createIssueModule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIssueModuleRequest** | **CreateIssueModuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIssueModule'|
 
 
 ### Return type
@@ -3003,7 +2733,7 @@ const { status, data } = await apiInstance.createIssueModule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3035,13 +2765,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIssueWorkHours')
 let createIssueWorkHoursRequest: CreateIssueWorkHoursRequest; // (optional)
 
 const { status, data } = await apiInstance.createIssueWorkHours(
-    authorization,
-    action,
     createIssueWorkHoursRequest
 );
 ```
@@ -3051,8 +2777,6 @@ const { status, data } = await apiInstance.createIssueWorkHours(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIssueWorkHoursRequest** | **CreateIssueWorkHoursRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIssueWorkHours'|
 
 
 ### Return type
@@ -3061,7 +2785,7 @@ const { status, data } = await apiInstance.createIssueWorkHours(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3093,13 +2817,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateIteration')
 let createIterationRequest: CreateIterationRequest; // (optional)
 
 const { status, data } = await apiInstance.createIteration(
-    authorization,
-    action,
     createIterationRequest
 );
 ```
@@ -3109,8 +2829,6 @@ const { status, data } = await apiInstance.createIteration(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createIterationRequest** | **CreateIterationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateIteration'|
 
 
 ### Return type
@@ -3119,7 +2837,7 @@ const { status, data } = await apiInstance.createIteration(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3151,13 +2869,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateMemberSshKey')
 let createMemberSshKeyRequest: CreateMemberSshKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.createMemberSshKey(
-    authorization,
-    action,
     createMemberSshKeyRequest
 );
 ```
@@ -3167,8 +2881,6 @@ const { status, data } = await apiInstance.createMemberSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createMemberSshKeyRequest** | **CreateMemberSshKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateMemberSshKey'|
 
 
 ### Return type
@@ -3177,7 +2889,7 @@ const { status, data } = await apiInstance.createMemberSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3209,13 +2921,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateMergeRequestNote')
 let createMergeRequestNoteRequest: CreateMergeRequestNoteRequest; // (optional)
 
 const { status, data } = await apiInstance.createMergeRequestNote(
-    authorization,
-    action,
     createMergeRequestNoteRequest
 );
 ```
@@ -3225,8 +2933,6 @@ const { status, data } = await apiInstance.createMergeRequestNote(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createMergeRequestNoteRequest** | **CreateMergeRequestNoteRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateMergeRequestNote'|
 
 
 ### Return type
@@ -3235,7 +2941,7 @@ const { status, data } = await apiInstance.createMergeRequestNote(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3267,13 +2973,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateMergeRequestReviewer')
 let createMergeRequestReviewerRequest: CreateMergeRequestReviewerRequest; // (optional)
 
 const { status, data } = await apiInstance.createMergeRequestReviewer(
-    authorization,
-    action,
     createMergeRequestReviewerRequest
 );
 ```
@@ -3283,8 +2985,6 @@ const { status, data } = await apiInstance.createMergeRequestReviewer(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createMergeRequestReviewerRequest** | **CreateMergeRequestReviewerRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateMergeRequestReviewer'|
 
 
 ### Return type
@@ -3293,7 +2993,7 @@ const { status, data } = await apiInstance.createMergeRequestReviewer(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3325,13 +3025,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreatePolicy')
 let createPolicyRequest: CreatePolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.createPolicy(
-    authorization,
-    action,
     createPolicyRequest
 );
 ```
@@ -3341,8 +3037,6 @@ const { status, data } = await apiInstance.createPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createPolicyRequest** | **CreatePolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreatePolicy'|
 
 
 ### Return type
@@ -3351,7 +3045,7 @@ const { status, data } = await apiInstance.createPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3383,13 +3077,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProgram')
 let createProgramRequest: CreateProgramRequest; // (optional)
 
 const { status, data } = await apiInstance.createProgram(
-    authorization,
-    action,
     createProgramRequest
 );
 ```
@@ -3399,8 +3089,6 @@ const { status, data } = await apiInstance.createProgram(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProgramRequest** | **CreateProgramRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProgram'|
 
 
 ### Return type
@@ -3409,7 +3097,7 @@ const { status, data } = await apiInstance.createProgram(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3442,13 +3130,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProgramMemberPolicy')
 let createProgramMemberPolicyRequest: CreateProgramMemberPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.createProgramMemberPolicy(
-    authorization,
-    action,
     createProgramMemberPolicyRequest
 );
 ```
@@ -3458,8 +3142,6 @@ const { status, data } = await apiInstance.createProgramMemberPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProgramMemberPolicyRequest** | **CreateProgramMemberPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProgramMemberPolicy'|
 
 
 ### Return type
@@ -3468,7 +3150,7 @@ const { status, data } = await apiInstance.createProgramMemberPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3501,13 +3183,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProgramProjects')
 let createProgramProjectsRequest: CreateProgramProjectsRequest; // (optional)
 
 const { status, data } = await apiInstance.createProgramProjects(
-    authorization,
-    action,
     createProgramProjectsRequest
 );
 ```
@@ -3517,8 +3195,6 @@ const { status, data } = await apiInstance.createProgramProjects(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProgramProjectsRequest** | **CreateProgramProjectsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProgramProjects'|
 
 
 ### Return type
@@ -3527,7 +3203,7 @@ const { status, data } = await apiInstance.createProgramProjects(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3560,13 +3236,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProjectAnnouncement')
 let createProjectAnnouncementRequest: CreateProjectAnnouncementRequest; // (optional)
 
 const { status, data } = await apiInstance.createProjectAnnouncement(
-    authorization,
-    action,
     createProjectAnnouncementRequest
 );
 ```
@@ -3576,8 +3248,6 @@ const { status, data } = await apiInstance.createProjectAnnouncement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProjectAnnouncementRequest** | **CreateProjectAnnouncementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProjectAnnouncement'|
 
 
 ### Return type
@@ -3586,7 +3256,7 @@ const { status, data } = await apiInstance.createProjectAnnouncement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3619,13 +3289,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProjectLabel')
 let createProjectLabelRequest: CreateProjectLabelRequest; // (optional)
 
 const { status, data } = await apiInstance.createProjectLabel(
-    authorization,
-    action,
     createProjectLabelRequest
 );
 ```
@@ -3635,8 +3301,6 @@ const { status, data } = await apiInstance.createProjectLabel(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProjectLabelRequest** | **CreateProjectLabelRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProjectLabel'|
 
 
 ### Return type
@@ -3645,7 +3309,7 @@ const { status, data } = await apiInstance.createProjectLabel(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3678,13 +3342,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProjectMemberPrincipal')
 let createProjectMemberPrincipalRequest: CreateProjectMemberPrincipalRequest; // (optional)
 
 const { status, data } = await apiInstance.createProjectMemberPrincipal(
-    authorization,
-    action,
     createProjectMemberPrincipalRequest
 );
 ```
@@ -3694,8 +3354,6 @@ const { status, data } = await apiInstance.createProjectMemberPrincipal(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProjectMemberPrincipalRequest** | **CreateProjectMemberPrincipalRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProjectMemberPrincipal'|
 
 
 ### Return type
@@ -3704,7 +3362,7 @@ const { status, data } = await apiInstance.createProjectMemberPrincipal(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3736,13 +3394,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateProjectWithTemplate')
 let createProjectWithTemplateRequest: CreateProjectWithTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.createProjectWithTemplate(
-    authorization,
-    action,
     createProjectWithTemplateRequest
 );
 ```
@@ -3752,8 +3406,6 @@ const { status, data } = await apiInstance.createProjectWithTemplate(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createProjectWithTemplateRequest** | **CreateProjectWithTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateProjectWithTemplate'|
 
 
 ### Return type
@@ -3762,7 +3414,7 @@ const { status, data } = await apiInstance.createProjectWithTemplate(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3794,13 +3446,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateReadOnlyRef')
 let createReadOnlyRefRequest: CreateReadOnlyRefRequest; // (optional)
 
 const { status, data } = await apiInstance.createReadOnlyRef(
-    authorization,
-    action,
     createReadOnlyRefRequest
 );
 ```
@@ -3810,8 +3458,6 @@ const { status, data } = await apiInstance.createReadOnlyRef(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createReadOnlyRefRequest** | **CreateReadOnlyRefRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateReadOnlyRef'|
 
 
 ### Return type
@@ -3820,7 +3466,7 @@ const { status, data } = await apiInstance.createReadOnlyRef(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3852,13 +3498,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateRelease')
 let createReleaseRequest: CreateReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.createRelease(
-    authorization,
-    action,
     createReleaseRequest
 );
 ```
@@ -3868,8 +3510,6 @@ const { status, data } = await apiInstance.createRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createReleaseRequest** | **CreateReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateRelease'|
 
 
 ### Return type
@@ -3878,7 +3518,7 @@ const { status, data } = await apiInstance.createRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3910,13 +3550,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateReport')
 let createReportRequest: CreateReportRequest; // (optional)
 
 const { status, data } = await apiInstance.createReport(
-    authorization,
-    action,
     createReportRequest
 );
 ```
@@ -3926,8 +3562,6 @@ const { status, data } = await apiInstance.createReport(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createReportRequest** | **CreateReportRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateReport'|
 
 
 ### Return type
@@ -3936,7 +3570,7 @@ const { status, data } = await apiInstance.createReport(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -3968,13 +3602,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateRequirementDefectRelation')
 let createRequirementDefectRelationRequest: CreateRequirementDefectRelationRequest; // (optional)
 
 const { status, data } = await apiInstance.createRequirementDefectRelation(
-    authorization,
-    action,
     createRequirementDefectRelationRequest
 );
 ```
@@ -3984,8 +3614,6 @@ const { status, data } = await apiInstance.createRequirementDefectRelation(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createRequirementDefectRelationRequest** | **CreateRequirementDefectRelationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateRequirementDefectRelation'|
 
 
 ### Return type
@@ -3994,7 +3622,7 @@ const { status, data } = await apiInstance.createRequirementDefectRelation(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4026,13 +3654,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateSshKey')
 let createSshKeyRequest: CreateSshKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.createSshKey(
-    authorization,
-    action,
     createSshKeyRequest
 );
 ```
@@ -4042,8 +3666,6 @@ const { status, data } = await apiInstance.createSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createSshKeyRequest** | **CreateSshKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateSshKey'|
 
 
 ### Return type
@@ -4052,7 +3674,7 @@ const { status, data } = await apiInstance.createSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4084,13 +3706,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestCase')
 let createTestCaseRequest: CreateTestCaseRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestCase(
-    authorization,
-    action,
     createTestCaseRequest
 );
 ```
@@ -4100,8 +3718,6 @@ const { status, data } = await apiInstance.createTestCase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestCaseRequest** | **CreateTestCaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestCase'|
 
 
 ### Return type
@@ -4110,7 +3726,7 @@ const { status, data } = await apiInstance.createTestCase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4142,13 +3758,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestCaseSection')
 let createTestCaseSectionRequest: CreateTestCaseSectionRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestCaseSection(
-    authorization,
-    action,
     createTestCaseSectionRequest
 );
 ```
@@ -4158,8 +3770,6 @@ const { status, data } = await apiInstance.createTestCaseSection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestCaseSectionRequest** | **CreateTestCaseSectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestCaseSection'|
 
 
 ### Return type
@@ -4168,7 +3778,7 @@ const { status, data } = await apiInstance.createTestCaseSection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4200,13 +3810,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestDefect')
 let createTestDefectRequest: CreateTestDefectRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestDefect(
-    authorization,
-    action,
     createTestDefectRequest
 );
 ```
@@ -4216,8 +3822,6 @@ const { status, data } = await apiInstance.createTestDefect(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestDefectRequest** | **CreateTestDefectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestDefect'|
 
 
 ### Return type
@@ -4226,7 +3830,7 @@ const { status, data } = await apiInstance.createTestDefect(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4258,13 +3862,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestResult')
 let createTestResultRequest: CreateTestResultRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestResult(
-    authorization,
-    action,
     createTestResultRequest
 );
 ```
@@ -4274,8 +3874,6 @@ const { status, data } = await apiInstance.createTestResult(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestResultRequest** | **CreateTestResultRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestResult'|
 
 
 ### Return type
@@ -4284,7 +3882,7 @@ const { status, data } = await apiInstance.createTestResult(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4316,13 +3914,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestResults')
 let createTestResultsRequest: CreateTestResultsRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestResults(
-    authorization,
-    action,
     createTestResultsRequest
 );
 ```
@@ -4332,8 +3926,6 @@ const { status, data } = await apiInstance.createTestResults(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestResultsRequest** | **CreateTestResultsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestResults'|
 
 
 ### Return type
@@ -4342,7 +3934,7 @@ const { status, data } = await apiInstance.createTestResults(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4374,13 +3966,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestRun')
 let createTestRunRequest: CreateTestRunRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestRun(
-    authorization,
-    action,
     createTestRunRequest
 );
 ```
@@ -4390,8 +3978,6 @@ const { status, data } = await apiInstance.createTestRun(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestRunRequest** | **CreateTestRunRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestRun'|
 
 
 ### Return type
@@ -4400,7 +3986,7 @@ const { status, data } = await apiInstance.createTestRun(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4432,13 +4018,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateTestStepResult')
 let createTestStepResultRequest: CreateTestStepResultRequest; // (optional)
 
 const { status, data } = await apiInstance.createTestStepResult(
-    authorization,
-    action,
     createTestStepResultRequest
 );
 ```
@@ -4448,8 +4030,6 @@ const { status, data } = await apiInstance.createTestStepResult(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createTestStepResultRequest** | **CreateTestStepResultRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateTestStepResult'|
 
 
 ### Return type
@@ -4458,7 +4038,7 @@ const { status, data } = await apiInstance.createTestStepResult(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4490,13 +4070,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateUserGroup')
 let createUserGroupRequest: CreateUserGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.createUserGroup(
-    authorization,
-    action,
     createUserGroupRequest
 );
 ```
@@ -4506,8 +4082,6 @@ const { status, data } = await apiInstance.createUserGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createUserGroupRequest** | **CreateUserGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateUserGroup'|
 
 
 ### Return type
@@ -4516,7 +4090,7 @@ const { status, data } = await apiInstance.createUserGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4548,13 +4122,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'CreateUserGroupUsers')
 let createUserGroupUsersRequest: CreateUserGroupUsersRequest; // (optional)
 
 const { status, data } = await apiInstance.createUserGroupUsers(
-    authorization,
-    action,
     createUserGroupUsersRequest
 );
 ```
@@ -4564,8 +4134,6 @@ const { status, data } = await apiInstance.createUserGroupUsers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createUserGroupUsersRequest** | **CreateUserGroupUsersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'CreateUserGroupUsers'|
 
 
 ### Return type
@@ -4574,7 +4142,7 @@ const { status, data } = await apiInstance.createUserGroupUsers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4606,13 +4174,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteAllUsersOnGroup')
 let deleteAllUsersOnGroupRequest: DeleteAllUsersOnGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteAllUsersOnGroup(
-    authorization,
-    action,
     deleteAllUsersOnGroupRequest
 );
 ```
@@ -4622,8 +4186,6 @@ const { status, data } = await apiInstance.deleteAllUsersOnGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteAllUsersOnGroupRequest** | **DeleteAllUsersOnGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteAllUsersOnGroup'|
 
 
 ### Return type
@@ -4632,7 +4194,7 @@ const { status, data } = await apiInstance.deleteAllUsersOnGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4664,13 +4226,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteArtifactProperties')
 let deleteArtifactPropertiesRequest: DeleteArtifactPropertiesRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteArtifactProperties(
-    authorization,
-    action,
     deleteArtifactPropertiesRequest
 );
 ```
@@ -4680,8 +4238,6 @@ const { status, data } = await apiInstance.deleteArtifactProperties(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteArtifactPropertiesRequest** | **DeleteArtifactPropertiesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteArtifactProperties'|
 
 
 ### Return type
@@ -4690,7 +4246,7 @@ const { status, data } = await apiInstance.deleteArtifactProperties(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4722,13 +4278,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteBranchProtection')
 let deleteBranchProtectionRequest: DeleteBranchProtectionRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteBranchProtection(
-    authorization,
-    action,
     deleteBranchProtectionRequest
 );
 ```
@@ -4738,8 +4290,6 @@ const { status, data } = await apiInstance.deleteBranchProtection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteBranchProtectionRequest** | **DeleteBranchProtectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteBranchProtection'|
 
 
 ### Return type
@@ -4748,7 +4298,7 @@ const { status, data } = await apiInstance.deleteBranchProtection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4780,13 +4330,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteBranchProtectionMember')
 let deleteBranchProtectionMemberRequest: DeleteBranchProtectionMemberRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteBranchProtectionMember(
-    authorization,
-    action,
     deleteBranchProtectionMemberRequest
 );
 ```
@@ -4796,8 +4342,6 @@ const { status, data } = await apiInstance.deleteBranchProtectionMember(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteBranchProtectionMemberRequest** | **DeleteBranchProtectionMemberRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteBranchProtectionMember'|
 
 
 ### Return type
@@ -4806,7 +4350,7 @@ const { status, data } = await apiInstance.deleteBranchProtectionMember(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4838,13 +4382,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteCdCloudAccount')
 let deleteCdCloudAccountRequest: DeleteCdCloudAccountRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteCdCloudAccount(
-    authorization,
-    action,
     deleteCdCloudAccountRequest
 );
 ```
@@ -4854,8 +4394,6 @@ const { status, data } = await apiInstance.deleteCdCloudAccount(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteCdCloudAccountRequest** | **DeleteCdCloudAccountRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteCdCloudAccount'|
 
 
 ### Return type
@@ -4864,7 +4402,7 @@ const { status, data } = await apiInstance.deleteCdCloudAccount(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4896,13 +4434,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteCdHostServerGroup')
 let deleteCdHostServerGroupRequest: DeleteCdHostServerGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteCdHostServerGroup(
-    authorization,
-    action,
     deleteCdHostServerGroupRequest
 );
 ```
@@ -4912,8 +4446,6 @@ const { status, data } = await apiInstance.deleteCdHostServerGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteCdHostServerGroupRequest** | **DeleteCdHostServerGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteCdHostServerGroup'|
 
 
 ### Return type
@@ -4922,7 +4454,7 @@ const { status, data } = await apiInstance.deleteCdHostServerGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -4954,13 +4486,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteCdPipeline')
 let deleteCdPipelineRequest: DeleteCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteCdPipeline(
-    authorization,
-    action,
     deleteCdPipelineRequest
 );
 ```
@@ -4970,8 +4498,6 @@ const { status, data } = await apiInstance.deleteCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteCdPipelineRequest** | **DeleteCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteCdPipeline'|
 
 
 ### Return type
@@ -4980,7 +4506,7 @@ const { status, data } = await apiInstance.deleteCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5012,13 +4538,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteCodingCIBuild')
 let describeCodingCIBuildStageRequest: DescribeCodingCIBuildStageRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteCodingCIBuild(
-    authorization,
-    action,
     describeCodingCIBuildStageRequest
 );
 ```
@@ -5028,8 +4550,6 @@ const { status, data } = await apiInstance.deleteCodingCIBuild(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStageRequest** | **DescribeCodingCIBuildStageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteCodingCIBuild'|
 
 
 ### Return type
@@ -5038,7 +4558,7 @@ const { status, data } = await apiInstance.deleteCodingCIBuild(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5070,13 +4590,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteCodingCIJob')
 let deleteCodingCIJobRequest: DeleteCodingCIJobRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteCodingCIJob(
-    authorization,
-    action,
     deleteCodingCIJobRequest
 );
 ```
@@ -5086,8 +4602,6 @@ const { status, data } = await apiInstance.deleteCodingCIJob(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteCodingCIJobRequest** | **DeleteCodingCIJobRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteCodingCIJob'|
 
 
 ### Return type
@@ -5096,7 +4610,7 @@ const { status, data } = await apiInstance.deleteCodingCIJob(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5128,13 +4642,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteDepartment')
 let deleteDepartmentRequest: DeleteDepartmentRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteDepartment(
-    authorization,
-    action,
     deleteDepartmentRequest
 );
 ```
@@ -5144,8 +4654,6 @@ const { status, data } = await apiInstance.deleteDepartment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteDepartmentRequest** | **DeleteDepartmentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteDepartment'|
 
 
 ### Return type
@@ -5154,7 +4662,7 @@ const { status, data } = await apiInstance.deleteDepartment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5187,13 +4695,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteDepotFilePushRule')
 let deleteDepotFilePushRuleRequest: DeleteDepotFilePushRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteDepotFilePushRule(
-    authorization,
-    action,
     deleteDepotFilePushRuleRequest
 );
 ```
@@ -5203,8 +4707,6 @@ const { status, data } = await apiInstance.deleteDepotFilePushRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteDepotFilePushRuleRequest** | **DeleteDepotFilePushRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteDepotFilePushRule'|
 
 
 ### Return type
@@ -5213,7 +4715,7 @@ const { status, data } = await apiInstance.deleteDepotFilePushRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5245,13 +4747,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteDepotFilePushRuleDenyPrivilege')
 let deleteDepotFilePushRuleDenyPrivilegeRequest: DeleteDepotFilePushRuleDenyPrivilegeRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteDepotFilePushRuleDenyPrivilege(
-    authorization,
-    action,
     deleteDepotFilePushRuleDenyPrivilegeRequest
 );
 ```
@@ -5261,8 +4759,6 @@ const { status, data } = await apiInstance.deleteDepotFilePushRuleDenyPrivilege(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteDepotFilePushRuleDenyPrivilegeRequest** | **DeleteDepotFilePushRuleDenyPrivilegeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteDepotFilePushRuleDenyPrivilege'|
 
 
 ### Return type
@@ -5271,7 +4767,7 @@ const { status, data } = await apiInstance.deleteDepotFilePushRuleDenyPrivilege(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5303,13 +4799,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitBranch')
 let deleteGitBranchRequest: DeleteGitBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitBranch(
-    authorization,
-    action,
     deleteGitBranchRequest
 );
 ```
@@ -5319,8 +4811,6 @@ const { status, data } = await apiInstance.deleteGitBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitBranchRequest** | **DeleteGitBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitBranch'|
 
 
 ### Return type
@@ -5329,7 +4819,7 @@ const { status, data } = await apiInstance.deleteGitBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5361,13 +4851,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitDeployKey')
 let deleteGitDeployKeyRequest: DeleteGitDeployKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitDeployKey(
-    authorization,
-    action,
     deleteGitDeployKeyRequest
 );
 ```
@@ -5377,8 +4863,6 @@ const { status, data } = await apiInstance.deleteGitDeployKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitDeployKeyRequest** | **DeleteGitDeployKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitDeployKey'|
 
 
 ### Return type
@@ -5387,7 +4871,7 @@ const { status, data } = await apiInstance.deleteGitDeployKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5419,13 +4903,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitDepot')
 let deleteGitDepotRequest: DeleteGitDepotRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitDepot(
-    authorization,
-    action,
     deleteGitDepotRequest
 );
 ```
@@ -5435,8 +4915,6 @@ const { status, data } = await apiInstance.deleteGitDepot(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitDepotRequest** | **DeleteGitDepotRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitDepot'|
 
 
 ### Return type
@@ -5445,7 +4923,7 @@ const { status, data } = await apiInstance.deleteGitDepot(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5477,13 +4955,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitFiles')
 let deleteGitFilesRequest: DeleteGitFilesRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitFiles(
-    authorization,
-    action,
     deleteGitFilesRequest
 );
 ```
@@ -5493,8 +4967,6 @@ const { status, data } = await apiInstance.deleteGitFiles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitFilesRequest** | **DeleteGitFilesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitFiles'|
 
 
 ### Return type
@@ -5503,7 +4975,7 @@ const { status, data } = await apiInstance.deleteGitFiles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5535,13 +5007,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitMergedBranches')
 let deleteGitMergedBranchesRequest: DeleteGitMergedBranchesRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitMergedBranches(
-    authorization,
-    action,
     deleteGitMergedBranchesRequest
 );
 ```
@@ -5551,8 +5019,6 @@ const { status, data } = await apiInstance.deleteGitMergedBranches(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitMergedBranchesRequest** | **DeleteGitMergedBranchesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitMergedBranches'|
 
 
 ### Return type
@@ -5561,7 +5027,7 @@ const { status, data } = await apiInstance.deleteGitMergedBranches(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5593,13 +5059,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitProtectedTagRule')
 let deleteGitProtectedTagRuleRequest: DeleteGitProtectedTagRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitProtectedTagRule(
-    authorization,
-    action,
     deleteGitProtectedTagRuleRequest
 );
 ```
@@ -5609,8 +5071,6 @@ const { status, data } = await apiInstance.deleteGitProtectedTagRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitProtectedTagRuleRequest** | **DeleteGitProtectedTagRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitProtectedTagRule'|
 
 
 ### Return type
@@ -5619,7 +5079,7 @@ const { status, data } = await apiInstance.deleteGitProtectedTagRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5651,13 +5111,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitRelease')
 let deleteGitReleaseRequest: DeleteGitReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitRelease(
-    authorization,
-    action,
     deleteGitReleaseRequest
 );
 ```
@@ -5667,8 +5123,6 @@ const { status, data } = await apiInstance.deleteGitRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitReleaseRequest** | **DeleteGitReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitRelease'|
 
 
 ### Return type
@@ -5677,7 +5131,7 @@ const { status, data } = await apiInstance.deleteGitRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5709,13 +5163,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteGitTag')
 let deleteGitTagRequest: DeleteGitTagRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteGitTag(
-    authorization,
-    action,
     deleteGitTagRequest
 );
 ```
@@ -5725,8 +5175,6 @@ const { status, data } = await apiInstance.deleteGitTag(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteGitTagRequest** | **DeleteGitTagRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteGitTag'|
 
 
 ### Return type
@@ -5735,7 +5183,7 @@ const { status, data } = await apiInstance.deleteGitTag(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5767,13 +5215,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteIssue')
 let deleteIssueRequest: DeleteIssueRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteIssue(
-    authorization,
-    action,
     deleteIssueRequest
 );
 ```
@@ -5783,8 +5227,6 @@ const { status, data } = await apiInstance.deleteIssue(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIssueRequest** | **DeleteIssueRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteIssue'|
 
 
 ### Return type
@@ -5793,7 +5235,7 @@ const { status, data } = await apiInstance.deleteIssue(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5825,13 +5267,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteIssueBlock')
 let deleteIssueBlockRequest: DeleteIssueBlockRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteIssueBlock(
-    authorization,
-    action,
     deleteIssueBlockRequest
 );
 ```
@@ -5841,8 +5279,6 @@ const { status, data } = await apiInstance.deleteIssueBlock(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIssueBlockRequest** | **DeleteIssueBlockRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteIssueBlock'|
 
 
 ### Return type
@@ -5851,7 +5287,7 @@ const { status, data } = await apiInstance.deleteIssueBlock(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5883,13 +5319,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteIssueModule')
 let deleteIssueModuleRequest: DeleteIssueModuleRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteIssueModule(
-    authorization,
-    action,
     deleteIssueModuleRequest
 );
 ```
@@ -5899,8 +5331,6 @@ const { status, data } = await apiInstance.deleteIssueModule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIssueModuleRequest** | **DeleteIssueModuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteIssueModule'|
 
 
 ### Return type
@@ -5909,7 +5339,7 @@ const { status, data } = await apiInstance.deleteIssueModule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5941,13 +5371,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteIssueWorkHours')
 let deleteIssueWorkHoursRequest: DeleteIssueWorkHoursRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteIssueWorkHours(
-    authorization,
-    action,
     deleteIssueWorkHoursRequest
 );
 ```
@@ -5957,8 +5383,6 @@ const { status, data } = await apiInstance.deleteIssueWorkHours(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIssueWorkHoursRequest** | **DeleteIssueWorkHoursRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteIssueWorkHours'|
 
 
 ### Return type
@@ -5967,7 +5391,7 @@ const { status, data } = await apiInstance.deleteIssueWorkHours(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -5999,13 +5423,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteIteration')
 let deleteIterationRequest: DeleteIterationRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteIteration(
-    authorization,
-    action,
     deleteIterationRequest
 );
 ```
@@ -6015,8 +5435,6 @@ const { status, data } = await apiInstance.deleteIteration(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIterationRequest** | **DeleteIterationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteIteration'|
 
 
 ### Return type
@@ -6025,7 +5443,7 @@ const { status, data } = await apiInstance.deleteIteration(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6057,13 +5475,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteMemberSshKey')
 let deleteMemberSshKeyRequest: DeleteMemberSshKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteMemberSshKey(
-    authorization,
-    action,
     deleteMemberSshKeyRequest
 );
 ```
@@ -6073,8 +5487,6 @@ const { status, data } = await apiInstance.deleteMemberSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteMemberSshKeyRequest** | **DeleteMemberSshKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteMemberSshKey'|
 
 
 ### Return type
@@ -6083,7 +5495,7 @@ const { status, data } = await apiInstance.deleteMemberSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6115,13 +5527,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteMergeRequestNote')
 let deleteMergeRequestNoteRequest: DeleteMergeRequestNoteRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteMergeRequestNote(
-    authorization,
-    action,
     deleteMergeRequestNoteRequest
 );
 ```
@@ -6131,8 +5539,6 @@ const { status, data } = await apiInstance.deleteMergeRequestNote(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteMergeRequestNoteRequest** | **DeleteMergeRequestNoteRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteMergeRequestNote'|
 
 
 ### Return type
@@ -6141,7 +5547,7 @@ const { status, data } = await apiInstance.deleteMergeRequestNote(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6173,13 +5579,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteMergeRequestReviewer')
 let deleteMergeRequestReviewerRequest: DeleteMergeRequestReviewerRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteMergeRequestReviewer(
-    authorization,
-    action,
     deleteMergeRequestReviewerRequest
 );
 ```
@@ -6189,8 +5591,6 @@ const { status, data } = await apiInstance.deleteMergeRequestReviewer(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteMergeRequestReviewerRequest** | **DeleteMergeRequestReviewerRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteMergeRequestReviewer'|
 
 
 ### Return type
@@ -6199,7 +5599,7 @@ const { status, data } = await apiInstance.deleteMergeRequestReviewer(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6231,13 +5631,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteOneProject')
 let deleteOneProjectRequest: DeleteOneProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteOneProject(
-    authorization,
-    action,
     deleteOneProjectRequest
 );
 ```
@@ -6247,8 +5643,6 @@ const { status, data } = await apiInstance.deleteOneProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteOneProjectRequest** | **DeleteOneProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteOneProject'|
 
 
 ### Return type
@@ -6257,7 +5651,7 @@ const { status, data } = await apiInstance.deleteOneProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6289,13 +5683,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeletePoliciesById')
 let deletePoliciesByIdRequest: DeletePoliciesByIdRequest; // (optional)
 
 const { status, data } = await apiInstance.deletePoliciesById(
-    authorization,
-    action,
     deletePoliciesByIdRequest
 );
 ```
@@ -6305,8 +5695,6 @@ const { status, data } = await apiInstance.deletePoliciesById(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deletePoliciesByIdRequest** | **DeletePoliciesByIdRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeletePoliciesById'|
 
 
 ### Return type
@@ -6315,7 +5703,7 @@ const { status, data } = await apiInstance.deletePoliciesById(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6347,13 +5735,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteProgramMemberPolicy')
 let deleteProgramMemberPolicyRequest: DeleteProgramMemberPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteProgramMemberPolicy(
-    authorization,
-    action,
     deleteProgramMemberPolicyRequest
 );
 ```
@@ -6363,8 +5747,6 @@ const { status, data } = await apiInstance.deleteProgramMemberPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteProgramMemberPolicyRequest** | **DeleteProgramMemberPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteProgramMemberPolicy'|
 
 
 ### Return type
@@ -6373,7 +5755,7 @@ const { status, data } = await apiInstance.deleteProgramMemberPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6406,13 +5788,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteProjectAnnouncement')
 let deleteProjectAnnouncementRequest: DeleteProjectAnnouncementRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteProjectAnnouncement(
-    authorization,
-    action,
     deleteProjectAnnouncementRequest
 );
 ```
@@ -6422,8 +5800,6 @@ const { status, data } = await apiInstance.deleteProjectAnnouncement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteProjectAnnouncementRequest** | **DeleteProjectAnnouncementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteProjectAnnouncement'|
 
 
 ### Return type
@@ -6432,7 +5808,7 @@ const { status, data } = await apiInstance.deleteProjectAnnouncement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6465,13 +5841,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteProjectLabel')
 let deleteProjectLabelRequest: DeleteProjectLabelRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteProjectLabel(
-    authorization,
-    action,
     deleteProjectLabelRequest
 );
 ```
@@ -6481,8 +5853,6 @@ const { status, data } = await apiInstance.deleteProjectLabel(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteProjectLabelRequest** | **DeleteProjectLabelRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteProjectLabel'|
 
 
 ### Return type
@@ -6491,7 +5861,7 @@ const { status, data } = await apiInstance.deleteProjectLabel(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6524,13 +5894,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteProjectMemberPrincipal')
 let deleteProjectMemberPrincipalRequest: DeleteProjectMemberPrincipalRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteProjectMemberPrincipal(
-    authorization,
-    action,
     deleteProjectMemberPrincipalRequest
 );
 ```
@@ -6540,8 +5906,6 @@ const { status, data } = await apiInstance.deleteProjectMemberPrincipal(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteProjectMemberPrincipalRequest** | **DeleteProjectMemberPrincipalRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteProjectMemberPrincipal'|
 
 
 ### Return type
@@ -6550,7 +5914,7 @@ const { status, data } = await apiInstance.deleteProjectMemberPrincipal(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6582,13 +5946,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteRelease')
 let deleteReleaseRequest: DeleteReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteRelease(
-    authorization,
-    action,
     deleteReleaseRequest
 );
 ```
@@ -6598,8 +5958,6 @@ const { status, data } = await apiInstance.deleteRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteReleaseRequest** | **DeleteReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteRelease'|
 
 
 ### Return type
@@ -6608,7 +5966,7 @@ const { status, data } = await apiInstance.deleteRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6640,13 +5998,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteReport')
 let deleteReportRequest: DeleteReportRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteReport(
-    authorization,
-    action,
     deleteReportRequest
 );
 ```
@@ -6656,8 +6010,6 @@ const { status, data } = await apiInstance.deleteReport(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteReportRequest** | **DeleteReportRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteReport'|
 
 
 ### Return type
@@ -6666,7 +6018,7 @@ const { status, data } = await apiInstance.deleteReport(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6698,13 +6050,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteRequirementDefectRelation')
 let createRequirementDefectRelationRequest: CreateRequirementDefectRelationRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteRequirementDefectRelation(
-    authorization,
-    action,
     createRequirementDefectRelationRequest
 );
 ```
@@ -6714,8 +6062,6 @@ const { status, data } = await apiInstance.deleteRequirementDefectRelation(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **createRequirementDefectRelationRequest** | **CreateRequirementDefectRelationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteRequirementDefectRelation'|
 
 
 ### Return type
@@ -6724,7 +6070,7 @@ const { status, data } = await apiInstance.deleteRequirementDefectRelation(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6756,13 +6102,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteSshKey')
 let deleteSshKeyRequest: DeleteSshKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteSshKey(
-    authorization,
-    action,
     deleteSshKeyRequest
 );
 ```
@@ -6772,8 +6114,6 @@ const { status, data } = await apiInstance.deleteSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteSshKeyRequest** | **DeleteSshKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteSshKey'|
 
 
 ### Return type
@@ -6782,7 +6122,7 @@ const { status, data } = await apiInstance.deleteSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6814,13 +6154,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteTeamLevelDepotSpec')
 let deleteTeamLevelDepotSpecRequest: DeleteTeamLevelDepotSpecRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteTeamLevelDepotSpec(
-    authorization,
-    action,
     deleteTeamLevelDepotSpecRequest
 );
 ```
@@ -6830,8 +6166,6 @@ const { status, data } = await apiInstance.deleteTeamLevelDepotSpec(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTeamLevelDepotSpecRequest** | **DeleteTeamLevelDepotSpecRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteTeamLevelDepotSpec'|
 
 
 ### Return type
@@ -6840,7 +6174,7 @@ const { status, data } = await apiInstance.deleteTeamLevelDepotSpec(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6872,13 +6206,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteTeamMember')
 let deleteTeamMemberRequest: DeleteTeamMemberRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteTeamMember(
-    authorization,
-    action,
     deleteTeamMemberRequest
 );
 ```
@@ -6888,8 +6218,6 @@ const { status, data } = await apiInstance.deleteTeamMember(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTeamMemberRequest** | **DeleteTeamMemberRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteTeamMember'|
 
 
 ### Return type
@@ -6898,7 +6226,7 @@ const { status, data } = await apiInstance.deleteTeamMember(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6930,13 +6258,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteTestCase')
 let deleteTestCaseRequest: DeleteTestCaseRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteTestCase(
-    authorization,
-    action,
     deleteTestCaseRequest
 );
 ```
@@ -6946,8 +6270,6 @@ const { status, data } = await apiInstance.deleteTestCase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTestCaseRequest** | **DeleteTestCaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteTestCase'|
 
 
 ### Return type
@@ -6956,7 +6278,7 @@ const { status, data } = await apiInstance.deleteTestCase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -6988,13 +6310,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteTestCaseSection')
 let deleteTestCaseSectionRequest: DeleteTestCaseSectionRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteTestCaseSection(
-    authorization,
-    action,
     deleteTestCaseSectionRequest
 );
 ```
@@ -7004,8 +6322,6 @@ const { status, data } = await apiInstance.deleteTestCaseSection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTestCaseSectionRequest** | **DeleteTestCaseSectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteTestCaseSection'|
 
 
 ### Return type
@@ -7014,7 +6330,7 @@ const { status, data } = await apiInstance.deleteTestCaseSection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7046,13 +6362,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteTestRun')
 let deleteTestRunRequest: DeleteTestRunRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteTestRun(
-    authorization,
-    action,
     deleteTestRunRequest
 );
 ```
@@ -7062,8 +6374,6 @@ const { status, data } = await apiInstance.deleteTestRun(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTestRunRequest** | **DeleteTestRunRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteTestRun'|
 
 
 ### Return type
@@ -7072,7 +6382,7 @@ const { status, data } = await apiInstance.deleteTestRun(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7104,13 +6414,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteUserGroupByIds')
 let deleteUserGroupByIdsRequest: DeleteUserGroupByIdsRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteUserGroupByIds(
-    authorization,
-    action,
     deleteUserGroupByIdsRequest
 );
 ```
@@ -7120,8 +6426,6 @@ const { status, data } = await apiInstance.deleteUserGroupByIds(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteUserGroupByIdsRequest** | **DeleteUserGroupByIdsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteUserGroupByIds'|
 
 
 ### Return type
@@ -7130,7 +6434,7 @@ const { status, data } = await apiInstance.deleteUserGroupByIds(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7162,13 +6466,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DeleteUserGroupUsers')
 let deleteUserGroupUsersRequest: DeleteUserGroupUsersRequest; // (optional)
 
 const { status, data } = await apiInstance.deleteUserGroupUsers(
-    authorization,
-    action,
     deleteUserGroupUsersRequest
 );
 ```
@@ -7178,8 +6478,6 @@ const { status, data } = await apiInstance.deleteUserGroupUsers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteUserGroupUsersRequest** | **DeleteUserGroupUsersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DeleteUserGroupUsers'|
 
 
 ### Return type
@@ -7188,7 +6486,7 @@ const { status, data } = await apiInstance.deleteUserGroupUsers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7219,13 +6517,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeAgentSecret')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeAgentSecret(
-    authorization,
-    action,
     body
 );
 ```
@@ -7235,8 +6529,6 @@ const { status, data } = await apiInstance.describeAgentSecret(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeAgentSecret'|
 
 
 ### Return type
@@ -7245,7 +6537,7 @@ const { status, data } = await apiInstance.describeAgentSecret(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7277,13 +6569,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeAllMergeRequestNotes')
 let describeAllMergeRequestNotesRequest: DescribeAllMergeRequestNotesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeAllMergeRequestNotes(
-    authorization,
-    action,
     describeAllMergeRequestNotesRequest
 );
 ```
@@ -7293,8 +6581,6 @@ const { status, data } = await apiInstance.describeAllMergeRequestNotes(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeAllMergeRequestNotesRequest** | **DescribeAllMergeRequestNotesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeAllMergeRequestNotes'|
 
 
 ### Return type
@@ -7303,7 +6589,7 @@ const { status, data } = await apiInstance.describeAllMergeRequestNotes(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7335,13 +6621,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeAllProjectLabels')
 let describeAllProjectLabelsRequest: DescribeAllProjectLabelsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeAllProjectLabels(
-    authorization,
-    action,
     describeAllProjectLabelsRequest
 );
 ```
@@ -7351,8 +6633,6 @@ const { status, data } = await apiInstance.describeAllProjectLabels(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeAllProjectLabelsRequest** | **DescribeAllProjectLabelsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeAllProjectLabels'|
 
 
 ### Return type
@@ -7361,7 +6641,7 @@ const { status, data } = await apiInstance.describeAllProjectLabels(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7394,13 +6674,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeAllProjectsIssueWorkLogList')
 let describeAllProjectsIssueWorkLogListRequest: DescribeAllProjectsIssueWorkLogListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeAllProjectsIssueWorkLogList(
-    authorization,
-    action,
     describeAllProjectsIssueWorkLogListRequest
 );
 ```
@@ -7410,8 +6686,6 @@ const { status, data } = await apiInstance.describeAllProjectsIssueWorkLogList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeAllProjectsIssueWorkLogListRequest** | **DescribeAllProjectsIssueWorkLogListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeAllProjectsIssueWorkLogList'|
 
 
 ### Return type
@@ -7420,7 +6694,7 @@ const { status, data } = await apiInstance.describeAllProjectsIssueWorkLogList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7452,13 +6726,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactChecksums')
 let describeArtifactChecksumsRequest: DescribeArtifactChecksumsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactChecksums(
-    authorization,
-    action,
     describeArtifactChecksumsRequest
 );
 ```
@@ -7468,8 +6738,6 @@ const { status, data } = await apiInstance.describeArtifactChecksums(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactChecksumsRequest** | **DescribeArtifactChecksumsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactChecksums'|
 
 
 ### Return type
@@ -7478,7 +6746,7 @@ const { status, data } = await apiInstance.describeArtifactChecksums(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7510,13 +6778,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactCredit')
 let describeArtifactCreditRequest: DescribeArtifactCreditRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactCredit(
-    authorization,
-    action,
     describeArtifactCreditRequest
 );
 ```
@@ -7526,8 +6790,6 @@ const { status, data } = await apiInstance.describeArtifactCredit(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactCreditRequest** | **DescribeArtifactCreditRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactCredit'|
 
 
 ### Return type
@@ -7536,7 +6798,7 @@ const { status, data } = await apiInstance.describeArtifactCredit(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7568,13 +6830,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactCreditList')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactCreditList(
-    authorization,
-    action,
     body
 );
 ```
@@ -7584,8 +6842,6 @@ const { status, data } = await apiInstance.describeArtifactCreditList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactCreditList'|
 
 
 ### Return type
@@ -7594,7 +6850,7 @@ const { status, data } = await apiInstance.describeArtifactCreditList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7627,13 +6883,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactFileDownloadUrl')
 let describeArtifactFileDownloadUrlRequest: DescribeArtifactFileDownloadUrlRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactFileDownloadUrl(
-    authorization,
-    action,
     describeArtifactFileDownloadUrlRequest
 );
 ```
@@ -7643,8 +6895,6 @@ const { status, data } = await apiInstance.describeArtifactFileDownloadUrl(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactFileDownloadUrlRequest** | **DescribeArtifactFileDownloadUrlRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactFileDownloadUrl'|
 
 
 ### Return type
@@ -7653,7 +6903,7 @@ const { status, data } = await apiInstance.describeArtifactFileDownloadUrl(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7685,13 +6935,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactPackageList')
 let describeArtifactPackageListRequest: DescribeArtifactPackageListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactPackageList(
-    authorization,
-    action,
     describeArtifactPackageListRequest
 );
 ```
@@ -7701,8 +6947,6 @@ const { status, data } = await apiInstance.describeArtifactPackageList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactPackageListRequest** | **DescribeArtifactPackageListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactPackageList'|
 
 
 ### Return type
@@ -7711,7 +6955,7 @@ const { status, data } = await apiInstance.describeArtifactPackageList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7743,13 +6987,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactProperties')
 let describeArtifactChecksumsRequest: DescribeArtifactChecksumsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactProperties(
-    authorization,
-    action,
     describeArtifactChecksumsRequest
 );
 ```
@@ -7759,8 +6999,6 @@ const { status, data } = await apiInstance.describeArtifactProperties(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactChecksumsRequest** | **DescribeArtifactChecksumsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactProperties'|
 
 
 ### Return type
@@ -7769,7 +7007,7 @@ const { status, data } = await apiInstance.describeArtifactProperties(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7801,13 +7039,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactRepositoryFileList')
 let describeArtifactRepositoryFileListRequest: DescribeArtifactRepositoryFileListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactRepositoryFileList(
-    authorization,
-    action,
     describeArtifactRepositoryFileListRequest
 );
 ```
@@ -7817,8 +7051,6 @@ const { status, data } = await apiInstance.describeArtifactRepositoryFileList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactRepositoryFileListRequest** | **DescribeArtifactRepositoryFileListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactRepositoryFileList'|
 
 
 ### Return type
@@ -7827,7 +7059,7 @@ const { status, data } = await apiInstance.describeArtifactRepositoryFileList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7859,13 +7091,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactRepositoryList')
 let describeArtifactRepositoryListRequest: DescribeArtifactRepositoryListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactRepositoryList(
-    authorization,
-    action,
     describeArtifactRepositoryListRequest
 );
 ```
@@ -7875,8 +7103,6 @@ const { status, data } = await apiInstance.describeArtifactRepositoryList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactRepositoryListRequest** | **DescribeArtifactRepositoryListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactRepositoryList'|
 
 
 ### Return type
@@ -7885,7 +7111,7 @@ const { status, data } = await apiInstance.describeArtifactRepositoryList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7917,13 +7143,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactVersionFileList')
 let describeArtifactVersionFileListRequest: DescribeArtifactVersionFileListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactVersionFileList(
-    authorization,
-    action,
     describeArtifactVersionFileListRequest
 );
 ```
@@ -7933,8 +7155,6 @@ const { status, data } = await apiInstance.describeArtifactVersionFileList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactVersionFileListRequest** | **DescribeArtifactVersionFileListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactVersionFileList'|
 
 
 ### Return type
@@ -7943,7 +7163,7 @@ const { status, data } = await apiInstance.describeArtifactVersionFileList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -7975,13 +7195,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeArtifactVersionList')
 let describeArtifactVersionListRequest: DescribeArtifactVersionListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeArtifactVersionList(
-    authorization,
-    action,
     describeArtifactVersionListRequest
 );
 ```
@@ -7991,8 +7207,6 @@ const { status, data } = await apiInstance.describeArtifactVersionList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactVersionListRequest** | **DescribeArtifactVersionListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeArtifactVersionList'|
 
 
 ### Return type
@@ -8001,7 +7215,7 @@ const { status, data } = await apiInstance.describeArtifactVersionList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8033,13 +7247,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeAvailablePoliciesOnResource')
 let describeAvailablePoliciesOnResourceRequest: DescribeAvailablePoliciesOnResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.describeAvailablePoliciesOnResource(
-    authorization,
-    action,
     describeAvailablePoliciesOnResourceRequest
 );
 ```
@@ -8049,8 +7259,6 @@ const { status, data } = await apiInstance.describeAvailablePoliciesOnResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeAvailablePoliciesOnResourceRequest** | **DescribeAvailablePoliciesOnResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeAvailablePoliciesOnResource'|
 
 
 ### Return type
@@ -8059,7 +7267,7 @@ const { status, data } = await apiInstance.describeAvailablePoliciesOnResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8091,13 +7299,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeBlockIssueList')
 let describeBlockIssueListRequest: DescribeBlockIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeBlockIssueList(
-    authorization,
-    action,
     describeBlockIssueListRequest
 );
 ```
@@ -8107,8 +7311,6 @@ const { status, data } = await apiInstance.describeBlockIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeBlockIssueListRequest** | **DescribeBlockIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeBlockIssueList'|
 
 
 ### Return type
@@ -8117,7 +7319,7 @@ const { status, data } = await apiInstance.describeBlockIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8149,13 +7351,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeBlockedByIssueList')
 let describeBlockedByIssueListRequest: DescribeBlockedByIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeBlockedByIssueList(
-    authorization,
-    action,
     describeBlockedByIssueListRequest
 );
 ```
@@ -8165,8 +7363,6 @@ const { status, data } = await apiInstance.describeBlockedByIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeBlockedByIssueListRequest** | **DescribeBlockedByIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeBlockedByIssueList'|
 
 
 ### Return type
@@ -8175,7 +7371,7 @@ const { status, data } = await apiInstance.describeBlockedByIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8207,13 +7403,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeBranchProtection')
 let describeBranchProtectionRequest: DescribeBranchProtectionRequest; // (optional)
 
 const { status, data } = await apiInstance.describeBranchProtection(
-    authorization,
-    action,
     describeBranchProtectionRequest
 );
 ```
@@ -8223,8 +7415,6 @@ const { status, data } = await apiInstance.describeBranchProtection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeBranchProtectionRequest** | **DescribeBranchProtectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeBranchProtection'|
 
 
 ### Return type
@@ -8233,7 +7423,7 @@ const { status, data } = await apiInstance.describeBranchProtection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8265,13 +7455,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeBranchProtectionMembers')
 let describeBranchProtectionMembersRequest: DescribeBranchProtectionMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeBranchProtectionMembers(
-    authorization,
-    action,
     describeBranchProtectionMembersRequest
 );
 ```
@@ -8281,8 +7467,6 @@ const { status, data } = await apiInstance.describeBranchProtectionMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeBranchProtectionMembersRequest** | **DescribeBranchProtectionMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeBranchProtectionMembers'|
 
 
 ### Return type
@@ -8291,7 +7475,7 @@ const { status, data } = await apiInstance.describeBranchProtectionMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8323,13 +7507,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeBranchProtections')
 let describeBranchProtectionsRequest: DescribeBranchProtectionsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeBranchProtections(
-    authorization,
-    action,
     describeBranchProtectionsRequest
 );
 ```
@@ -8339,8 +7519,6 @@ const { status, data } = await apiInstance.describeBranchProtections(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeBranchProtectionsRequest** | **DescribeBranchProtectionsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeBranchProtections'|
 
 
 ### Return type
@@ -8349,7 +7527,7 @@ const { status, data } = await apiInstance.describeBranchProtections(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8381,13 +7559,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCanMerge')
 let describeCanMergeRequest: DescribeCanMergeRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCanMerge(
-    authorization,
-    action,
     describeCanMergeRequest
 );
 ```
@@ -8397,8 +7571,6 @@ const { status, data } = await apiInstance.describeCanMerge(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCanMergeRequest** | **DescribeCanMergeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCanMerge'|
 
 
 ### Return type
@@ -8407,7 +7579,7 @@ const { status, data } = await apiInstance.describeCanMerge(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8439,13 +7611,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdAgentMachines')
 let describeCdAgentMachinesRequest: DescribeCdAgentMachinesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdAgentMachines(
-    authorization,
-    action,
     describeCdAgentMachinesRequest
 );
 ```
@@ -8455,8 +7623,6 @@ const { status, data } = await apiInstance.describeCdAgentMachines(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdAgentMachinesRequest** | **DescribeCdAgentMachinesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdAgentMachines'|
 
 
 ### Return type
@@ -8465,7 +7631,7 @@ const { status, data } = await apiInstance.describeCdAgentMachines(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8497,13 +7663,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdApplication')
 let describeCdApplicationRequest: DescribeCdApplicationRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdApplication(
-    authorization,
-    action,
     describeCdApplicationRequest
 );
 ```
@@ -8513,8 +7675,6 @@ const { status, data } = await apiInstance.describeCdApplication(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdApplicationRequest** | **DescribeCdApplicationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdApplication'|
 
 
 ### Return type
@@ -8523,7 +7683,7 @@ const { status, data } = await apiInstance.describeCdApplication(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8554,13 +7714,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdApplications')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeCdApplications(
-    authorization,
-    action,
     body
 );
 ```
@@ -8570,8 +7726,6 @@ const { status, data } = await apiInstance.describeCdApplications(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdApplications'|
 
 
 ### Return type
@@ -8580,7 +7734,7 @@ const { status, data } = await apiInstance.describeCdApplications(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8612,13 +7766,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdApplicationsByProject')
 let describeWikiListRequest: DescribeWikiListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdApplicationsByProject(
-    authorization,
-    action,
     describeWikiListRequest
 );
 ```
@@ -8628,8 +7778,6 @@ const { status, data } = await apiInstance.describeCdApplicationsByProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWikiListRequest** | **DescribeWikiListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdApplicationsByProject'|
 
 
 ### Return type
@@ -8638,7 +7786,7 @@ const { status, data } = await apiInstance.describeCdApplicationsByProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8670,13 +7818,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdCloudAccounts')
 let describeCdCloudAccountsRequest: DescribeCdCloudAccountsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdCloudAccounts(
-    authorization,
-    action,
     describeCdCloudAccountsRequest
 );
 ```
@@ -8686,8 +7830,6 @@ const { status, data } = await apiInstance.describeCdCloudAccounts(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdCloudAccountsRequest** | **DescribeCdCloudAccountsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdCloudAccounts'|
 
 
 ### Return type
@@ -8696,7 +7838,7 @@ const { status, data } = await apiInstance.describeCdCloudAccounts(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8728,13 +7870,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployCountByApplications')
 let describeCdDeployCountByApplicationsRequest: DescribeCdDeployCountByApplicationsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployCountByApplications(
-    authorization,
-    action,
     describeCdDeployCountByApplicationsRequest
 );
 ```
@@ -8744,8 +7882,6 @@ const { status, data } = await apiInstance.describeCdDeployCountByApplications(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployCountByApplicationsRequest** | **DescribeCdDeployCountByApplicationsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployCountByApplications'|
 
 
 ### Return type
@@ -8754,7 +7890,7 @@ const { status, data } = await apiInstance.describeCdDeployCountByApplications(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8786,13 +7922,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployCountByProject')
 let describeCdDeployTimeByProjectRequest: DescribeCdDeployTimeByProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployCountByProject(
-    authorization,
-    action,
     describeCdDeployTimeByProjectRequest
 );
 ```
@@ -8802,8 +7934,6 @@ const { status, data } = await apiInstance.describeCdDeployCountByProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployTimeByProjectRequest** | **DescribeCdDeployTimeByProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployCountByProject'|
 
 
 ### Return type
@@ -8812,7 +7942,7 @@ const { status, data } = await apiInstance.describeCdDeployCountByProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8844,13 +7974,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployTimeByApplications')
 let describeCdDeployTimeByApplicationsRequest: DescribeCdDeployTimeByApplicationsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployTimeByApplications(
-    authorization,
-    action,
     describeCdDeployTimeByApplicationsRequest
 );
 ```
@@ -8860,8 +7986,6 @@ const { status, data } = await apiInstance.describeCdDeployTimeByApplications(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployTimeByApplicationsRequest** | **DescribeCdDeployTimeByApplicationsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployTimeByApplications'|
 
 
 ### Return type
@@ -8870,7 +7994,7 @@ const { status, data } = await apiInstance.describeCdDeployTimeByApplications(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8902,13 +8026,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployTimeByProject')
 let describeCdDeployTimeByProjectRequest: DescribeCdDeployTimeByProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployTimeByProject(
-    authorization,
-    action,
     describeCdDeployTimeByProjectRequest
 );
 ```
@@ -8918,8 +8038,6 @@ const { status, data } = await apiInstance.describeCdDeployTimeByProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployTimeByProjectRequest** | **DescribeCdDeployTimeByProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployTimeByProject'|
 
 
 ### Return type
@@ -8928,7 +8046,7 @@ const { status, data } = await apiInstance.describeCdDeployTimeByProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -8960,13 +8078,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployTrendByApplications')
 let describeCdDeployTrendByApplicationsRequest: DescribeCdDeployTrendByApplicationsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployTrendByApplications(
-    authorization,
-    action,
     describeCdDeployTrendByApplicationsRequest
 );
 ```
@@ -8976,8 +8090,6 @@ const { status, data } = await apiInstance.describeCdDeployTrendByApplications(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployTrendByApplicationsRequest** | **DescribeCdDeployTrendByApplicationsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployTrendByApplications'|
 
 
 ### Return type
@@ -8986,7 +8098,7 @@ const { status, data } = await apiInstance.describeCdDeployTrendByApplications(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9018,13 +8130,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdDeployTrendByProject')
 let describeCdDeployTrendByProjectRequest: DescribeCdDeployTrendByProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdDeployTrendByProject(
-    authorization,
-    action,
     describeCdDeployTrendByProjectRequest
 );
 ```
@@ -9034,8 +8142,6 @@ const { status, data } = await apiInstance.describeCdDeployTrendByProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdDeployTrendByProjectRequest** | **DescribeCdDeployTrendByProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdDeployTrendByProject'|
 
 
 ### Return type
@@ -9044,7 +8150,7 @@ const { status, data } = await apiInstance.describeCdDeployTrendByProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9076,13 +8182,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdHostServerGroup')
 let describeCdHostServerGroupRequest: DescribeCdHostServerGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdHostServerGroup(
-    authorization,
-    action,
     describeCdHostServerGroupRequest
 );
 ```
@@ -9092,8 +8194,6 @@ const { status, data } = await apiInstance.describeCdHostServerGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdHostServerGroupRequest** | **DescribeCdHostServerGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdHostServerGroup'|
 
 
 ### Return type
@@ -9102,7 +8202,7 @@ const { status, data } = await apiInstance.describeCdHostServerGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9134,13 +8234,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdHostServerGroups')
 let describeCdHostServerGroupsRequest: DescribeCdHostServerGroupsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdHostServerGroups(
-    authorization,
-    action,
     describeCdHostServerGroupsRequest
 );
 ```
@@ -9150,8 +8246,6 @@ const { status, data } = await apiInstance.describeCdHostServerGroups(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdHostServerGroupsRequest** | **DescribeCdHostServerGroupsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdHostServerGroups'|
 
 
 ### Return type
@@ -9160,7 +8254,7 @@ const { status, data } = await apiInstance.describeCdHostServerGroups(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9192,13 +8286,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdPipeline')
 let describeCdPipelineRequest: DescribeCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdPipeline(
-    authorization,
-    action,
     describeCdPipelineRequest
 );
 ```
@@ -9208,8 +8298,6 @@ const { status, data } = await apiInstance.describeCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdPipelineRequest** | **DescribeCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdPipeline'|
 
 
 ### Return type
@@ -9218,7 +8306,7 @@ const { status, data } = await apiInstance.describeCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9250,13 +8338,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdPipelineConfig')
 let describeCdPipelineConfigRequest: DescribeCdPipelineConfigRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdPipelineConfig(
-    authorization,
-    action,
     describeCdPipelineConfigRequest
 );
 ```
@@ -9266,8 +8350,6 @@ const { status, data } = await apiInstance.describeCdPipelineConfig(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdPipelineConfigRequest** | **DescribeCdPipelineConfigRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdPipelineConfig'|
 
 
 ### Return type
@@ -9276,7 +8358,7 @@ const { status, data } = await apiInstance.describeCdPipelineConfig(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9308,13 +8390,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdPipelineConfigs')
 let describeCdPipelineConfigsRequest: DescribeCdPipelineConfigsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdPipelineConfigs(
-    authorization,
-    action,
     describeCdPipelineConfigsRequest
 );
 ```
@@ -9324,8 +8402,6 @@ const { status, data } = await apiInstance.describeCdPipelineConfigs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdPipelineConfigsRequest** | **DescribeCdPipelineConfigsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdPipelineConfigs'|
 
 
 ### Return type
@@ -9334,7 +8410,7 @@ const { status, data } = await apiInstance.describeCdPipelineConfigs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9366,13 +8442,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCdTask')
 let describeCdTaskRequest: DescribeCdTaskRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCdTask(
-    authorization,
-    action,
     describeCdTaskRequest
 );
 ```
@@ -9382,8 +8454,6 @@ const { status, data } = await apiInstance.describeCdTask(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCdTaskRequest** | **DescribeCdTaskRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCdTask'|
 
 
 ### Return type
@@ -9392,7 +8462,7 @@ const { status, data } = await apiInstance.describeCdTask(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9424,13 +8494,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodeSearch')
 let describeCodeSearchRequest: DescribeCodeSearchRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodeSearch(
-    authorization,
-    action,
     describeCodeSearchRequest
 );
 ```
@@ -9440,8 +8506,6 @@ const { status, data } = await apiInstance.describeCodeSearch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodeSearchRequest** | **DescribeCodeSearchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodeSearch'|
 
 
 ### Return type
@@ -9450,7 +8514,7 @@ const { status, data } = await apiInstance.describeCodeSearch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9482,13 +8546,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuild')
 let describeCodingCIBuildStageRequest: DescribeCodingCIBuildStageRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuild(
-    authorization,
-    action,
     describeCodingCIBuildStageRequest
 );
 ```
@@ -9498,8 +8558,6 @@ const { status, data } = await apiInstance.describeCodingCIBuild(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStageRequest** | **DescribeCodingCIBuildStageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuild'|
 
 
 ### Return type
@@ -9508,7 +8566,7 @@ const { status, data } = await apiInstance.describeCodingCIBuild(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9540,13 +8598,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildArtifacts')
 let describeCodingCIBuildArtifactsRequest: DescribeCodingCIBuildArtifactsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildArtifacts(
-    authorization,
-    action,
     describeCodingCIBuildArtifactsRequest
 );
 ```
@@ -9556,8 +8610,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildArtifacts(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildArtifactsRequest** | **DescribeCodingCIBuildArtifactsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildArtifacts'|
 
 
 ### Return type
@@ -9566,7 +8618,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildArtifacts(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9599,13 +8651,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildEnvs')
 let describeCodingCIBuildEnvsRequest: DescribeCodingCIBuildEnvsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildEnvs(
-    authorization,
-    action,
     describeCodingCIBuildEnvsRequest
 );
 ```
@@ -9615,8 +8663,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildEnvs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildEnvsRequest** | **DescribeCodingCIBuildEnvsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildEnvs'|
 
 
 ### Return type
@@ -9625,7 +8671,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildEnvs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9657,13 +8703,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildHtmlReports')
 let describeCodingCIBuildArtifactsRequest: DescribeCodingCIBuildArtifactsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildHtmlReports(
-    authorization,
-    action,
     describeCodingCIBuildArtifactsRequest
 );
 ```
@@ -9673,8 +8715,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildHtmlReports(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildArtifactsRequest** | **DescribeCodingCIBuildArtifactsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildHtmlReports'|
 
 
 ### Return type
@@ -9683,7 +8723,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildHtmlReports(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9716,13 +8756,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildLog')
 let describeCodingCIBuildLogRequest: DescribeCodingCIBuildLogRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildLog(
-    authorization,
-    action,
     describeCodingCIBuildLogRequest
 );
 ```
@@ -9732,8 +8768,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildLog(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildLogRequest** | **DescribeCodingCIBuildLogRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildLog'|
 
 
 ### Return type
@@ -9742,7 +8776,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildLog(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9774,13 +8808,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildLogRaw')
 let describeCodingCIBuildLogRawRequest: DescribeCodingCIBuildLogRawRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildLogRaw(
-    authorization,
-    action,
     describeCodingCIBuildLogRawRequest
 );
 ```
@@ -9790,8 +8820,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildLogRaw(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildLogRawRequest** | **DescribeCodingCIBuildLogRawRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildLogRaw'|
 
 
 ### Return type
@@ -9800,7 +8828,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildLogRaw(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9832,13 +8860,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildMetrics')
 let describeCodingCIBuildMetricsRequest: DescribeCodingCIBuildMetricsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildMetrics(
-    authorization,
-    action,
     describeCodingCIBuildMetricsRequest
 );
 ```
@@ -9848,8 +8872,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildMetrics(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildMetricsRequest** | **DescribeCodingCIBuildMetricsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildMetrics'|
 
 
 ### Return type
@@ -9858,7 +8880,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildMetrics(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9890,13 +8912,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildStage')
 let describeCodingCIBuildStageRequest: DescribeCodingCIBuildStageRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildStage(
-    authorization,
-    action,
     describeCodingCIBuildStageRequest
 );
 ```
@@ -9906,8 +8924,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildStage(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStageRequest** | **DescribeCodingCIBuildStageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildStage'|
 
 
 ### Return type
@@ -9916,7 +8932,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildStage(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -9948,13 +8964,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildStatistics')
 let describeCodingCIBuildStatisticsRequest: DescribeCodingCIBuildStatisticsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildStatistics(
-    authorization,
-    action,
     describeCodingCIBuildStatisticsRequest
 );
 ```
@@ -9964,8 +8976,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildStatistics(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStatisticsRequest** | **DescribeCodingCIBuildStatisticsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildStatistics'|
 
 
 ### Return type
@@ -9974,7 +8984,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildStatistics(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10006,13 +9016,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildStep')
 let describeCodingCIBuildStepRequest: DescribeCodingCIBuildStepRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildStep(
-    authorization,
-    action,
     describeCodingCIBuildStepRequest
 );
 ```
@@ -10022,8 +9028,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildStep(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStepRequest** | **DescribeCodingCIBuildStepRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildStep'|
 
 
 ### Return type
@@ -10032,7 +9036,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildStep(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10064,13 +9068,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuildStepLog')
 let describeCodingCIBuildStepLogRequest: DescribeCodingCIBuildStepLogRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuildStepLog(
-    authorization,
-    action,
     describeCodingCIBuildStepLogRequest
 );
 ```
@@ -10080,8 +9080,6 @@ const { status, data } = await apiInstance.describeCodingCIBuildStepLog(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStepLogRequest** | **DescribeCodingCIBuildStepLogRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuildStepLog'|
 
 
 ### Return type
@@ -10090,7 +9088,7 @@ const { status, data } = await apiInstance.describeCodingCIBuildStepLog(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10122,13 +9120,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIBuilds')
 let describeCodingCIBuildsRequest: DescribeCodingCIBuildsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIBuilds(
-    authorization,
-    action,
     describeCodingCIBuildsRequest
 );
 ```
@@ -10138,8 +9132,6 @@ const { status, data } = await apiInstance.describeCodingCIBuilds(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildsRequest** | **DescribeCodingCIBuildsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIBuilds'|
 
 
 ### Return type
@@ -10148,7 +9140,7 @@ const { status, data } = await apiInstance.describeCodingCIBuilds(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10180,13 +9172,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIJob')
 let deleteCodingCIJobRequest: DeleteCodingCIJobRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIJob(
-    authorization,
-    action,
     deleteCodingCIJobRequest
 );
 ```
@@ -10196,8 +9184,6 @@ const { status, data } = await apiInstance.describeCodingCIJob(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteCodingCIJobRequest** | **DeleteCodingCIJobRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIJob'|
 
 
 ### Return type
@@ -10206,7 +9192,7 @@ const { status, data } = await apiInstance.describeCodingCIJob(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10238,13 +9224,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCIJobs')
 let describeCodingCIJobsRequest: DescribeCodingCIJobsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCIJobs(
-    authorization,
-    action,
     describeCodingCIJobsRequest
 );
 ```
@@ -10254,8 +9236,6 @@ const { status, data } = await apiInstance.describeCodingCIJobs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIJobsRequest** | **DescribeCodingCIJobsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCIJobs'|
 
 
 ### Return type
@@ -10264,7 +9244,7 @@ const { status, data } = await apiInstance.describeCodingCIJobs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10295,13 +9275,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingCurrentUser')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeCodingCurrentUser(
-    authorization,
-    action,
     body
 );
 ```
@@ -10311,8 +9287,6 @@ const { status, data } = await apiInstance.describeCodingCurrentUser(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingCurrentUser'|
 
 
 ### Return type
@@ -10321,7 +9295,7 @@ const { status, data } = await apiInstance.describeCodingCurrentUser(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10353,13 +9327,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCodingProjects')
 let describeCodingProjectsRequest: DescribeCodingProjectsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCodingProjects(
-    authorization,
-    action,
     describeCodingProjectsRequest
 );
 ```
@@ -10369,8 +9339,6 @@ const { status, data } = await apiInstance.describeCodingProjects(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingProjectsRequest** | **DescribeCodingProjectsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCodingProjects'|
 
 
 ### Return type
@@ -10379,7 +9347,7 @@ const { status, data } = await apiInstance.describeCodingProjects(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10411,13 +9379,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCommitRefs')
 let describeCommitRefsRequest: DescribeCommitRefsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCommitRefs(
-    authorization,
-    action,
     describeCommitRefsRequest
 );
 ```
@@ -10427,8 +9391,6 @@ const { status, data } = await apiInstance.describeCommitRefs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCommitRefsRequest** | **DescribeCommitRefsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCommitRefs'|
 
 
 ### Return type
@@ -10437,7 +9399,7 @@ const { status, data } = await apiInstance.describeCommitRefs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10469,13 +9431,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeCommitsBetweenCommitAndCommit')
 let describeCommitsBetweenCommitAndCommitRequest: DescribeCommitsBetweenCommitAndCommitRequest; // (optional)
 
 const { status, data } = await apiInstance.describeCommitsBetweenCommitAndCommit(
-    authorization,
-    action,
     describeCommitsBetweenCommitAndCommitRequest
 );
 ```
@@ -10485,8 +9443,6 @@ const { status, data } = await apiInstance.describeCommitsBetweenCommitAndCommit
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCommitsBetweenCommitAndCommitRequest** | **DescribeCommitsBetweenCommitAndCommitRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeCommitsBetweenCommitAndCommit'|
 
 
 ### Return type
@@ -10495,7 +9451,7 @@ const { status, data } = await apiInstance.describeCommitsBetweenCommitAndCommit
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10527,13 +9483,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeConfigTemplateList')
 let describeConfigTemplateListRequest: DescribeConfigTemplateListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeConfigTemplateList(
-    authorization,
-    action,
     describeConfigTemplateListRequest
 );
 ```
@@ -10543,8 +9495,6 @@ const { status, data } = await apiInstance.describeConfigTemplateList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeConfigTemplateListRequest** | **DescribeConfigTemplateListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeConfigTemplateList'|
 
 
 ### Return type
@@ -10553,7 +9503,7 @@ const { status, data } = await apiInstance.describeConfigTemplateList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10585,13 +9535,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDefectTypes')
 let describeDefectTypesRequest: DescribeDefectTypesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDefectTypes(
-    authorization,
-    action,
     describeDefectTypesRequest
 );
 ```
@@ -10601,8 +9547,6 @@ const { status, data } = await apiInstance.describeDefectTypes(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDefectTypesRequest** | **DescribeDefectTypesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDefectTypes'|
 
 
 ### Return type
@@ -10611,7 +9555,7 @@ const { status, data } = await apiInstance.describeDefectTypes(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10643,13 +9587,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepartment')
 let describeDepartmentRequest: DescribeDepartmentRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepartment(
-    authorization,
-    action,
     describeDepartmentRequest
 );
 ```
@@ -10659,8 +9599,6 @@ const { status, data } = await apiInstance.describeDepartment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepartmentRequest** | **DescribeDepartmentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepartment'|
 
 
 ### Return type
@@ -10669,7 +9607,7 @@ const { status, data } = await apiInstance.describeDepartment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10702,13 +9640,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepartmentMembers')
 let describeDepartmentMembersRequest: DescribeDepartmentMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepartmentMembers(
-    authorization,
-    action,
     describeDepartmentMembersRequest
 );
 ```
@@ -10718,8 +9652,6 @@ const { status, data } = await apiInstance.describeDepartmentMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepartmentMembersRequest** | **DescribeDepartmentMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepartmentMembers'|
 
 
 ### Return type
@@ -10728,7 +9660,7 @@ const { status, data } = await apiInstance.describeDepartmentMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10761,13 +9693,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotByNameInfo')
 let describeDepotByNameInfoRequest: DescribeDepotByNameInfoRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotByNameInfo(
-    authorization,
-    action,
     describeDepotByNameInfoRequest
 );
 ```
@@ -10777,8 +9705,6 @@ const { status, data } = await apiInstance.describeDepotByNameInfo(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotByNameInfoRequest** | **DescribeDepotByNameInfoRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotByNameInfo'|
 
 
 ### Return type
@@ -10787,7 +9713,7 @@ const { status, data } = await apiInstance.describeDepotByNameInfo(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10819,13 +9745,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotDefaultBranch')
 let describeDepotDefaultBranchRequest: DescribeDepotDefaultBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotDefaultBranch(
-    authorization,
-    action,
     describeDepotDefaultBranchRequest
 );
 ```
@@ -10835,8 +9757,6 @@ const { status, data } = await apiInstance.describeDepotDefaultBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotDefaultBranchRequest** | **DescribeDepotDefaultBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotDefaultBranch'|
 
 
 ### Return type
@@ -10845,7 +9765,7 @@ const { status, data } = await apiInstance.describeDepotDefaultBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10877,13 +9797,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotFilePushRules')
 let describeDepotFilePushRulesRequest: DescribeDepotFilePushRulesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotFilePushRules(
-    authorization,
-    action,
     describeDepotFilePushRulesRequest
 );
 ```
@@ -10893,8 +9809,6 @@ const { status, data } = await apiInstance.describeDepotFilePushRules(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotFilePushRulesRequest** | **DescribeDepotFilePushRulesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotFilePushRules'|
 
 
 ### Return type
@@ -10903,7 +9817,7 @@ const { status, data } = await apiInstance.describeDepotFilePushRules(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10935,13 +9849,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotMergeRequests')
 let describeDepotMergeRequestsRequest: DescribeDepotMergeRequestsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotMergeRequests(
-    authorization,
-    action,
     describeDepotMergeRequestsRequest
 );
 ```
@@ -10951,8 +9861,6 @@ const { status, data } = await apiInstance.describeDepotMergeRequests(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotMergeRequestsRequest** | **DescribeDepotMergeRequestsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotMergeRequests'|
 
 
 ### Return type
@@ -10961,7 +9869,7 @@ const { status, data } = await apiInstance.describeDepotMergeRequests(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -10993,13 +9901,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotPushSetting')
 let describeDepotFilePushRulesRequest: DescribeDepotFilePushRulesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotPushSetting(
-    authorization,
-    action,
     describeDepotFilePushRulesRequest
 );
 ```
@@ -11009,8 +9913,6 @@ const { status, data } = await apiInstance.describeDepotPushSetting(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotFilePushRulesRequest** | **DescribeDepotFilePushRulesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotPushSetting'|
 
 
 ### Return type
@@ -11019,7 +9921,7 @@ const { status, data } = await apiInstance.describeDepotPushSetting(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11051,13 +9953,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotSpecDetail')
 let describeDepotSpecDetailRequest: DescribeDepotSpecDetailRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDepotSpecDetail(
-    authorization,
-    action,
     describeDepotSpecDetailRequest
 );
 ```
@@ -11067,8 +9965,6 @@ const { status, data } = await apiInstance.describeDepotSpecDetail(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDepotSpecDetailRequest** | **DescribeDepotSpecDetailRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotSpecDetail'|
 
 
 ### Return type
@@ -11077,7 +9973,7 @@ const { status, data } = await apiInstance.describeDepotSpecDetail(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11108,13 +10004,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDepotSpecs')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeDepotSpecs(
-    authorization,
-    action,
     body
 );
 ```
@@ -11124,8 +10016,6 @@ const { status, data } = await apiInstance.describeDepotSpecs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDepotSpecs'|
 
 
 ### Return type
@@ -11134,7 +10024,7 @@ const { status, data } = await apiInstance.describeDepotSpecs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11166,13 +10056,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDifferentBetween2Commits')
 let describeDifferentBetween2CommitsRequest: DescribeDifferentBetween2CommitsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDifferentBetween2Commits(
-    authorization,
-    action,
     describeDifferentBetween2CommitsRequest
 );
 ```
@@ -11182,8 +10068,6 @@ const { status, data } = await apiInstance.describeDifferentBetween2Commits(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDifferentBetween2CommitsRequest** | **DescribeDifferentBetween2CommitsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDifferentBetween2Commits'|
 
 
 ### Return type
@@ -11192,7 +10076,7 @@ const { status, data } = await apiInstance.describeDifferentBetween2Commits(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11225,13 +10109,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeDifferentBetweenTwoCommits')
 let describeDifferentBetweenTwoCommitsRequest: DescribeDifferentBetweenTwoCommitsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeDifferentBetweenTwoCommits(
-    authorization,
-    action,
     describeDifferentBetweenTwoCommitsRequest
 );
 ```
@@ -11241,8 +10121,6 @@ const { status, data } = await apiInstance.describeDifferentBetweenTwoCommits(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeDifferentBetweenTwoCommitsRequest** | **DescribeDifferentBetweenTwoCommitsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeDifferentBetweenTwoCommits'|
 
 
 ### Return type
@@ -11251,7 +10129,7 @@ const { status, data } = await apiInstance.describeDifferentBetweenTwoCommits(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11283,13 +10161,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBlameInfo')
 let describeGitBlameInfoRequest: DescribeGitBlameInfoRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBlameInfo(
-    authorization,
-    action,
     describeGitBlameInfoRequest
 );
 ```
@@ -11299,8 +10173,6 @@ const { status, data } = await apiInstance.describeGitBlameInfo(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBlameInfoRequest** | **DescribeGitBlameInfoRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBlameInfo'|
 
 
 ### Return type
@@ -11309,7 +10181,7 @@ const { status, data } = await apiInstance.describeGitBlameInfo(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11341,13 +10213,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBlob')
 let describeGitBlobRequest: DescribeGitBlobRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBlob(
-    authorization,
-    action,
     describeGitBlobRequest
 );
 ```
@@ -11357,8 +10225,6 @@ const { status, data } = await apiInstance.describeGitBlob(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBlobRequest** | **DescribeGitBlobRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBlob'|
 
 
 ### Return type
@@ -11367,7 +10233,7 @@ const { status, data } = await apiInstance.describeGitBlob(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11399,13 +10265,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBlobRaw')
 let describeGitBlobRawRequest: DescribeGitBlobRawRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBlobRaw(
-    authorization,
-    action,
     describeGitBlobRawRequest
 );
 ```
@@ -11415,8 +10277,6 @@ const { status, data } = await apiInstance.describeGitBlobRaw(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBlobRawRequest** | **DescribeGitBlobRawRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBlobRaw'|
 
 
 ### Return type
@@ -11425,7 +10285,7 @@ const { status, data } = await apiInstance.describeGitBlobRaw(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11457,13 +10317,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBranch')
 let describeGitBranchRequest: DescribeGitBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBranch(
-    authorization,
-    action,
     describeGitBranchRequest
 );
 ```
@@ -11473,8 +10329,6 @@ const { status, data } = await apiInstance.describeGitBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBranchRequest** | **DescribeGitBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBranch'|
 
 
 ### Return type
@@ -11483,7 +10337,7 @@ const { status, data } = await apiInstance.describeGitBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11515,13 +10369,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBranchList')
 let describeGitBranchListRequest: DescribeGitBranchListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBranchList(
-    authorization,
-    action,
     describeGitBranchListRequest
 );
 ```
@@ -11531,8 +10381,6 @@ const { status, data } = await apiInstance.describeGitBranchList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBranchListRequest** | **DescribeGitBranchListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBranchList'|
 
 
 ### Return type
@@ -11541,7 +10389,7 @@ const { status, data } = await apiInstance.describeGitBranchList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11573,13 +10421,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBranches')
 let describeGitBranchesRequest: DescribeGitBranchesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBranches(
-    authorization,
-    action,
     describeGitBranchesRequest
 );
 ```
@@ -11589,8 +10433,6 @@ const { status, data } = await apiInstance.describeGitBranches(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBranchesRequest** | **DescribeGitBranchesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBranches'|
 
 
 ### Return type
@@ -11599,7 +10441,7 @@ const { status, data } = await apiInstance.describeGitBranches(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11631,13 +10473,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitBranchesBySha')
 let describeGitBranchesByShaRequest: DescribeGitBranchesByShaRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitBranchesBySha(
-    authorization,
-    action,
     describeGitBranchesByShaRequest
 );
 ```
@@ -11647,8 +10485,6 @@ const { status, data } = await apiInstance.describeGitBranchesBySha(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitBranchesByShaRequest** | **DescribeGitBranchesByShaRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitBranchesBySha'|
 
 
 ### Return type
@@ -11657,7 +10493,7 @@ const { status, data } = await apiInstance.describeGitBranchesBySha(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11689,13 +10525,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitComments')
 let describeGitCommitCommentsRequest: DescribeGitCommitCommentsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitComments(
-    authorization,
-    action,
     describeGitCommitCommentsRequest
 );
 ```
@@ -11705,8 +10537,6 @@ const { status, data } = await apiInstance.describeGitCommitComments(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitCommentsRequest** | **DescribeGitCommitCommentsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitComments'|
 
 
 ### Return type
@@ -11715,7 +10545,7 @@ const { status, data } = await apiInstance.describeGitCommitComments(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11747,13 +10577,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitDiff')
 let describeGitCommitDiffRequest: DescribeGitCommitDiffRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitDiff(
-    authorization,
-    action,
     describeGitCommitDiffRequest
 );
 ```
@@ -11763,8 +10589,6 @@ const { status, data } = await apiInstance.describeGitCommitDiff(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitDiffRequest** | **DescribeGitCommitDiffRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitDiff'|
 
 
 ### Return type
@@ -11773,7 +10597,7 @@ const { status, data } = await apiInstance.describeGitCommitDiff(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11805,13 +10629,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitFilePathList')
 let describeGitCommitFilePathListRequest: DescribeGitCommitFilePathListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitFilePathList(
-    authorization,
-    action,
     describeGitCommitFilePathListRequest
 );
 ```
@@ -11821,8 +10641,6 @@ const { status, data } = await apiInstance.describeGitCommitFilePathList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitFilePathListRequest** | **DescribeGitCommitFilePathListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitFilePathList'|
 
 
 ### Return type
@@ -11831,7 +10649,7 @@ const { status, data } = await apiInstance.describeGitCommitFilePathList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11863,13 +10681,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitInfo')
 let describeGitCommitInfoRequest: DescribeGitCommitInfoRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitInfo(
-    authorization,
-    action,
     describeGitCommitInfoRequest
 );
 ```
@@ -11879,8 +10693,6 @@ const { status, data } = await apiInstance.describeGitCommitInfo(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitInfoRequest** | **DescribeGitCommitInfoRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitInfo'|
 
 
 ### Return type
@@ -11889,7 +10701,7 @@ const { status, data } = await apiInstance.describeGitCommitInfo(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11921,13 +10733,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitInfos')
 let describeGitCommitInfosRequest: DescribeGitCommitInfosRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitInfos(
-    authorization,
-    action,
     describeGitCommitInfosRequest
 );
 ```
@@ -11937,8 +10745,6 @@ const { status, data } = await apiInstance.describeGitCommitInfos(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitInfosRequest** | **DescribeGitCommitInfosRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitInfos'|
 
 
 ### Return type
@@ -11947,7 +10753,7 @@ const { status, data } = await apiInstance.describeGitCommitInfos(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -11979,13 +10785,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitNote')
 let describeGitCommitNoteRequest: DescribeGitCommitNoteRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitNote(
-    authorization,
-    action,
     describeGitCommitNoteRequest
 );
 ```
@@ -11995,8 +10797,6 @@ const { status, data } = await apiInstance.describeGitCommitNote(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitNoteRequest** | **DescribeGitCommitNoteRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitNote'|
 
 
 ### Return type
@@ -12005,7 +10805,7 @@ const { status, data } = await apiInstance.describeGitCommitNote(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12037,13 +10837,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitStatus')
 let describeGitCommitStatusRequest: DescribeGitCommitStatusRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitStatus(
-    authorization,
-    action,
     describeGitCommitStatusRequest
 );
 ```
@@ -12053,8 +10849,6 @@ const { status, data } = await apiInstance.describeGitCommitStatus(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitStatusRequest** | **DescribeGitCommitStatusRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitStatus'|
 
 
 ### Return type
@@ -12063,7 +10857,7 @@ const { status, data } = await apiInstance.describeGitCommitStatus(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12095,13 +10889,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitCommitsInPage')
 let describeGitCommitInfosRequest: DescribeGitCommitInfosRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitCommitsInPage(
-    authorization,
-    action,
     describeGitCommitInfosRequest
 );
 ```
@@ -12111,8 +10901,6 @@ const { status, data } = await apiInstance.describeGitCommitsInPage(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitCommitInfosRequest** | **DescribeGitCommitInfosRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitCommitsInPage'|
 
 
 ### Return type
@@ -12121,7 +10909,7 @@ const { status, data } = await apiInstance.describeGitCommitsInPage(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12153,13 +10941,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitContributors')
 let describeGitContributorsRequest: DescribeGitContributorsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitContributors(
-    authorization,
-    action,
     describeGitContributorsRequest
 );
 ```
@@ -12169,8 +10953,6 @@ const { status, data } = await apiInstance.describeGitContributors(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitContributorsRequest** | **DescribeGitContributorsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitContributors'|
 
 
 ### Return type
@@ -12179,7 +10961,7 @@ const { status, data } = await apiInstance.describeGitContributors(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12211,13 +10993,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitDepot')
 let describeGitDepotRequest: DescribeGitDepotRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitDepot(
-    authorization,
-    action,
     describeGitDepotRequest
 );
 ```
@@ -12227,8 +11005,6 @@ const { status, data } = await apiInstance.describeGitDepot(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitDepotRequest** | **DescribeGitDepotRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitDepot'|
 
 
 ### Return type
@@ -12237,7 +11013,7 @@ const { status, data } = await apiInstance.describeGitDepot(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12269,13 +11045,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitDepotDeployKeys')
 let describeGitDepotDeployKeysRequest: DescribeGitDepotDeployKeysRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitDepotDeployKeys(
-    authorization,
-    action,
     describeGitDepotDeployKeysRequest
 );
 ```
@@ -12285,8 +11057,6 @@ const { status, data } = await apiInstance.describeGitDepotDeployKeys(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitDepotDeployKeysRequest** | **DescribeGitDepotDeployKeysRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitDepotDeployKeys'|
 
 
 ### Return type
@@ -12295,7 +11065,7 @@ const { status, data } = await apiInstance.describeGitDepotDeployKeys(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12327,13 +11097,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitFile')
 let describeGitFileRequest: DescribeGitFileRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitFile(
-    authorization,
-    action,
     describeGitFileRequest
 );
 ```
@@ -12343,8 +11109,6 @@ const { status, data } = await apiInstance.describeGitFile(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitFileRequest** | **DescribeGitFileRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitFile'|
 
 
 ### Return type
@@ -12353,7 +11117,7 @@ const { status, data } = await apiInstance.describeGitFile(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12385,13 +11149,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitFileContent')
 let describeGitFileContentRequest: DescribeGitFileContentRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitFileContent(
-    authorization,
-    action,
     describeGitFileContentRequest
 );
 ```
@@ -12401,8 +11161,6 @@ const { status, data } = await apiInstance.describeGitFileContent(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitFileContentRequest** | **DescribeGitFileContentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitFileContent'|
 
 
 ### Return type
@@ -12411,7 +11169,7 @@ const { status, data } = await apiInstance.describeGitFileContent(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12443,13 +11201,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitFileStat')
 let describeGitFileStatRequest: DescribeGitFileStatRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitFileStat(
-    authorization,
-    action,
     describeGitFileStatRequest
 );
 ```
@@ -12459,8 +11213,6 @@ const { status, data } = await apiInstance.describeGitFileStat(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitFileStatRequest** | **DescribeGitFileStatRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitFileStat'|
 
 
 ### Return type
@@ -12469,7 +11221,7 @@ const { status, data } = await apiInstance.describeGitFileStat(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12501,13 +11253,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitFiles')
 let describeGitFilesRequest: DescribeGitFilesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitFiles(
-    authorization,
-    action,
     describeGitFilesRequest
 );
 ```
@@ -12517,8 +11265,6 @@ const { status, data } = await apiInstance.describeGitFiles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitFilesRequest** | **DescribeGitFilesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitFiles'|
 
 
 ### Return type
@@ -12527,7 +11273,7 @@ const { status, data } = await apiInstance.describeGitFiles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12559,13 +11305,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitMergeBase')
 let describeGitMergeBaseRequest: DescribeGitMergeBaseRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitMergeBase(
-    authorization,
-    action,
     describeGitMergeBaseRequest
 );
 ```
@@ -12575,8 +11317,6 @@ const { status, data } = await apiInstance.describeGitMergeBase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitMergeBaseRequest** | **DescribeGitMergeBaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitMergeBase'|
 
 
 ### Return type
@@ -12585,7 +11325,7 @@ const { status, data } = await apiInstance.describeGitMergeBase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12617,13 +11357,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitMergeRequestDiffDetail')
 let describeGitMergeRequestDiffDetailRequest: DescribeGitMergeRequestDiffDetailRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitMergeRequestDiffDetail(
-    authorization,
-    action,
     describeGitMergeRequestDiffDetailRequest
 );
 ```
@@ -12633,8 +11369,6 @@ const { status, data } = await apiInstance.describeGitMergeRequestDiffDetail(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitMergeRequestDiffDetailRequest** | **DescribeGitMergeRequestDiffDetailRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitMergeRequestDiffDetail'|
 
 
 ### Return type
@@ -12643,7 +11377,7 @@ const { status, data } = await apiInstance.describeGitMergeRequestDiffDetail(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12675,13 +11409,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitMergeRequestDiffs')
 let describeGitMergeRequestDiffsRequest: DescribeGitMergeRequestDiffsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitMergeRequestDiffs(
-    authorization,
-    action,
     describeGitMergeRequestDiffsRequest
 );
 ```
@@ -12691,8 +11421,6 @@ const { status, data } = await apiInstance.describeGitMergeRequestDiffs(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitMergeRequestDiffsRequest** | **DescribeGitMergeRequestDiffsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitMergeRequestDiffs'|
 
 
 ### Return type
@@ -12701,7 +11429,7 @@ const { status, data } = await apiInstance.describeGitMergeRequestDiffs(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12733,13 +11461,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitMergeRequestParticipants')
 let describeGitMergeRequestParticipantsRequest: DescribeGitMergeRequestParticipantsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitMergeRequestParticipants(
-    authorization,
-    action,
     describeGitMergeRequestParticipantsRequest
 );
 ```
@@ -12749,8 +11473,6 @@ const { status, data } = await apiInstance.describeGitMergeRequestParticipants(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitMergeRequestParticipantsRequest** | **DescribeGitMergeRequestParticipantsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitMergeRequestParticipants'|
 
 
 ### Return type
@@ -12759,7 +11481,7 @@ const { status, data } = await apiInstance.describeGitMergeRequestParticipants(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12791,13 +11513,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitMergeRequestsBySha')
 let describeGitMergeRequestsByShaRequest: DescribeGitMergeRequestsByShaRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitMergeRequestsBySha(
-    authorization,
-    action,
     describeGitMergeRequestsByShaRequest
 );
 ```
@@ -12807,8 +11525,6 @@ const { status, data } = await apiInstance.describeGitMergeRequestsBySha(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitMergeRequestsByShaRequest** | **DescribeGitMergeRequestsByShaRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitMergeRequestsBySha'|
 
 
 ### Return type
@@ -12817,7 +11533,7 @@ const { status, data } = await apiInstance.describeGitMergeRequestsBySha(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12849,13 +11565,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitProjectDeployKeys')
 let describeGitProjectDeployKeysRequest: DescribeGitProjectDeployKeysRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitProjectDeployKeys(
-    authorization,
-    action,
     describeGitProjectDeployKeysRequest
 );
 ```
@@ -12865,8 +11577,6 @@ const { status, data } = await apiInstance.describeGitProjectDeployKeys(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitProjectDeployKeysRequest** | **DescribeGitProjectDeployKeysRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitProjectDeployKeys'|
 
 
 ### Return type
@@ -12875,7 +11585,7 @@ const { status, data } = await apiInstance.describeGitProjectDeployKeys(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12907,13 +11617,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitProtectedTags')
 let describeGitProtectedTagsRequest: DescribeGitProtectedTagsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitProtectedTags(
-    authorization,
-    action,
     describeGitProtectedTagsRequest
 );
 ```
@@ -12923,8 +11629,6 @@ const { status, data } = await apiInstance.describeGitProtectedTags(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitProtectedTagsRequest** | **DescribeGitProtectedTagsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitProtectedTags'|
 
 
 ### Return type
@@ -12933,7 +11637,7 @@ const { status, data } = await apiInstance.describeGitProtectedTags(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -12965,13 +11669,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitProtectedTagsByRule')
 let describeGitProtectedTagsByRuleRequest: DescribeGitProtectedTagsByRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitProtectedTagsByRule(
-    authorization,
-    action,
     describeGitProtectedTagsByRuleRequest
 );
 ```
@@ -12981,8 +11681,6 @@ const { status, data } = await apiInstance.describeGitProtectedTagsByRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitProtectedTagsByRuleRequest** | **DescribeGitProtectedTagsByRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitProtectedTagsByRule'|
 
 
 ### Return type
@@ -12991,7 +11689,7 @@ const { status, data } = await apiInstance.describeGitProtectedTagsByRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13023,13 +11721,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitRef')
 let describeGitRefRequest: DescribeGitRefRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitRef(
-    authorization,
-    action,
     describeGitRefRequest
 );
 ```
@@ -13039,8 +11733,6 @@ const { status, data } = await apiInstance.describeGitRef(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitRefRequest** | **DescribeGitRefRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitRef'|
 
 
 ### Return type
@@ -13049,7 +11741,7 @@ const { status, data } = await apiInstance.describeGitRef(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13081,13 +11773,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitRefsBySha')
 let describeGitRefsByShaRequest: DescribeGitRefsByShaRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitRefsBySha(
-    authorization,
-    action,
     describeGitRefsByShaRequest
 );
 ```
@@ -13097,8 +11785,6 @@ const { status, data } = await apiInstance.describeGitRefsBySha(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitRefsByShaRequest** | **DescribeGitRefsByShaRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitRefsBySha'|
 
 
 ### Return type
@@ -13107,7 +11793,7 @@ const { status, data } = await apiInstance.describeGitRefsBySha(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13139,13 +11825,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitReleaseDetail')
 let describeGitReleaseDetailRequest: DescribeGitReleaseDetailRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitReleaseDetail(
-    authorization,
-    action,
     describeGitReleaseDetailRequest
 );
 ```
@@ -13155,8 +11837,6 @@ const { status, data } = await apiInstance.describeGitReleaseDetail(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitReleaseDetailRequest** | **DescribeGitReleaseDetailRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitReleaseDetail'|
 
 
 ### Return type
@@ -13165,7 +11845,7 @@ const { status, data } = await apiInstance.describeGitReleaseDetail(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13197,13 +11877,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitReleases')
 let describeGitReleasesRequest: DescribeGitReleasesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitReleases(
-    authorization,
-    action,
     describeGitReleasesRequest
 );
 ```
@@ -13213,8 +11889,6 @@ const { status, data } = await apiInstance.describeGitReleases(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitReleasesRequest** | **DescribeGitReleasesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitReleases'|
 
 
 ### Return type
@@ -13223,7 +11897,7 @@ const { status, data } = await apiInstance.describeGitReleases(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13255,13 +11929,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitTag')
 let describeGitTagRequest: DescribeGitTagRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitTag(
-    authorization,
-    action,
     describeGitTagRequest
 );
 ```
@@ -13271,8 +11941,6 @@ const { status, data } = await apiInstance.describeGitTag(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitTagRequest** | **DescribeGitTagRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitTag'|
 
 
 ### Return type
@@ -13281,7 +11949,7 @@ const { status, data } = await apiInstance.describeGitTag(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13313,13 +11981,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitTags')
 let describeGitTagsRequest: DescribeGitTagsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitTags(
-    authorization,
-    action,
     describeGitTagsRequest
 );
 ```
@@ -13329,8 +11993,6 @@ const { status, data } = await apiInstance.describeGitTags(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitTagsRequest** | **DescribeGitTagsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitTags'|
 
 
 ### Return type
@@ -13339,7 +12001,7 @@ const { status, data } = await apiInstance.describeGitTags(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13371,13 +12033,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitTagsByBranch')
 let describeGitTagsByBranchRequest: DescribeGitTagsByBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitTagsByBranch(
-    authorization,
-    action,
     describeGitTagsByBranchRequest
 );
 ```
@@ -13387,8 +12045,6 @@ const { status, data } = await apiInstance.describeGitTagsByBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitTagsByBranchRequest** | **DescribeGitTagsByBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitTagsByBranch'|
 
 
 ### Return type
@@ -13397,7 +12053,7 @@ const { status, data } = await apiInstance.describeGitTagsByBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13429,13 +12085,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitTagsBySha')
 let describeGitTagsByShaRequest: DescribeGitTagsByShaRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitTagsBySha(
-    authorization,
-    action,
     describeGitTagsByShaRequest
 );
 ```
@@ -13445,8 +12097,6 @@ const { status, data } = await apiInstance.describeGitTagsBySha(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitTagsByShaRequest** | **DescribeGitTagsByShaRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitTagsBySha'|
 
 
 ### Return type
@@ -13455,7 +12105,7 @@ const { status, data } = await apiInstance.describeGitTagsBySha(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13487,13 +12137,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGitTree')
 let describeGitTreeRequest: DescribeGitTreeRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGitTree(
-    authorization,
-    action,
     describeGitTreeRequest
 );
 ```
@@ -13503,8 +12149,6 @@ const { status, data } = await apiInstance.describeGitTree(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGitTreeRequest** | **DescribeGitTreeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGitTree'|
 
 
 ### Return type
@@ -13513,7 +12157,7 @@ const { status, data } = await apiInstance.describeGitTree(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13545,13 +12189,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGrantObjectsOnResource')
 let describeGrantObjectsOnResourceRequest: DescribeGrantObjectsOnResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGrantObjectsOnResource(
-    authorization,
-    action,
     describeGrantObjectsOnResourceRequest
 );
 ```
@@ -13561,8 +12201,6 @@ const { status, data } = await apiInstance.describeGrantObjectsOnResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGrantObjectsOnResourceRequest** | **DescribeGrantObjectsOnResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGrantObjectsOnResource'|
 
 
 ### Return type
@@ -13571,7 +12209,7 @@ const { status, data } = await apiInstance.describeGrantObjectsOnResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13603,13 +12241,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeGrantUsersOnResource')
 let describeGrantUsersOnResourceRequest: DescribeGrantUsersOnResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.describeGrantUsersOnResource(
-    authorization,
-    action,
     describeGrantUsersOnResourceRequest
 );
 ```
@@ -13619,8 +12253,6 @@ const { status, data } = await apiInstance.describeGrantUsersOnResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeGrantUsersOnResourceRequest** | **DescribeGrantUsersOnResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeGrantUsersOnResource'|
 
 
 ### Return type
@@ -13629,7 +12261,7 @@ const { status, data } = await apiInstance.describeGrantUsersOnResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13662,13 +12294,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeHostServerInstance')
 let describeHostServerInstanceRequest: DescribeHostServerInstanceRequest; // (optional)
 
 const { status, data } = await apiInstance.describeHostServerInstance(
-    authorization,
-    action,
     describeHostServerInstanceRequest
 );
 ```
@@ -13678,8 +12306,6 @@ const { status, data } = await apiInstance.describeHostServerInstance(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeHostServerInstanceRequest** | **DescribeHostServerInstanceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeHostServerInstance'|
 
 
 ### Return type
@@ -13688,7 +12314,7 @@ const { status, data } = await apiInstance.describeHostServerInstance(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13721,13 +12347,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssue')
 let describeIssueRequest: DescribeIssueRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssue(
-    authorization,
-    action,
     describeIssueRequest
 );
 ```
@@ -13737,8 +12359,6 @@ const { status, data } = await apiInstance.describeIssue(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueRequest** | **DescribeIssueRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssue'|
 
 
 ### Return type
@@ -13747,7 +12367,7 @@ const { status, data } = await apiInstance.describeIssue(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13779,13 +12399,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueAttachmentPreSignedUrl')
 let describeIssueAttachmentPreSignedUrlRequest: DescribeIssueAttachmentPreSignedUrlRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueAttachmentPreSignedUrl(
-    authorization,
-    action,
     describeIssueAttachmentPreSignedUrlRequest
 );
 ```
@@ -13795,8 +12411,6 @@ const { status, data } = await apiInstance.describeIssueAttachmentPreSignedUrl(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueAttachmentPreSignedUrlRequest** | **DescribeIssueAttachmentPreSignedUrlRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueAttachmentPreSignedUrl'|
 
 
 ### Return type
@@ -13805,7 +12419,7 @@ const { status, data } = await apiInstance.describeIssueAttachmentPreSignedUrl(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13838,13 +12452,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueByStatusUpdate')
 let describeIssueByStatusUpdateRequest: DescribeIssueByStatusUpdateRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueByStatusUpdate(
-    authorization,
-    action,
     describeIssueByStatusUpdateRequest
 );
 ```
@@ -13854,8 +12464,6 @@ const { status, data } = await apiInstance.describeIssueByStatusUpdate(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueByStatusUpdateRequest** | **DescribeIssueByStatusUpdateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueByStatusUpdate'|
 
 
 ### Return type
@@ -13864,7 +12472,7 @@ const { status, data } = await apiInstance.describeIssueByStatusUpdate(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13896,13 +12504,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueCommentList')
 let describeIssueCommentListRequest: DescribeIssueCommentListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueCommentList(
-    authorization,
-    action,
     describeIssueCommentListRequest
 );
 ```
@@ -13912,8 +12516,6 @@ const { status, data } = await apiInstance.describeIssueCommentList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueCommentListRequest** | **DescribeIssueCommentListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueCommentList'|
 
 
 ### Return type
@@ -13922,7 +12524,7 @@ const { status, data } = await apiInstance.describeIssueCommentList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -13954,13 +12556,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueCustomFieldLogList')
 let describeIssueCustomFieldLogListRequest: DescribeIssueCustomFieldLogListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueCustomFieldLogList(
-    authorization,
-    action,
     describeIssueCustomFieldLogListRequest
 );
 ```
@@ -13970,8 +12568,6 @@ const { status, data } = await apiInstance.describeIssueCustomFieldLogList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueCustomFieldLogListRequest** | **DescribeIssueCustomFieldLogListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueCustomFieldLogList'|
 
 
 ### Return type
@@ -13980,7 +12576,7 @@ const { status, data } = await apiInstance.describeIssueCustomFieldLogList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14012,13 +12608,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueFileUrl')
 let describeIssueFileUrlRequest: DescribeIssueFileUrlRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueFileUrl(
-    authorization,
-    action,
     describeIssueFileUrlRequest
 );
 ```
@@ -14028,8 +12620,6 @@ const { status, data } = await apiInstance.describeIssueFileUrl(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueFileUrlRequest** | **DescribeIssueFileUrlRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueFileUrl'|
 
 
 ### Return type
@@ -14038,7 +12628,7 @@ const { status, data } = await apiInstance.describeIssueFileUrl(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14070,13 +12660,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueFilterList')
 let describeIssueFilterListRequest: DescribeIssueFilterListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueFilterList(
-    authorization,
-    action,
     describeIssueFilterListRequest
 );
 ```
@@ -14086,8 +12672,6 @@ const { status, data } = await apiInstance.describeIssueFilterList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueFilterListRequest** | **DescribeIssueFilterListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueFilterList'|
 
 
 ### Return type
@@ -14096,7 +12680,7 @@ const { status, data } = await apiInstance.describeIssueFilterList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14128,13 +12712,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueList')
 let describeIssueListRequest: DescribeIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueList(
-    authorization,
-    action,
     describeIssueListRequest
 );
 ```
@@ -14144,8 +12724,6 @@ const { status, data } = await apiInstance.describeIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueListRequest** | **DescribeIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueList'|
 
 
 ### Return type
@@ -14154,7 +12732,7 @@ const { status, data } = await apiInstance.describeIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14186,13 +12764,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueListWithPage')
 let describeIssueListWithPageRequest: DescribeIssueListWithPageRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueListWithPage(
-    authorization,
-    action,
     describeIssueListWithPageRequest
 );
 ```
@@ -14202,8 +12776,6 @@ const { status, data } = await apiInstance.describeIssueListWithPage(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueListWithPageRequest** | **DescribeIssueListWithPageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueListWithPage'|
 
 
 ### Return type
@@ -14212,7 +12784,7 @@ const { status, data } = await apiInstance.describeIssueListWithPage(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14244,13 +12816,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueLogList')
 let describeIssueLogListRequest: DescribeIssueLogListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueLogList(
-    authorization,
-    action,
     describeIssueLogListRequest
 );
 ```
@@ -14260,8 +12828,6 @@ const { status, data } = await apiInstance.describeIssueLogList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueLogListRequest** | **DescribeIssueLogListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueLogList'|
 
 
 ### Return type
@@ -14270,7 +12836,7 @@ const { status, data } = await apiInstance.describeIssueLogList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14303,13 +12869,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueModuleList')
 let describeWikiListRequest: DescribeWikiListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueModuleList(
-    authorization,
-    action,
     describeWikiListRequest
 );
 ```
@@ -14319,8 +12881,6 @@ const { status, data } = await apiInstance.describeIssueModuleList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWikiListRequest** | **DescribeWikiListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueModuleList'|
 
 
 ### Return type
@@ -14329,7 +12889,7 @@ const { status, data } = await apiInstance.describeIssueModuleList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14361,13 +12921,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueReferenceResources')
 let describeIssueReferenceResourcesRequest: DescribeIssueReferenceResourcesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueReferenceResources(
-    authorization,
-    action,
     describeIssueReferenceResourcesRequest
 );
 ```
@@ -14377,8 +12933,6 @@ const { status, data } = await apiInstance.describeIssueReferenceResources(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueReferenceResourcesRequest** | **DescribeIssueReferenceResourcesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueReferenceResources'|
 
 
 ### Return type
@@ -14387,7 +12941,7 @@ const { status, data } = await apiInstance.describeIssueReferenceResources(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14419,13 +12973,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueRelatedRepos')
 let describeIssueRelatedReposRequest: DescribeIssueRelatedReposRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueRelatedRepos(
-    authorization,
-    action,
     describeIssueRelatedReposRequest
 );
 ```
@@ -14435,8 +12985,6 @@ const { status, data } = await apiInstance.describeIssueRelatedRepos(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueRelatedReposRequest** | **DescribeIssueRelatedReposRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueRelatedRepos'|
 
 
 ### Return type
@@ -14445,7 +12993,7 @@ const { status, data } = await apiInstance.describeIssueRelatedRepos(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14477,13 +13025,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueRelatedWorkItemList')
 let describeIssueRelatedWorkItemListRequest: DescribeIssueRelatedWorkItemListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueRelatedWorkItemList(
-    authorization,
-    action,
     describeIssueRelatedWorkItemListRequest
 );
 ```
@@ -14493,8 +13037,6 @@ const { status, data } = await apiInstance.describeIssueRelatedWorkItemList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueRelatedWorkItemListRequest** | **DescribeIssueRelatedWorkItemListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueRelatedWorkItemList'|
 
 
 ### Return type
@@ -14503,7 +13045,7 @@ const { status, data } = await apiInstance.describeIssueRelatedWorkItemList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14535,13 +13077,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueReleaseList')
 let describeIssueRelatedReposRequest: DescribeIssueRelatedReposRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueReleaseList(
-    authorization,
-    action,
     describeIssueRelatedReposRequest
 );
 ```
@@ -14551,8 +13089,6 @@ const { status, data } = await apiInstance.describeIssueReleaseList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueRelatedReposRequest** | **DescribeIssueRelatedReposRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueReleaseList'|
 
 
 ### Return type
@@ -14561,7 +13097,7 @@ const { status, data } = await apiInstance.describeIssueReleaseList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14593,13 +13129,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueStatusChangeLogList')
 let describeIssueStatusChangeLogListRequest: DescribeIssueStatusChangeLogListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueStatusChangeLogList(
-    authorization,
-    action,
     describeIssueStatusChangeLogListRequest
 );
 ```
@@ -14609,8 +13141,6 @@ const { status, data } = await apiInstance.describeIssueStatusChangeLogList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueStatusChangeLogListRequest** | **DescribeIssueStatusChangeLogListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueStatusChangeLogList'|
 
 
 ### Return type
@@ -14619,7 +13149,7 @@ const { status, data } = await apiInstance.describeIssueStatusChangeLogList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14651,13 +13181,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIssueWorkLogList')
 let describeIssueWorkLogListRequest: DescribeIssueWorkLogListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIssueWorkLogList(
-    authorization,
-    action,
     describeIssueWorkLogListRequest
 );
 ```
@@ -14667,8 +13193,6 @@ const { status, data } = await apiInstance.describeIssueWorkLogList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIssueWorkLogListRequest** | **DescribeIssueWorkLogListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIssueWorkLogList'|
 
 
 ### Return type
@@ -14677,7 +13201,7 @@ const { status, data } = await apiInstance.describeIssueWorkLogList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14709,13 +13233,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIteration')
 let deleteIterationRequest: DeleteIterationRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIteration(
-    authorization,
-    action,
     deleteIterationRequest
 );
 ```
@@ -14725,8 +13245,6 @@ const { status, data } = await apiInstance.describeIteration(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteIterationRequest** | **DeleteIterationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIteration'|
 
 
 ### Return type
@@ -14735,7 +13253,7 @@ const { status, data } = await apiInstance.describeIteration(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14767,13 +13285,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeIterationList')
 let describeIterationListRequest: DescribeIterationListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeIterationList(
-    authorization,
-    action,
     describeIterationListRequest
 );
 ```
@@ -14783,8 +13297,6 @@ const { status, data } = await apiInstance.describeIterationList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeIterationListRequest** | **DescribeIterationListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeIterationList'|
 
 
 ### Return type
@@ -14793,7 +13305,7 @@ const { status, data } = await apiInstance.describeIterationList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14825,13 +13337,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMemberSshKey')
 let describeMemberSshKeyRequest: DescribeMemberSshKeyRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMemberSshKey(
-    authorization,
-    action,
     describeMemberSshKeyRequest
 );
 ```
@@ -14841,8 +13349,6 @@ const { status, data } = await apiInstance.describeMemberSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMemberSshKeyRequest** | **DescribeMemberSshKeyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMemberSshKey'|
 
 
 ### Return type
@@ -14851,7 +13357,7 @@ const { status, data } = await apiInstance.describeMemberSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14883,13 +13389,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeReqCommits')
 let describeMergeReqCommitsRequest: DescribeMergeReqCommitsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeReqCommits(
-    authorization,
-    action,
     describeMergeReqCommitsRequest
 );
 ```
@@ -14899,8 +13401,6 @@ const { status, data } = await apiInstance.describeMergeReqCommits(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMergeReqCommitsRequest** | **DescribeMergeReqCommitsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeReqCommits'|
 
 
 ### Return type
@@ -14909,7 +13409,7 @@ const { status, data } = await apiInstance.describeMergeReqCommits(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14941,13 +13441,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeReqInfo')
 let describeMergeReqInfoRequest: DescribeMergeReqInfoRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeReqInfo(
-    authorization,
-    action,
     describeMergeReqInfoRequest
 );
 ```
@@ -14957,8 +13453,6 @@ const { status, data } = await apiInstance.describeMergeReqInfo(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMergeReqInfoRequest** | **DescribeMergeReqInfoRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeReqInfo'|
 
 
 ### Return type
@@ -14967,7 +13461,7 @@ const { status, data } = await apiInstance.describeMergeReqInfo(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -14999,13 +13493,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeRequest')
 let describeMergeRequestRequest: DescribeMergeRequestRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeRequest(
-    authorization,
-    action,
     describeMergeRequestRequest
 );
 ```
@@ -15015,8 +13505,6 @@ const { status, data } = await apiInstance.describeMergeRequest(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMergeRequestRequest** | **DescribeMergeRequestRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeRequest'|
 
 
 ### Return type
@@ -15025,7 +13513,7 @@ const { status, data } = await apiInstance.describeMergeRequest(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15057,13 +13545,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeRequestFileDiff')
 let describeMergeRequestFileDiffRequest: DescribeMergeRequestFileDiffRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeRequestFileDiff(
-    authorization,
-    action,
     describeMergeRequestFileDiffRequest
 );
 ```
@@ -15073,8 +13557,6 @@ const { status, data } = await apiInstance.describeMergeRequestFileDiff(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMergeRequestFileDiffRequest** | **DescribeMergeRequestFileDiffRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeRequestFileDiff'|
 
 
 ### Return type
@@ -15083,7 +13565,7 @@ const { status, data } = await apiInstance.describeMergeRequestFileDiff(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15115,13 +13597,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeRequestLog')
 let modifyCloseMRRequest: ModifyCloseMRRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeRequestLog(
-    authorization,
-    action,
     modifyCloseMRRequest
 );
 ```
@@ -15131,8 +13609,6 @@ const { status, data } = await apiInstance.describeMergeRequestLog(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCloseMRRequest** | **ModifyCloseMRRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeRequestLog'|
 
 
 ### Return type
@@ -15141,7 +13617,7 @@ const { status, data } = await apiInstance.describeMergeRequestLog(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15173,13 +13649,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMergeRequestReviewers')
 let describeMergeRequestReviewersRequest: DescribeMergeRequestReviewersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMergeRequestReviewers(
-    authorization,
-    action,
     describeMergeRequestReviewersRequest
 );
 ```
@@ -15189,8 +13661,6 @@ const { status, data } = await apiInstance.describeMergeRequestReviewers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMergeRequestReviewersRequest** | **DescribeMergeRequestReviewersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMergeRequestReviewers'|
 
 
 ### Return type
@@ -15199,7 +13669,7 @@ const { status, data } = await apiInstance.describeMergeRequestReviewers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15231,13 +13701,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeMyDepots')
 let describeMyDepotsRequest: DescribeMyDepotsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeMyDepots(
-    authorization,
-    action,
     describeMyDepotsRequest
 );
 ```
@@ -15247,8 +13713,6 @@ const { status, data } = await apiInstance.describeMyDepots(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeMyDepotsRequest** | **DescribeMyDepotsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeMyDepots'|
 
 
 ### Return type
@@ -15257,7 +13721,7 @@ const { status, data } = await apiInstance.describeMyDepots(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15289,13 +13753,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeNotesByCommits')
 let describeNotesByCommitsRequest: DescribeNotesByCommitsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeNotesByCommits(
-    authorization,
-    action,
     describeNotesByCommitsRequest
 );
 ```
@@ -15305,8 +13765,6 @@ const { status, data } = await apiInstance.describeNotesByCommits(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeNotesByCommitsRequest** | **DescribeNotesByCommitsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeNotesByCommits'|
 
 
 ### Return type
@@ -15315,7 +13773,7 @@ const { status, data } = await apiInstance.describeNotesByCommits(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15347,13 +13805,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeOneProject')
 let describeOneProjectRequest: DescribeOneProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.describeOneProject(
-    authorization,
-    action,
     describeOneProjectRequest
 );
 ```
@@ -15363,8 +13817,6 @@ const { status, data } = await apiInstance.describeOneProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeOneProjectRequest** | **DescribeOneProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeOneProject'|
 
 
 ### Return type
@@ -15373,7 +13825,7 @@ const { status, data } = await apiInstance.describeOneProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15405,13 +13857,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePersonalExternalDepots')
 let describePersonalExternalDepotsRequest: DescribePersonalExternalDepotsRequest; // (optional)
 
 const { status, data } = await apiInstance.describePersonalExternalDepots(
-    authorization,
-    action,
     describePersonalExternalDepotsRequest
 );
 ```
@@ -15421,8 +13869,6 @@ const { status, data } = await apiInstance.describePersonalExternalDepots(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePersonalExternalDepotsRequest** | **DescribePersonalExternalDepotsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePersonalExternalDepots'|
 
 
 ### Return type
@@ -15431,7 +13877,7 @@ const { status, data } = await apiInstance.describePersonalExternalDepots(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15463,13 +13909,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePinyin')
 let describePinyinRequest: DescribePinyinRequest; // (optional)
 
 const { status, data } = await apiInstance.describePinyin(
-    authorization,
-    action,
     describePinyinRequest
 );
 ```
@@ -15479,8 +13921,6 @@ const { status, data } = await apiInstance.describePinyin(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePinyinRequest** | **DescribePinyinRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePinyin'|
 
 
 ### Return type
@@ -15489,7 +13929,7 @@ const { status, data } = await apiInstance.describePinyin(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15522,13 +13962,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePoliciesOnResourceType')
 let describePoliciesOnResourceTypeRequest: DescribePoliciesOnResourceTypeRequest; // (optional)
 
 const { status, data } = await apiInstance.describePoliciesOnResourceType(
-    authorization,
-    action,
     describePoliciesOnResourceTypeRequest
 );
 ```
@@ -15538,8 +13974,6 @@ const { status, data } = await apiInstance.describePoliciesOnResourceType(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePoliciesOnResourceTypeRequest** | **DescribePoliciesOnResourceTypeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePoliciesOnResourceType'|
 
 
 ### Return type
@@ -15548,7 +13982,7 @@ const { status, data } = await apiInstance.describePoliciesOnResourceType(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15580,13 +14014,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePolicy')
 let describePolicyRequest: DescribePolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.describePolicy(
-    authorization,
-    action,
     describePolicyRequest
 );
 ```
@@ -15596,8 +14026,6 @@ const { status, data } = await apiInstance.describePolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePolicyRequest** | **DescribePolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePolicy'|
 
 
 ### Return type
@@ -15606,7 +14034,7 @@ const { status, data } = await apiInstance.describePolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15638,13 +14066,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePreSignUploadUrl')
 let describePreSignUploadUrlRequest: DescribePreSignUploadUrlRequest; // (optional)
 
 const { status, data } = await apiInstance.describePreSignUploadUrl(
-    authorization,
-    action,
     describePreSignUploadUrlRequest
 );
 ```
@@ -15654,8 +14078,6 @@ const { status, data } = await apiInstance.describePreSignUploadUrl(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePreSignUploadUrlRequest** | **DescribePreSignUploadUrlRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePreSignUploadUrl'|
 
 
 ### Return type
@@ -15664,7 +14086,7 @@ const { status, data } = await apiInstance.describePreSignUploadUrl(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15697,13 +14119,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePredicatePolicyOnResource')
 let describePredicatePolicyOnResourceRequest: DescribePredicatePolicyOnResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.describePredicatePolicyOnResource(
-    authorization,
-    action,
     describePredicatePolicyOnResourceRequest
 );
 ```
@@ -15713,8 +14131,6 @@ const { status, data } = await apiInstance.describePredicatePolicyOnResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePredicatePolicyOnResourceRequest** | **DescribePredicatePolicyOnResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePredicatePolicyOnResource'|
 
 
 ### Return type
@@ -15723,7 +14139,7 @@ const { status, data } = await apiInstance.describePredicatePolicyOnResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15755,13 +14171,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProgramProjects')
 let describeProgramProjectsRequest: DescribeProgramProjectsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProgramProjects(
-    authorization,
-    action,
     describeProgramProjectsRequest
 );
 ```
@@ -15771,8 +14183,6 @@ const { status, data } = await apiInstance.describeProgramProjects(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProgramProjectsRequest** | **DescribeProgramProjectsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProgramProjects'|
 
 
 ### Return type
@@ -15781,7 +14191,7 @@ const { status, data } = await apiInstance.describeProgramProjects(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15813,13 +14223,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribePrograms')
 let describeProgramsRequest: DescribeProgramsRequest; // (optional)
 
 const { status, data } = await apiInstance.describePrograms(
-    authorization,
-    action,
     describeProgramsRequest
 );
 ```
@@ -15829,8 +14235,6 @@ const { status, data } = await apiInstance.describePrograms(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProgramsRequest** | **DescribeProgramsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribePrograms'|
 
 
 ### Return type
@@ -15839,7 +14243,7 @@ const { status, data } = await apiInstance.describePrograms(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15871,13 +14275,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectAnnouncement')
 let describeProjectAnnouncementRequest: DescribeProjectAnnouncementRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectAnnouncement(
-    authorization,
-    action,
     describeProjectAnnouncementRequest
 );
 ```
@@ -15887,8 +14287,6 @@ const { status, data } = await apiInstance.describeProjectAnnouncement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectAnnouncementRequest** | **DescribeProjectAnnouncementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectAnnouncement'|
 
 
 ### Return type
@@ -15897,7 +14295,7 @@ const { status, data } = await apiInstance.describeProjectAnnouncement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15930,13 +14328,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectAnnouncements')
 let describeProjectAnnouncementsRequest: DescribeProjectAnnouncementsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectAnnouncements(
-    authorization,
-    action,
     describeProjectAnnouncementsRequest
 );
 ```
@@ -15946,8 +14340,6 @@ const { status, data } = await apiInstance.describeProjectAnnouncements(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectAnnouncementsRequest** | **DescribeProjectAnnouncementsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectAnnouncements'|
 
 
 ### Return type
@@ -15956,7 +14348,7 @@ const { status, data } = await apiInstance.describeProjectAnnouncements(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -15989,13 +14381,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectByName')
 let describeProjectByNameRequest: DescribeProjectByNameRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectByName(
-    authorization,
-    action,
     describeProjectByNameRequest
 );
 ```
@@ -16005,8 +14393,6 @@ const { status, data } = await apiInstance.describeProjectByName(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectByNameRequest** | **DescribeProjectByNameRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectByName'|
 
 
 ### Return type
@@ -16015,7 +14401,7 @@ const { status, data } = await apiInstance.describeProjectByName(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16047,13 +14433,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectCredentials')
 let describeProjectCredentialsRequest: DescribeProjectCredentialsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectCredentials(
-    authorization,
-    action,
     describeProjectCredentialsRequest
 );
 ```
@@ -16063,8 +14445,6 @@ const { status, data } = await apiInstance.describeProjectCredentials(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectCredentialsRequest** | **DescribeProjectCredentialsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectCredentials'|
 
 
 ### Return type
@@ -16073,7 +14453,7 @@ const { status, data } = await apiInstance.describeProjectCredentials(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16105,13 +14485,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectDepotBranches')
 let describeProjectDepotBranchesRequest: DescribeProjectDepotBranchesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectDepotBranches(
-    authorization,
-    action,
     describeProjectDepotBranchesRequest
 );
 ```
@@ -16121,8 +14497,6 @@ const { status, data } = await apiInstance.describeProjectDepotBranches(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectDepotBranchesRequest** | **DescribeProjectDepotBranchesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectDepotBranches'|
 
 
 ### Return type
@@ -16131,7 +14505,7 @@ const { status, data } = await apiInstance.describeProjectDepotBranches(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16163,13 +14537,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectDepotCommits')
 let describeProjectDepotCommitsRequest: DescribeProjectDepotCommitsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectDepotCommits(
-    authorization,
-    action,
     describeProjectDepotCommitsRequest
 );
 ```
@@ -16179,8 +14549,6 @@ const { status, data } = await apiInstance.describeProjectDepotCommits(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectDepotCommitsRequest** | **DescribeProjectDepotCommitsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectDepotCommits'|
 
 
 ### Return type
@@ -16189,7 +14557,7 @@ const { status, data } = await apiInstance.describeProjectDepotCommits(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16221,13 +14589,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectDepotInfoList')
 let describeProjectDepotInfoListRequest: DescribeProjectDepotInfoListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectDepotInfoList(
-    authorization,
-    action,
     describeProjectDepotInfoListRequest
 );
 ```
@@ -16237,8 +14601,6 @@ const { status, data } = await apiInstance.describeProjectDepotInfoList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectDepotInfoListRequest** | **DescribeProjectDepotInfoListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectDepotInfoList'|
 
 
 ### Return type
@@ -16247,7 +14609,7 @@ const { status, data } = await apiInstance.describeProjectDepotInfoList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16279,13 +14641,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectDepotTags')
 let describeProjectDepotBranchesRequest: DescribeProjectDepotBranchesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectDepotTags(
-    authorization,
-    action,
     describeProjectDepotBranchesRequest
 );
 ```
@@ -16295,8 +14653,6 @@ const { status, data } = await apiInstance.describeProjectDepotTags(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectDepotBranchesRequest** | **DescribeProjectDepotBranchesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectDepotTags'|
 
 
 ### Return type
@@ -16305,7 +14661,7 @@ const { status, data } = await apiInstance.describeProjectDepotTags(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16337,13 +14693,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectDepots')
 let describePersonalExternalDepotsRequest: DescribePersonalExternalDepotsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectDepots(
-    authorization,
-    action,
     describePersonalExternalDepotsRequest
 );
 ```
@@ -16353,8 +14705,6 @@ const { status, data } = await apiInstance.describeProjectDepots(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describePersonalExternalDepotsRequest** | **DescribePersonalExternalDepotsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectDepots'|
 
 
 ### Return type
@@ -16363,7 +14713,7 @@ const { status, data } = await apiInstance.describeProjectDepots(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16395,13 +14745,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectIssueFieldList')
 let describeProjectIssueFieldListRequest: DescribeProjectIssueFieldListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectIssueFieldList(
-    authorization,
-    action,
     describeProjectIssueFieldListRequest
 );
 ```
@@ -16411,8 +14757,6 @@ const { status, data } = await apiInstance.describeProjectIssueFieldList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectIssueFieldListRequest** | **DescribeProjectIssueFieldListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectIssueFieldList'|
 
 
 ### Return type
@@ -16421,7 +14765,7 @@ const { status, data } = await apiInstance.describeProjectIssueFieldList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16453,13 +14797,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectIssueStatusList')
 let describeProjectIssueFieldListRequest: DescribeProjectIssueFieldListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectIssueStatusList(
-    authorization,
-    action,
     describeProjectIssueFieldListRequest
 );
 ```
@@ -16469,8 +14809,6 @@ const { status, data } = await apiInstance.describeProjectIssueStatusList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectIssueFieldListRequest** | **DescribeProjectIssueFieldListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectIssueStatusList'|
 
 
 ### Return type
@@ -16479,7 +14817,7 @@ const { status, data } = await apiInstance.describeProjectIssueStatusList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16511,13 +14849,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectIssueTypeList')
 let describeProjectIssueTypeListRequest: DescribeProjectIssueTypeListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectIssueTypeList(
-    authorization,
-    action,
     describeProjectIssueTypeListRequest
 );
 ```
@@ -16527,8 +14861,6 @@ const { status, data } = await apiInstance.describeProjectIssueTypeList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectIssueTypeListRequest** | **DescribeProjectIssueTypeListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectIssueTypeList'|
 
 
 ### Return type
@@ -16537,7 +14869,7 @@ const { status, data } = await apiInstance.describeProjectIssueTypeList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16569,13 +14901,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectLabels')
 let describeProjectLabelsRequest: DescribeProjectLabelsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectLabels(
-    authorization,
-    action,
     describeProjectLabelsRequest
 );
 ```
@@ -16585,8 +14913,6 @@ const { status, data } = await apiInstance.describeProjectLabels(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectLabelsRequest** | **DescribeProjectLabelsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectLabels'|
 
 
 ### Return type
@@ -16595,7 +14921,7 @@ const { status, data } = await apiInstance.describeProjectLabels(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16627,13 +14953,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectMemberPrincipals')
 let describeProjectMemberPrincipalsRequest: DescribeProjectMemberPrincipalsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectMemberPrincipals(
-    authorization,
-    action,
     describeProjectMemberPrincipalsRequest
 );
 ```
@@ -16643,8 +14965,6 @@ const { status, data } = await apiInstance.describeProjectMemberPrincipals(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectMemberPrincipalsRequest** | **DescribeProjectMemberPrincipalsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectMemberPrincipals'|
 
 
 ### Return type
@@ -16653,7 +14973,7 @@ const { status, data } = await apiInstance.describeProjectMemberPrincipals(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16685,13 +15005,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectMembers')
 let describeProjectMembersRequest: DescribeProjectMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectMembers(
-    authorization,
-    action,
     describeProjectMembersRequest
 );
 ```
@@ -16701,8 +15017,6 @@ const { status, data } = await apiInstance.describeProjectMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectMembersRequest** | **DescribeProjectMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectMembers'|
 
 
 ### Return type
@@ -16711,7 +15025,7 @@ const { status, data } = await apiInstance.describeProjectMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16743,13 +15057,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectMergeRequests')
 let describeProjectMergeRequestsRequest: DescribeProjectMergeRequestsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectMergeRequests(
-    authorization,
-    action,
     describeProjectMergeRequestsRequest
 );
 ```
@@ -16759,8 +15069,6 @@ const { status, data } = await apiInstance.describeProjectMergeRequests(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectMergeRequestsRequest** | **DescribeProjectMergeRequestsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectMergeRequests'|
 
 
 ### Return type
@@ -16769,7 +15077,7 @@ const { status, data } = await apiInstance.describeProjectMergeRequests(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16801,13 +15109,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectRoles')
 let describeProjectRolesRequest: DescribeProjectRolesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectRoles(
-    authorization,
-    action,
     describeProjectRolesRequest
 );
 ```
@@ -16817,8 +15121,6 @@ const { status, data } = await apiInstance.describeProjectRoles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectRolesRequest** | **DescribeProjectRolesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectRoles'|
 
 
 ### Return type
@@ -16827,7 +15129,7 @@ const { status, data } = await apiInstance.describeProjectRoles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16859,13 +15161,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProjectsByFeature')
 let describeProjectsByFeatureRequest: DescribeProjectsByFeatureRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProjectsByFeature(
-    authorization,
-    action,
     describeProjectsByFeatureRequest
 );
 ```
@@ -16875,8 +15173,6 @@ const { status, data } = await apiInstance.describeProjectsByFeature(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProjectsByFeatureRequest** | **DescribeProjectsByFeatureRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProjectsByFeature'|
 
 
 ### Return type
@@ -16885,7 +15181,7 @@ const { status, data } = await apiInstance.describeProjectsByFeature(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16917,13 +15213,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProtectedBranch')
 let describeProtectedBranchRequest: DescribeProtectedBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProtectedBranch(
-    authorization,
-    action,
     describeProtectedBranchRequest
 );
 ```
@@ -16933,8 +15225,6 @@ const { status, data } = await apiInstance.describeProtectedBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProtectedBranchRequest** | **DescribeProtectedBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProtectedBranch'|
 
 
 ### Return type
@@ -16943,7 +15233,7 @@ const { status, data } = await apiInstance.describeProtectedBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -16975,13 +15265,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProtectedBranchMembers')
 let describeProtectedBranchMembersRequest: DescribeProtectedBranchMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProtectedBranchMembers(
-    authorization,
-    action,
     describeProtectedBranchMembersRequest
 );
 ```
@@ -16991,8 +15277,6 @@ const { status, data } = await apiInstance.describeProtectedBranchMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProtectedBranchMembersRequest** | **DescribeProtectedBranchMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProtectedBranchMembers'|
 
 
 ### Return type
@@ -17001,7 +15285,7 @@ const { status, data } = await apiInstance.describeProtectedBranchMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17033,13 +15317,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeProtectedBranches')
 let describeProtectedBranchesRequest: DescribeProtectedBranchesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeProtectedBranches(
-    authorization,
-    action,
     describeProtectedBranchesRequest
 );
 ```
@@ -17049,8 +15329,6 @@ const { status, data } = await apiInstance.describeProtectedBranches(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeProtectedBranchesRequest** | **DescribeProtectedBranchesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeProtectedBranches'|
 
 
 ### Return type
@@ -17059,7 +15337,7 @@ const { status, data } = await apiInstance.describeProtectedBranches(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17091,13 +15369,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeRelatedCaseList')
 let describeRelatedCaseListRequest: DescribeRelatedCaseListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeRelatedCaseList(
-    authorization,
-    action,
     describeRelatedCaseListRequest
 );
 ```
@@ -17107,8 +15381,6 @@ const { status, data } = await apiInstance.describeRelatedCaseList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeRelatedCaseListRequest** | **DescribeRelatedCaseListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeRelatedCaseList'|
 
 
 ### Return type
@@ -17117,7 +15389,7 @@ const { status, data } = await apiInstance.describeRelatedCaseList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17149,13 +15421,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeRelease')
 let describeReleaseRequest: DescribeReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.describeRelease(
-    authorization,
-    action,
     describeReleaseRequest
 );
 ```
@@ -17165,8 +15433,6 @@ const { status, data } = await apiInstance.describeRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeReleaseRequest** | **DescribeReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeRelease'|
 
 
 ### Return type
@@ -17175,7 +15441,7 @@ const { status, data } = await apiInstance.describeRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17207,13 +15473,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeReleaseIssueList')
 let describeReleaseIssueListRequest: DescribeReleaseIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeReleaseIssueList(
-    authorization,
-    action,
     describeReleaseIssueListRequest
 );
 ```
@@ -17223,8 +15485,6 @@ const { status, data } = await apiInstance.describeReleaseIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeReleaseIssueListRequest** | **DescribeReleaseIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeReleaseIssueList'|
 
 
 ### Return type
@@ -17233,7 +15493,7 @@ const { status, data } = await apiInstance.describeReleaseIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17265,13 +15525,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeReleaseList')
 let describeReleaseListRequest: DescribeReleaseListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeReleaseList(
-    authorization,
-    action,
     describeReleaseListRequest
 );
 ```
@@ -17281,8 +15537,6 @@ const { status, data } = await apiInstance.describeReleaseList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeReleaseListRequest** | **DescribeReleaseListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeReleaseList'|
 
 
 ### Return type
@@ -17291,7 +15545,7 @@ const { status, data } = await apiInstance.describeReleaseList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17323,13 +15577,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeReport')
 let deleteReportRequest: DeleteReportRequest; // (optional)
 
 const { status, data } = await apiInstance.describeReport(
-    authorization,
-    action,
     deleteReportRequest
 );
 ```
@@ -17339,8 +15589,6 @@ const { status, data } = await apiInstance.describeReport(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteReportRequest** | **DeleteReportRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeReport'|
 
 
 ### Return type
@@ -17349,7 +15597,7 @@ const { status, data } = await apiInstance.describeReport(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17381,13 +15629,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeReportList')
 let describeReportListRequest: DescribeReportListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeReportList(
-    authorization,
-    action,
     describeReportListRequest
 );
 ```
@@ -17397,8 +15641,6 @@ const { status, data } = await apiInstance.describeReportList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeReportListRequest** | **DescribeReportListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeReportList'|
 
 
 ### Return type
@@ -17407,7 +15649,7 @@ const { status, data } = await apiInstance.describeReportList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17439,13 +15681,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeRequirementDefectRelation')
 let describeRequirementDefectRelationRequest: DescribeRequirementDefectRelationRequest; // (optional)
 
 const { status, data } = await apiInstance.describeRequirementDefectRelation(
-    authorization,
-    action,
     describeRequirementDefectRelationRequest
 );
 ```
@@ -17455,8 +15693,6 @@ const { status, data } = await apiInstance.describeRequirementDefectRelation(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeRequirementDefectRelationRequest** | **DescribeRequirementDefectRelationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeRequirementDefectRelation'|
 
 
 ### Return type
@@ -17465,7 +15701,7 @@ const { status, data } = await apiInstance.describeRequirementDefectRelation(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17497,13 +15733,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeRequirementTestCaseList')
 let describeRequirementTestCaseListRequest: DescribeRequirementTestCaseListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeRequirementTestCaseList(
-    authorization,
-    action,
     describeRequirementTestCaseListRequest
 );
 ```
@@ -17513,8 +15745,6 @@ const { status, data } = await apiInstance.describeRequirementTestCaseList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeRequirementTestCaseListRequest** | **DescribeRequirementTestCaseListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeRequirementTestCaseList'|
 
 
 ### Return type
@@ -17523,7 +15753,7 @@ const { status, data } = await apiInstance.describeRequirementTestCaseList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17555,13 +15785,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeResourceReferencesCited')
 let describeResourceReferencesCitingRequest: DescribeResourceReferencesCitingRequest; // (optional)
 
 const { status, data } = await apiInstance.describeResourceReferencesCited(
-    authorization,
-    action,
     describeResourceReferencesCitingRequest
 );
 ```
@@ -17571,8 +15797,6 @@ const { status, data } = await apiInstance.describeResourceReferencesCited(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeResourceReferencesCitingRequest** | **DescribeResourceReferencesCitingRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeResourceReferencesCited'|
 
 
 ### Return type
@@ -17581,7 +15805,7 @@ const { status, data } = await apiInstance.describeResourceReferencesCited(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17614,13 +15838,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeResourceReferencesCiting')
 let describeResourceReferencesCitingRequest: DescribeResourceReferencesCitingRequest; // (optional)
 
 const { status, data } = await apiInstance.describeResourceReferencesCiting(
-    authorization,
-    action,
     describeResourceReferencesCitingRequest
 );
 ```
@@ -17630,8 +15850,6 @@ const { status, data } = await apiInstance.describeResourceReferencesCiting(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeResourceReferencesCitingRequest** | **DescribeResourceReferencesCitingRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeResourceReferencesCiting'|
 
 
 ### Return type
@@ -17640,7 +15858,7 @@ const { status, data } = await apiInstance.describeResourceReferencesCiting(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17673,13 +15891,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeResourceScopeListOnPolicy')
 let describeResourceScopeListOnPolicyRequest: DescribeResourceScopeListOnPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.describeResourceScopeListOnPolicy(
-    authorization,
-    action,
     describeResourceScopeListOnPolicyRequest
 );
 ```
@@ -17689,8 +15903,6 @@ const { status, data } = await apiInstance.describeResourceScopeListOnPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeResourceScopeListOnPolicyRequest** | **DescribeResourceScopeListOnPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeResourceScopeListOnPolicy'|
 
 
 ### Return type
@@ -17699,7 +15911,7 @@ const { status, data } = await apiInstance.describeResourceScopeListOnPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17731,13 +15943,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeSelfMergeRequests')
 let describeSelfMergeRequestsRequest: DescribeSelfMergeRequestsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeSelfMergeRequests(
-    authorization,
-    action,
     describeSelfMergeRequestsRequest
 );
 ```
@@ -17747,8 +15955,6 @@ const { status, data } = await apiInstance.describeSelfMergeRequests(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeSelfMergeRequestsRequest** | **DescribeSelfMergeRequestsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeSelfMergeRequests'|
 
 
 ### Return type
@@ -17757,7 +15963,7 @@ const { status, data } = await apiInstance.describeSelfMergeRequests(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17789,13 +15995,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeSingeMergeRequestNotes')
 let describeSingeMergeRequestNotesRequest: DescribeSingeMergeRequestNotesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeSingeMergeRequestNotes(
-    authorization,
-    action,
     describeSingeMergeRequestNotesRequest
 );
 ```
@@ -17805,8 +16007,6 @@ const { status, data } = await apiInstance.describeSingeMergeRequestNotes(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeSingeMergeRequestNotesRequest** | **DescribeSingeMergeRequestNotesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeSingeMergeRequestNotes'|
 
 
 ### Return type
@@ -17815,7 +16015,7 @@ const { status, data } = await apiInstance.describeSingeMergeRequestNotes(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17846,13 +16046,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeSshKey')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeSshKey(
-    authorization,
-    action,
     body
 );
 ```
@@ -17862,8 +16058,6 @@ const { status, data } = await apiInstance.describeSshKey(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeSshKey'|
 
 
 ### Return type
@@ -17872,7 +16066,7 @@ const { status, data } = await apiInstance.describeSshKey(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17904,13 +16098,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeSubIssueList')
 let describeSubIssueListRequest: DescribeSubIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeSubIssueList(
-    authorization,
-    action,
     describeSubIssueListRequest
 );
 ```
@@ -17920,8 +16110,6 @@ const { status, data } = await apiInstance.describeSubIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeSubIssueListRequest** | **DescribeSubIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeSubIssueList'|
 
 
 ### Return type
@@ -17930,7 +16118,7 @@ const { status, data } = await apiInstance.describeSubIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -17961,13 +16149,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeam')
 let body: any; // (optional)
 
 const { status, data } = await apiInstance.describeTeam(
-    authorization,
-    action,
     body
 );
 ```
@@ -17977,8 +16161,6 @@ const { status, data } = await apiInstance.describeTeam(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **any**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeam'|
 
 
 ### Return type
@@ -17987,7 +16169,7 @@ const { status, data } = await apiInstance.describeTeam(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18020,13 +16202,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamAdminMembers')
 let describeTeamAdminMembersRequest: DescribeTeamAdminMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamAdminMembers(
-    authorization,
-    action,
     describeTeamAdminMembersRequest
 );
 ```
@@ -18036,8 +16214,6 @@ const { status, data } = await apiInstance.describeTeamAdminMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamAdminMembersRequest** | **DescribeTeamAdminMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamAdminMembers'|
 
 
 ### Return type
@@ -18046,7 +16222,7 @@ const { status, data } = await apiInstance.describeTeamAdminMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18078,13 +16254,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamArtifacts')
 let describeTeamArtifactsRequest: DescribeTeamArtifactsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamArtifacts(
-    authorization,
-    action,
     describeTeamArtifactsRequest
 );
 ```
@@ -18094,8 +16266,6 @@ const { status, data } = await apiInstance.describeTeamArtifacts(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamArtifactsRequest** | **DescribeTeamArtifactsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamArtifacts'|
 
 
 ### Return type
@@ -18104,7 +16274,7 @@ const { status, data } = await apiInstance.describeTeamArtifacts(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18136,13 +16306,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamDepotInfoList')
 let describeTeamDepotInfoListRequest: DescribeTeamDepotInfoListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamDepotInfoList(
-    authorization,
-    action,
     describeTeamDepotInfoListRequest
 );
 ```
@@ -18152,8 +16318,6 @@ const { status, data } = await apiInstance.describeTeamDepotInfoList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamDepotInfoListRequest** | **DescribeTeamDepotInfoListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamDepotInfoList'|
 
 
 ### Return type
@@ -18162,7 +16326,7 @@ const { status, data } = await apiInstance.describeTeamDepotInfoList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18193,13 +16357,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamIssueTypeList')
 let body: object; // (optional)
 
 const { status, data } = await apiInstance.describeTeamIssueTypeList(
-    authorization,
-    action,
     body
 );
 ```
@@ -18209,8 +16369,6 @@ const { status, data } = await apiInstance.describeTeamIssueTypeList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **body** | **object**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamIssueTypeList'|
 
 
 ### Return type
@@ -18219,7 +16377,7 @@ const { status, data } = await apiInstance.describeTeamIssueTypeList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18251,13 +16409,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamIssues')
 let describeTeamIssuesRequest: DescribeTeamIssuesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamIssues(
-    authorization,
-    action,
     describeTeamIssuesRequest
 );
 ```
@@ -18267,8 +16421,6 @@ const { status, data } = await apiInstance.describeTeamIssues(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamIssuesRequest** | **DescribeTeamIssuesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamIssues'|
 
 
 ### Return type
@@ -18277,7 +16429,7 @@ const { status, data } = await apiInstance.describeTeamIssues(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18309,13 +16461,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamMember')
 let describeTeamMemberRequest: DescribeTeamMemberRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamMember(
-    authorization,
-    action,
     describeTeamMemberRequest
 );
 ```
@@ -18325,8 +16473,6 @@ const { status, data } = await apiInstance.describeTeamMember(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamMemberRequest** | **DescribeTeamMemberRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamMember'|
 
 
 ### Return type
@@ -18335,7 +16481,7 @@ const { status, data } = await apiInstance.describeTeamMember(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18367,13 +16513,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamMemberByEmail')
 let describeTeamMemberByEmailRequest: DescribeTeamMemberByEmailRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamMemberByEmail(
-    authorization,
-    action,
     describeTeamMemberByEmailRequest
 );
 ```
@@ -18383,8 +16525,6 @@ const { status, data } = await apiInstance.describeTeamMemberByEmail(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamMemberByEmailRequest** | **DescribeTeamMemberByEmailRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamMemberByEmail'|
 
 
 ### Return type
@@ -18393,7 +16533,7 @@ const { status, data } = await apiInstance.describeTeamMemberByEmail(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18425,13 +16565,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTeamMembers')
 let describeTeamMembersRequest: DescribeTeamMembersRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTeamMembers(
-    authorization,
-    action,
     describeTeamMembersRequest
 );
 ```
@@ -18441,8 +16577,6 @@ const { status, data } = await apiInstance.describeTeamMembers(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTeamMembersRequest** | **DescribeTeamMembersRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTeamMembers'|
 
 
 ### Return type
@@ -18451,7 +16585,7 @@ const { status, data } = await apiInstance.describeTeamMembers(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18483,13 +16617,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTest')
 let describeTestRequest: DescribeTestRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTest(
-    authorization,
-    action,
     describeTestRequest
 );
 ```
@@ -18499,8 +16629,6 @@ const { status, data } = await apiInstance.describeTest(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestRequest** | **DescribeTestRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTest'|
 
 
 ### Return type
@@ -18509,7 +16637,7 @@ const { status, data } = await apiInstance.describeTest(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18541,13 +16669,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestCase')
 let deleteTestCaseRequest: DeleteTestCaseRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestCase(
-    authorization,
-    action,
     deleteTestCaseRequest
 );
 ```
@@ -18557,8 +16681,6 @@ const { status, data } = await apiInstance.describeTestCase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTestCaseRequest** | **DeleteTestCaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestCase'|
 
 
 ### Return type
@@ -18567,7 +16689,7 @@ const { status, data } = await apiInstance.describeTestCase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18599,13 +16721,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestCaseList')
 let describeTestCaseListRequest: DescribeTestCaseListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestCaseList(
-    authorization,
-    action,
     describeTestCaseListRequest
 );
 ```
@@ -18615,8 +16733,6 @@ const { status, data } = await apiInstance.describeTestCaseList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestCaseListRequest** | **DescribeTestCaseListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestCaseList'|
 
 
 ### Return type
@@ -18625,7 +16741,7 @@ const { status, data } = await apiInstance.describeTestCaseList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18657,13 +16773,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestCaseSectionList')
 let describeTestCaseSectionListRequest: DescribeTestCaseSectionListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestCaseSectionList(
-    authorization,
-    action,
     describeTestCaseSectionListRequest
 );
 ```
@@ -18673,8 +16785,6 @@ const { status, data } = await apiInstance.describeTestCaseSectionList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestCaseSectionListRequest** | **DescribeTestCaseSectionListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestCaseSectionList'|
 
 
 ### Return type
@@ -18683,7 +16793,7 @@ const { status, data } = await apiInstance.describeTestCaseSectionList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18715,13 +16825,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestDefectList')
 let describeTestDefectListRequest: DescribeTestDefectListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestDefectList(
-    authorization,
-    action,
     describeTestDefectListRequest
 );
 ```
@@ -18731,8 +16837,6 @@ const { status, data } = await apiInstance.describeTestDefectList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestDefectListRequest** | **DescribeTestDefectListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestDefectList'|
 
 
 ### Return type
@@ -18741,7 +16845,7 @@ const { status, data } = await apiInstance.describeTestDefectList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18773,13 +16877,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestList')
 let describeTestListRequest: DescribeTestListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestList(
-    authorization,
-    action,
     describeTestListRequest
 );
 ```
@@ -18789,8 +16889,6 @@ const { status, data } = await apiInstance.describeTestList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestListRequest** | **DescribeTestListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestList'|
 
 
 ### Return type
@@ -18799,7 +16897,7 @@ const { status, data } = await apiInstance.describeTestList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18831,13 +16929,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestRun')
 let deleteTestRunRequest: DeleteTestRunRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestRun(
-    authorization,
-    action,
     deleteTestRunRequest
 );
 ```
@@ -18847,8 +16941,6 @@ const { status, data } = await apiInstance.describeTestRun(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **deleteTestRunRequest** | **DeleteTestRunRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestRun'|
 
 
 ### Return type
@@ -18857,7 +16949,7 @@ const { status, data } = await apiInstance.describeTestRun(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18889,13 +16981,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeTestRunList')
 let describeTestRunListRequest: DescribeTestRunListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeTestRunList(
-    authorization,
-    action,
     describeTestRunListRequest
 );
 ```
@@ -18905,8 +16993,6 @@ const { status, data } = await apiInstance.describeTestRunList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeTestRunListRequest** | **DescribeTestRunListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeTestRunList'|
 
 
 ### Return type
@@ -18915,7 +17001,7 @@ const { status, data } = await apiInstance.describeTestRunList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -18947,13 +17033,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUserGroups')
 let describeUserGroupsRequest: DescribeUserGroupsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUserGroups(
-    authorization,
-    action,
     describeUserGroupsRequest
 );
 ```
@@ -18963,8 +17045,6 @@ const { status, data } = await apiInstance.describeUserGroups(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeUserGroupsRequest** | **DescribeUserGroupsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUserGroups'|
 
 
 ### Return type
@@ -18973,7 +17053,7 @@ const { status, data } = await apiInstance.describeUserGroups(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19005,13 +17085,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUserHandoverIssues')
 let describeUserHandoverIssuesRequest: DescribeUserHandoverIssuesRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUserHandoverIssues(
-    authorization,
-    action,
     describeUserHandoverIssuesRequest
 );
 ```
@@ -19021,8 +17097,6 @@ const { status, data } = await apiInstance.describeUserHandoverIssues(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeUserHandoverIssuesRequest** | **DescribeUserHandoverIssuesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUserHandoverIssues'|
 
 
 ### Return type
@@ -19031,7 +17105,7 @@ const { status, data } = await apiInstance.describeUserHandoverIssues(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19063,13 +17137,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUserProjects')
 let describeUserProjectsRequest: DescribeUserProjectsRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUserProjects(
-    authorization,
-    action,
     describeUserProjectsRequest
 );
 ```
@@ -19079,8 +17149,6 @@ const { status, data } = await apiInstance.describeUserProjects(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeUserProjectsRequest** | **DescribeUserProjectsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUserProjects'|
 
 
 ### Return type
@@ -19089,7 +17157,7 @@ const { status, data } = await apiInstance.describeUserProjects(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19121,13 +17189,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUsersByGroupId')
 let describeUsersByGroupIdRequest: DescribeUsersByGroupIdRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUsersByGroupId(
-    authorization,
-    action,
     describeUsersByGroupIdRequest
 );
 ```
@@ -19137,8 +17201,6 @@ const { status, data } = await apiInstance.describeUsersByGroupId(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeUsersByGroupIdRequest** | **DescribeUsersByGroupIdRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUsersByGroupId'|
 
 
 ### Return type
@@ -19147,7 +17209,7 @@ const { status, data } = await apiInstance.describeUsersByGroupId(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19179,13 +17241,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeUsersOnResourceAndGrantObject')
 let describeUsersOnResourceAndGrantObjectRequest: DescribeUsersOnResourceAndGrantObjectRequest; // (optional)
 
 const { status, data } = await apiInstance.describeUsersOnResourceAndGrantObject(
-    authorization,
-    action,
     describeUsersOnResourceAndGrantObjectRequest
 );
 ```
@@ -19195,8 +17253,6 @@ const { status, data } = await apiInstance.describeUsersOnResourceAndGrantObject
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeUsersOnResourceAndGrantObjectRequest** | **DescribeUsersOnResourceAndGrantObjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeUsersOnResourceAndGrantObject'|
 
 
 ### Return type
@@ -19205,7 +17261,7 @@ const { status, data } = await apiInstance.describeUsersOnResourceAndGrantObject
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19237,13 +17293,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeWorkItemSalvage')
 let describeWorkItemSalvageRequest: DescribeWorkItemSalvageRequest; // (optional)
 
 const { status, data } = await apiInstance.describeWorkItemSalvage(
-    authorization,
-    action,
     describeWorkItemSalvageRequest
 );
 ```
@@ -19253,8 +17305,6 @@ const { status, data } = await apiInstance.describeWorkItemSalvage(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWorkItemSalvageRequest** | **DescribeWorkItemSalvageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeWorkItemSalvage'|
 
 
 ### Return type
@@ -19263,7 +17313,7 @@ const { status, data } = await apiInstance.describeWorkItemSalvage(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19295,13 +17345,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DescribeWorkbenchIssueList')
 let describeWorkbenchIssueListRequest: DescribeWorkbenchIssueListRequest; // (optional)
 
 const { status, data } = await apiInstance.describeWorkbenchIssueList(
-    authorization,
-    action,
     describeWorkbenchIssueListRequest
 );
 ```
@@ -19311,8 +17357,6 @@ const { status, data } = await apiInstance.describeWorkbenchIssueList(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeWorkbenchIssueListRequest** | **DescribeWorkbenchIssueListRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DescribeWorkbenchIssueList'|
 
 
 ### Return type
@@ -19321,7 +17365,7 @@ const { status, data } = await apiInstance.describeWorkbenchIssueList(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19353,13 +17397,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DetachFromResource')
 let detachFromResourceRequest: DetachFromResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.detachFromResource(
-    authorization,
-    action,
     detachFromResourceRequest
 );
 ```
@@ -19369,8 +17409,6 @@ const { status, data } = await apiInstance.detachFromResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **detachFromResourceRequest** | **DetachFromResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DetachFromResource'|
 
 
 ### Return type
@@ -19379,7 +17417,7 @@ const { status, data } = await apiInstance.detachFromResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19411,13 +17449,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'DetachResourceScopeOnPolicy')
 let detachResourceScopeOnPolicyRequest: DetachResourceScopeOnPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.detachResourceScopeOnPolicy(
-    authorization,
-    action,
     detachResourceScopeOnPolicyRequest
 );
 ```
@@ -19427,8 +17461,6 @@ const { status, data } = await apiInstance.detachResourceScopeOnPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **detachResourceScopeOnPolicyRequest** | **DetachResourceScopeOnPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'DetachResourceScopeOnPolicy'|
 
 
 ### Return type
@@ -19437,7 +17469,7 @@ const { status, data } = await apiInstance.detachResourceScopeOnPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19469,13 +17501,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ForbiddenArtifactVersion')
 let forbiddenArtifactVersionRequest: ForbiddenArtifactVersionRequest; // (optional)
 
 const { status, data } = await apiInstance.forbiddenArtifactVersion(
-    authorization,
-    action,
     forbiddenArtifactVersionRequest
 );
 ```
@@ -19485,8 +17513,6 @@ const { status, data } = await apiInstance.forbiddenArtifactVersion(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **forbiddenArtifactVersionRequest** | **ForbiddenArtifactVersionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ForbiddenArtifactVersion'|
 
 
 ### Return type
@@ -19495,7 +17521,7 @@ const { status, data } = await apiInstance.forbiddenArtifactVersion(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19527,13 +17553,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'InitProjectTemplate')
 let initProjectTemplateRequest: InitProjectTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.initProjectTemplate(
-    authorization,
-    action,
     initProjectTemplateRequest
 );
 ```
@@ -19543,8 +17565,6 @@ const { status, data } = await apiInstance.initProjectTemplate(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **initProjectTemplateRequest** | **InitProjectTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'InitProjectTemplate'|
 
 
 ### Return type
@@ -19553,7 +17573,7 @@ const { status, data } = await apiInstance.initProjectTemplate(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19586,13 +17606,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyArtifactCredit')
 let modifyArtifactCreditRequest: ModifyArtifactCreditRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyArtifactCredit(
-    authorization,
-    action,
     modifyArtifactCreditRequest
 );
 ```
@@ -19602,8 +17618,6 @@ const { status, data } = await apiInstance.modifyArtifactCredit(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyArtifactCreditRequest** | **ModifyArtifactCreditRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyArtifactCredit'|
 
 
 ### Return type
@@ -19612,7 +17626,7 @@ const { status, data } = await apiInstance.modifyArtifactCredit(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19645,13 +17659,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyArtifactProperties')
 let modifyArtifactPropertiesRequest: ModifyArtifactPropertiesRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyArtifactProperties(
-    authorization,
-    action,
     modifyArtifactPropertiesRequest
 );
 ```
@@ -19661,8 +17671,6 @@ const { status, data } = await apiInstance.modifyArtifactProperties(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyArtifactPropertiesRequest** | **ModifyArtifactPropertiesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyArtifactProperties'|
 
 
 ### Return type
@@ -19671,7 +17679,7 @@ const { status, data } = await apiInstance.modifyArtifactProperties(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19703,13 +17711,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyBranchProtection')
 let modifyBranchProtectionRequest: ModifyBranchProtectionRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyBranchProtection(
-    authorization,
-    action,
     modifyBranchProtectionRequest
 );
 ```
@@ -19719,8 +17723,6 @@ const { status, data } = await apiInstance.modifyBranchProtection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyBranchProtectionRequest** | **ModifyBranchProtectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyBranchProtection'|
 
 
 ### Return type
@@ -19729,7 +17731,7 @@ const { status, data } = await apiInstance.modifyBranchProtection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19761,13 +17763,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyBranchProtectionMemberPermission')
 let modifyBranchProtectionMemberPermissionRequest: ModifyBranchProtectionMemberPermissionRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyBranchProtectionMemberPermission(
-    authorization,
-    action,
     modifyBranchProtectionMemberPermissionRequest
 );
 ```
@@ -19777,8 +17775,6 @@ const { status, data } = await apiInstance.modifyBranchProtectionMemberPermissio
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyBranchProtectionMemberPermissionRequest** | **ModifyBranchProtectionMemberPermissionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyBranchProtectionMemberPermission'|
 
 
 ### Return type
@@ -19787,7 +17783,7 @@ const { status, data } = await apiInstance.modifyBranchProtectionMemberPermissio
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19819,13 +17815,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCdCloudAccount')
 let modifyCdCloudAccountRequest: ModifyCdCloudAccountRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCdCloudAccount(
-    authorization,
-    action,
     modifyCdCloudAccountRequest
 );
 ```
@@ -19835,8 +17827,6 @@ const { status, data } = await apiInstance.modifyCdCloudAccount(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCdCloudAccountRequest** | **ModifyCdCloudAccountRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCdCloudAccount'|
 
 
 ### Return type
@@ -19845,7 +17835,7 @@ const { status, data } = await apiInstance.modifyCdCloudAccount(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19877,13 +17867,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCdHostServerGroup')
 let modifyCdHostServerGroupRequest: ModifyCdHostServerGroupRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCdHostServerGroup(
-    authorization,
-    action,
     modifyCdHostServerGroupRequest
 );
 ```
@@ -19893,8 +17879,6 @@ const { status, data } = await apiInstance.modifyCdHostServerGroup(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCdHostServerGroupRequest** | **ModifyCdHostServerGroupRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCdHostServerGroup'|
 
 
 ### Return type
@@ -19903,7 +17887,7 @@ const { status, data } = await apiInstance.modifyCdHostServerGroup(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19935,13 +17919,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCdPipeline')
 let modifyCdPipelineRequest: ModifyCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCdPipeline(
-    authorization,
-    action,
     modifyCdPipelineRequest
 );
 ```
@@ -19951,8 +17931,6 @@ const { status, data } = await apiInstance.modifyCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCdPipelineRequest** | **ModifyCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCdPipeline'|
 
 
 ### Return type
@@ -19961,7 +17939,7 @@ const { status, data } = await apiInstance.modifyCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -19993,13 +17971,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyChooseDepotSpec')
 let modifyChooseDepotSpecRequest: ModifyChooseDepotSpecRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyChooseDepotSpec(
-    authorization,
-    action,
     modifyChooseDepotSpecRequest
 );
 ```
@@ -20009,8 +17983,6 @@ const { status, data } = await apiInstance.modifyChooseDepotSpec(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyChooseDepotSpecRequest** | **ModifyChooseDepotSpecRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyChooseDepotSpec'|
 
 
 ### Return type
@@ -20019,7 +17991,7 @@ const { status, data } = await apiInstance.modifyChooseDepotSpec(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20051,13 +18023,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCloseMR')
 let modifyCloseMRRequest: ModifyCloseMRRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCloseMR(
-    authorization,
-    action,
     modifyCloseMRRequest
 );
 ```
@@ -20067,8 +18035,6 @@ const { status, data } = await apiInstance.modifyCloseMR(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCloseMRRequest** | **ModifyCloseMRRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCloseMR'|
 
 
 ### Return type
@@ -20077,7 +18043,7 @@ const { status, data } = await apiInstance.modifyCloseMR(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20109,13 +18075,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCodingCIAgentEnable')
 let modifyCodingCIAgentEnableRequest: ModifyCodingCIAgentEnableRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCodingCIAgentEnable(
-    authorization,
-    action,
     modifyCodingCIAgentEnableRequest
 );
 ```
@@ -20125,8 +18087,6 @@ const { status, data } = await apiInstance.modifyCodingCIAgentEnable(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCodingCIAgentEnableRequest** | **ModifyCodingCIAgentEnableRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCodingCIAgentEnable'|
 
 
 ### Return type
@@ -20135,7 +18095,7 @@ const { status, data } = await apiInstance.modifyCodingCIAgentEnable(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20168,13 +18128,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyCodingCIJob')
 let modifyCodingCIJobRequest: ModifyCodingCIJobRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyCodingCIJob(
-    authorization,
-    action,
     modifyCodingCIJobRequest
 );
 ```
@@ -20184,8 +18140,6 @@ const { status, data } = await apiInstance.modifyCodingCIJob(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyCodingCIJobRequest** | **ModifyCodingCIJobRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyCodingCIJob'|
 
 
 ### Return type
@@ -20194,7 +18148,7 @@ const { status, data } = await apiInstance.modifyCodingCIJob(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20226,13 +18180,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDefaultBranch')
 let modifyDefaultBranchRequest: ModifyDefaultBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDefaultBranch(
-    authorization,
-    action,
     modifyDefaultBranchRequest
 );
 ```
@@ -20242,8 +18192,6 @@ const { status, data } = await apiInstance.modifyDefaultBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDefaultBranchRequest** | **ModifyDefaultBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDefaultBranch'|
 
 
 ### Return type
@@ -20252,7 +18200,7 @@ const { status, data } = await apiInstance.modifyDefaultBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20284,13 +18232,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDefectRelatedRequirement')
 let modifyDefectRelatedRequirementRequest: ModifyDefectRelatedRequirementRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDefectRelatedRequirement(
-    authorization,
-    action,
     modifyDefectRelatedRequirementRequest
 );
 ```
@@ -20300,8 +18244,6 @@ const { status, data } = await apiInstance.modifyDefectRelatedRequirement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDefectRelatedRequirementRequest** | **ModifyDefectRelatedRequirementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDefectRelatedRequirement'|
 
 
 ### Return type
@@ -20310,7 +18252,7 @@ const { status, data } = await apiInstance.modifyDefectRelatedRequirement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20342,13 +18284,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepartment')
 let modifyDepartmentRequest: ModifyDepartmentRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepartment(
-    authorization,
-    action,
     modifyDepartmentRequest
 );
 ```
@@ -20358,8 +18296,6 @@ const { status, data } = await apiInstance.modifyDepartment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepartmentRequest** | **ModifyDepartmentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepartment'|
 
 
 ### Return type
@@ -20368,7 +18304,7 @@ const { status, data } = await apiInstance.modifyDepartment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20401,13 +18337,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepartmentAssignee')
 let modifyDepartmentAssigneeRequest: ModifyDepartmentAssigneeRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepartmentAssignee(
-    authorization,
-    action,
     modifyDepartmentAssigneeRequest
 );
 ```
@@ -20417,8 +18349,6 @@ const { status, data } = await apiInstance.modifyDepartmentAssignee(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepartmentAssigneeRequest** | **ModifyDepartmentAssigneeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepartmentAssignee'|
 
 
 ### Return type
@@ -20427,7 +18357,7 @@ const { status, data } = await apiInstance.modifyDepartmentAssignee(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20460,13 +18390,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepartmentMember')
 let modifyDepartmentMemberRequest: ModifyDepartmentMemberRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepartmentMember(
-    authorization,
-    action,
     modifyDepartmentMemberRequest
 );
 ```
@@ -20476,8 +18402,6 @@ const { status, data } = await apiInstance.modifyDepartmentMember(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepartmentMemberRequest** | **ModifyDepartmentMemberRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepartmentMember'|
 
 
 ### Return type
@@ -20486,7 +18410,7 @@ const { status, data } = await apiInstance.modifyDepartmentMember(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20519,13 +18443,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotDescription')
 let modifyDepotDescriptionRequest: ModifyDepotDescriptionRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotDescription(
-    authorization,
-    action,
     modifyDepotDescriptionRequest
 );
 ```
@@ -20535,8 +18455,6 @@ const { status, data } = await apiInstance.modifyDepotDescription(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotDescriptionRequest** | **ModifyDepotDescriptionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotDescription'|
 
 
 ### Return type
@@ -20545,7 +18463,7 @@ const { status, data } = await apiInstance.modifyDepotDescription(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20577,13 +18495,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotFilePushRule')
 let modifyDepotFilePushRuleRequest: ModifyDepotFilePushRuleRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotFilePushRule(
-    authorization,
-    action,
     modifyDepotFilePushRuleRequest
 );
 ```
@@ -20593,8 +18507,6 @@ const { status, data } = await apiInstance.modifyDepotFilePushRule(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotFilePushRuleRequest** | **ModifyDepotFilePushRuleRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotFilePushRule'|
 
 
 ### Return type
@@ -20603,7 +18515,7 @@ const { status, data } = await apiInstance.modifyDepotFilePushRule(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20635,13 +18547,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotFilePushRuleDenyPrivilege')
 let modifyDepotFilePushRuleDenyPrivilegeRequest: ModifyDepotFilePushRuleDenyPrivilegeRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotFilePushRuleDenyPrivilege(
-    authorization,
-    action,
     modifyDepotFilePushRuleDenyPrivilegeRequest
 );
 ```
@@ -20651,8 +18559,6 @@ const { status, data } = await apiInstance.modifyDepotFilePushRuleDenyPrivilege(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotFilePushRuleDenyPrivilegeRequest** | **ModifyDepotFilePushRuleDenyPrivilegeRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotFilePushRuleDenyPrivilege'|
 
 
 ### Return type
@@ -20661,7 +18567,7 @@ const { status, data } = await apiInstance.modifyDepotFilePushRuleDenyPrivilege(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20693,13 +18599,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotLevelDepotSpec')
 let modifyDepotLevelDepotSpecRequest: ModifyDepotLevelDepotSpecRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotLevelDepotSpec(
-    authorization,
-    action,
     modifyDepotLevelDepotSpecRequest
 );
 ```
@@ -20709,8 +18611,6 @@ const { status, data } = await apiInstance.modifyDepotLevelDepotSpec(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotLevelDepotSpecRequest** | **ModifyDepotLevelDepotSpecRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotLevelDepotSpec'|
 
 
 ### Return type
@@ -20719,7 +18619,7 @@ const { status, data } = await apiInstance.modifyDepotLevelDepotSpec(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20751,13 +18651,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotName')
 let modifyDepotNameRequest: ModifyDepotNameRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotName(
-    authorization,
-    action,
     modifyDepotNameRequest
 );
 ```
@@ -20767,8 +18663,6 @@ const { status, data } = await apiInstance.modifyDepotName(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotNameRequest** | **ModifyDepotNameRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotName'|
 
 
 ### Return type
@@ -20777,7 +18671,7 @@ const { status, data } = await apiInstance.modifyDepotName(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20809,13 +18703,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotPushSetting')
 let modifyDepotPushSettingRequest: ModifyDepotPushSettingRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotPushSetting(
-    authorization,
-    action,
     modifyDepotPushSettingRequest
 );
 ```
@@ -20825,8 +18715,6 @@ const { status, data } = await apiInstance.modifyDepotPushSetting(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotPushSettingRequest** | **ModifyDepotPushSettingRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotPushSetting'|
 
 
 ### Return type
@@ -20835,7 +18723,7 @@ const { status, data } = await apiInstance.modifyDepotPushSetting(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20867,13 +18755,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotQuota')
 let modifyDepotQuotaRequest: ModifyDepotQuotaRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotQuota(
-    authorization,
-    action,
     modifyDepotQuotaRequest
 );
 ```
@@ -20883,8 +18767,6 @@ const { status, data } = await apiInstance.modifyDepotQuota(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotQuotaRequest** | **ModifyDepotQuotaRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotQuota'|
 
 
 ### Return type
@@ -20893,7 +18775,7 @@ const { status, data } = await apiInstance.modifyDepotQuota(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20925,13 +18807,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotSettings')
 let modifyDepotSettingsRequest: ModifyDepotSettingsRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotSettings(
-    authorization,
-    action,
     modifyDepotSettingsRequest
 );
 ```
@@ -20941,8 +18819,6 @@ const { status, data } = await apiInstance.modifyDepotSettings(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotSettingsRequest** | **ModifyDepotSettingsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotSettings'|
 
 
 ### Return type
@@ -20951,7 +18827,7 @@ const { status, data } = await apiInstance.modifyDepotSettings(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -20983,13 +18859,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyDepotSharedSetting')
 let modifyDepotSharedSettingRequest: ModifyDepotSharedSettingRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyDepotSharedSetting(
-    authorization,
-    action,
     modifyDepotSharedSettingRequest
 );
 ```
@@ -20999,8 +18871,6 @@ const { status, data } = await apiInstance.modifyDepotSharedSetting(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyDepotSharedSettingRequest** | **ModifyDepotSharedSettingRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyDepotSharedSetting'|
 
 
 ### Return type
@@ -21009,7 +18879,7 @@ const { status, data } = await apiInstance.modifyDepotSharedSetting(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21041,13 +18911,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitCherryPick')
 let modifyGitCherryPickRequest: ModifyGitCherryPickRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitCherryPick(
-    authorization,
-    action,
     modifyGitCherryPickRequest
 );
 ```
@@ -21057,8 +18923,6 @@ const { status, data } = await apiInstance.modifyGitCherryPick(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitCherryPickRequest** | **ModifyGitCherryPickRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitCherryPick'|
 
 
 ### Return type
@@ -21067,7 +18931,7 @@ const { status, data } = await apiInstance.modifyGitCherryPick(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21099,13 +18963,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitCommitRevert')
 let modifyGitCommitRevertRequest: ModifyGitCommitRevertRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitCommitRevert(
-    authorization,
-    action,
     modifyGitCommitRevertRequest
 );
 ```
@@ -21115,8 +18975,6 @@ const { status, data } = await apiInstance.modifyGitCommitRevert(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitCommitRevertRequest** | **ModifyGitCommitRevertRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitCommitRevert'|
 
 
 ### Return type
@@ -21125,7 +18983,7 @@ const { status, data } = await apiInstance.modifyGitCommitRevert(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21157,13 +19015,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitCommitStatus')
 let modifyGitCommitStatusRequest: ModifyGitCommitStatusRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitCommitStatus(
-    authorization,
-    action,
     modifyGitCommitStatusRequest
 );
 ```
@@ -21173,8 +19027,6 @@ const { status, data } = await apiInstance.modifyGitCommitStatus(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitCommitStatusRequest** | **ModifyGitCommitStatusRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitCommitStatus'|
 
 
 ### Return type
@@ -21183,7 +19035,7 @@ const { status, data } = await apiInstance.modifyGitCommitStatus(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21215,13 +19067,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitDepotArchive')
 let modifyGitDepotArchiveRequest: ModifyGitDepotArchiveRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitDepotArchive(
-    authorization,
-    action,
     modifyGitDepotArchiveRequest
 );
 ```
@@ -21231,8 +19079,6 @@ const { status, data } = await apiInstance.modifyGitDepotArchive(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitDepotArchiveRequest** | **ModifyGitDepotArchiveRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitDepotArchive'|
 
 
 ### Return type
@@ -21241,7 +19087,7 @@ const { status, data } = await apiInstance.modifyGitDepotArchive(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21273,13 +19119,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitDepotUnarchive')
 let modifyGitDepotUnarchiveRequest: ModifyGitDepotUnarchiveRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitDepotUnarchive(
-    authorization,
-    action,
     modifyGitDepotUnarchiveRequest
 );
 ```
@@ -21289,8 +19131,6 @@ const { status, data } = await apiInstance.modifyGitDepotUnarchive(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitDepotUnarchiveRequest** | **ModifyGitDepotUnarchiveRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitDepotUnarchive'|
 
 
 ### Return type
@@ -21299,7 +19139,7 @@ const { status, data } = await apiInstance.modifyGitDepotUnarchive(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21331,13 +19171,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitFiles')
 let modifyGitFilesRequest: ModifyGitFilesRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitFiles(
-    authorization,
-    action,
     modifyGitFilesRequest
 );
 ```
@@ -21347,8 +19183,6 @@ const { status, data } = await apiInstance.modifyGitFiles(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitFilesRequest** | **ModifyGitFilesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitFiles'|
 
 
 ### Return type
@@ -21357,7 +19191,7 @@ const { status, data } = await apiInstance.modifyGitFiles(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21389,13 +19223,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitMergeBranch')
 let modifyGitMergeBranchRequest: ModifyGitMergeBranchRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitMergeBranch(
-    authorization,
-    action,
     modifyGitMergeBranchRequest
 );
 ```
@@ -21405,8 +19235,6 @@ const { status, data } = await apiInstance.modifyGitMergeBranch(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitMergeBranchRequest** | **ModifyGitMergeBranchRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitMergeBranch'|
 
 
 ### Return type
@@ -21415,7 +19243,7 @@ const { status, data } = await apiInstance.modifyGitMergeBranch(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21447,13 +19275,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitMergeRequest')
 let modifyGitMergeRequestRequest: ModifyGitMergeRequestRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitMergeRequest(
-    authorization,
-    action,
     modifyGitMergeRequestRequest
 );
 ```
@@ -21463,8 +19287,6 @@ const { status, data } = await apiInstance.modifyGitMergeRequest(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitMergeRequestRequest** | **ModifyGitMergeRequestRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitMergeRequest'|
 
 
 ### Return type
@@ -21473,7 +19295,7 @@ const { status, data } = await apiInstance.modifyGitMergeRequest(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21505,13 +19327,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitMergeRequestRebase')
 let modifyGitMergeRequestRebaseRequest: ModifyGitMergeRequestRebaseRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitMergeRequestRebase(
-    authorization,
-    action,
     modifyGitMergeRequestRebaseRequest
 );
 ```
@@ -21521,8 +19339,6 @@ const { status, data } = await apiInstance.modifyGitMergeRequestRebase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitMergeRequestRebaseRequest** | **ModifyGitMergeRequestRebaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitMergeRequestRebase'|
 
 
 ### Return type
@@ -21531,7 +19347,7 @@ const { status, data } = await apiInstance.modifyGitMergeRequestRebase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21563,13 +19379,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitRebase')
 let modifyGitRebaseRequest: ModifyGitRebaseRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitRebase(
-    authorization,
-    action,
     modifyGitRebaseRequest
 );
 ```
@@ -21579,8 +19391,6 @@ const { status, data } = await apiInstance.modifyGitRebase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitRebaseRequest** | **ModifyGitRebaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitRebase'|
 
 
 ### Return type
@@ -21589,7 +19399,7 @@ const { status, data } = await apiInstance.modifyGitRebase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21621,13 +19431,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitRelease')
 let modifyGitReleaseRequest: ModifyGitReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitRelease(
-    authorization,
-    action,
     modifyGitReleaseRequest
 );
 ```
@@ -21637,8 +19443,6 @@ const { status, data } = await apiInstance.modifyGitRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitReleaseRequest** | **ModifyGitReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitRelease'|
 
 
 ### Return type
@@ -21647,7 +19451,7 @@ const { status, data } = await apiInstance.modifyGitRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21679,13 +19483,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyGitTransfer')
 let modifyGitTransferRequest: ModifyGitTransferRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyGitTransfer(
-    authorization,
-    action,
     modifyGitTransferRequest
 );
 ```
@@ -21695,8 +19495,6 @@ const { status, data } = await apiInstance.modifyGitTransfer(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyGitTransferRequest** | **ModifyGitTransferRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyGitTransfer'|
 
 
 ### Return type
@@ -21705,7 +19503,7 @@ const { status, data } = await apiInstance.modifyGitTransfer(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21737,13 +19535,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIssue')
 let modifyIssueRequest: ModifyIssueRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIssue(
-    authorization,
-    action,
     modifyIssueRequest
 );
 ```
@@ -21753,8 +19547,6 @@ const { status, data } = await apiInstance.modifyIssue(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIssueRequest** | **ModifyIssueRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIssue'|
 
 
 ### Return type
@@ -21763,7 +19555,7 @@ const { status, data } = await apiInstance.modifyIssue(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21795,13 +19587,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIssueComment')
 let modifyIssueCommentRequest: ModifyIssueCommentRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIssueComment(
-    authorization,
-    action,
     modifyIssueCommentRequest
 );
 ```
@@ -21811,8 +19599,6 @@ const { status, data } = await apiInstance.modifyIssueComment(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIssueCommentRequest** | **ModifyIssueCommentRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIssueComment'|
 
 
 ### Return type
@@ -21821,7 +19607,7 @@ const { status, data } = await apiInstance.modifyIssueComment(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21853,13 +19639,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIssueDescription')
 let modifyIssueDescriptionRequest: ModifyIssueDescriptionRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIssueDescription(
-    authorization,
-    action,
     modifyIssueDescriptionRequest
 );
 ```
@@ -21869,8 +19651,6 @@ const { status, data } = await apiInstance.modifyIssueDescription(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIssueDescriptionRequest** | **ModifyIssueDescriptionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIssueDescription'|
 
 
 ### Return type
@@ -21879,7 +19659,7 @@ const { status, data } = await apiInstance.modifyIssueDescription(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21911,13 +19691,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIssueParentRequirement')
 let modifyIssueParentRequirementRequest: ModifyIssueParentRequirementRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIssueParentRequirement(
-    authorization,
-    action,
     modifyIssueParentRequirementRequest
 );
 ```
@@ -21927,8 +19703,6 @@ const { status, data } = await apiInstance.modifyIssueParentRequirement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIssueParentRequirementRequest** | **ModifyIssueParentRequirementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIssueParentRequirement'|
 
 
 ### Return type
@@ -21937,7 +19711,7 @@ const { status, data } = await apiInstance.modifyIssueParentRequirement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -21969,13 +19743,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIteration')
 let modifyIterationRequest: ModifyIterationRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIteration(
-    authorization,
-    action,
     modifyIterationRequest
 );
 ```
@@ -21985,8 +19755,6 @@ const { status, data } = await apiInstance.modifyIteration(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIterationRequest** | **ModifyIterationRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIteration'|
 
 
 ### Return type
@@ -21995,7 +19763,7 @@ const { status, data } = await apiInstance.modifyIteration(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22027,13 +19795,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyIterationStatus')
 let modifyIterationStatusRequest: ModifyIterationStatusRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyIterationStatus(
-    authorization,
-    action,
     modifyIterationStatusRequest
 );
 ```
@@ -22043,8 +19807,6 @@ const { status, data } = await apiInstance.modifyIterationStatus(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyIterationStatusRequest** | **ModifyIterationStatusRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyIterationStatus'|
 
 
 ### Return type
@@ -22053,7 +19815,7 @@ const { status, data } = await apiInstance.modifyIterationStatus(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22085,13 +19847,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyMergeMR')
 let modifyMergeMRRequest: ModifyMergeMRRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyMergeMR(
-    authorization,
-    action,
     modifyMergeMRRequest
 );
 ```
@@ -22101,8 +19859,6 @@ const { status, data } = await apiInstance.modifyMergeMR(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyMergeMRRequest** | **ModifyMergeMRRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyMergeMR'|
 
 
 ### Return type
@@ -22111,7 +19867,7 @@ const { status, data } = await apiInstance.modifyMergeMR(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22143,13 +19899,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyMergeRequestBasicSettings')
 let modifyMergeRequestBasicSettingsRequest: ModifyMergeRequestBasicSettingsRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyMergeRequestBasicSettings(
-    authorization,
-    action,
     modifyMergeRequestBasicSettingsRequest
 );
 ```
@@ -22159,8 +19911,6 @@ const { status, data } = await apiInstance.modifyMergeRequestBasicSettings(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyMergeRequestBasicSettingsRequest** | **ModifyMergeRequestBasicSettingsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyMergeRequestBasicSettings'|
 
 
 ### Return type
@@ -22169,7 +19919,7 @@ const { status, data } = await apiInstance.modifyMergeRequestBasicSettings(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22201,13 +19951,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyMergeRequestMergeCommitMessageTemplate')
 let modifyMergeRequestSquashCommitMessageTemplateRequest: ModifyMergeRequestSquashCommitMessageTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyMergeRequestMergeCommitMessageTemplate(
-    authorization,
-    action,
     modifyMergeRequestSquashCommitMessageTemplateRequest
 );
 ```
@@ -22217,8 +19963,6 @@ const { status, data } = await apiInstance.modifyMergeRequestMergeCommitMessageT
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyMergeRequestSquashCommitMessageTemplateRequest** | **ModifyMergeRequestSquashCommitMessageTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyMergeRequestMergeCommitMessageTemplate'|
 
 
 ### Return type
@@ -22227,7 +19971,7 @@ const { status, data } = await apiInstance.modifyMergeRequestMergeCommitMessageT
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22259,13 +20003,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyMergeRequestSquashCommitMessageTemplate')
 let modifyMergeRequestSquashCommitMessageTemplateRequest: ModifyMergeRequestSquashCommitMessageTemplateRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyMergeRequestSquashCommitMessageTemplate(
-    authorization,
-    action,
     modifyMergeRequestSquashCommitMessageTemplateRequest
 );
 ```
@@ -22275,8 +20015,6 @@ const { status, data } = await apiInstance.modifyMergeRequestSquashCommitMessage
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyMergeRequestSquashCommitMessageTemplateRequest** | **ModifyMergeRequestSquashCommitMessageTemplateRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyMergeRequestSquashCommitMessageTemplate'|
 
 
 ### Return type
@@ -22285,7 +20023,7 @@ const { status, data } = await apiInstance.modifyMergeRequestSquashCommitMessage
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22317,13 +20055,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyPolicy')
 let modifyPolicyRequest: ModifyPolicyRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyPolicy(
-    authorization,
-    action,
     modifyPolicyRequest
 );
 ```
@@ -22333,8 +20067,6 @@ const { status, data } = await apiInstance.modifyPolicy(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyPolicyRequest** | **ModifyPolicyRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyPolicy'|
 
 
 ### Return type
@@ -22343,7 +20075,7 @@ const { status, data } = await apiInstance.modifyPolicy(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22375,13 +20107,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyProject')
 let modifyProjectRequest: ModifyProjectRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyProject(
-    authorization,
-    action,
     modifyProjectRequest
 );
 ```
@@ -22391,8 +20119,6 @@ const { status, data } = await apiInstance.modifyProject(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyProjectRequest** | **ModifyProjectRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyProject'|
 
 
 ### Return type
@@ -22401,7 +20127,7 @@ const { status, data } = await apiInstance.modifyProject(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22433,13 +20159,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyProjectAnnouncement')
 let modifyProjectAnnouncementRequest: ModifyProjectAnnouncementRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyProjectAnnouncement(
-    authorization,
-    action,
     modifyProjectAnnouncementRequest
 );
 ```
@@ -22449,8 +20171,6 @@ const { status, data } = await apiInstance.modifyProjectAnnouncement(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyProjectAnnouncementRequest** | **ModifyProjectAnnouncementRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyProjectAnnouncement'|
 
 
 ### Return type
@@ -22459,7 +20179,7 @@ const { status, data } = await apiInstance.modifyProjectAnnouncement(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22492,13 +20212,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyProjectLabel')
 let modifyProjectLabelRequest: ModifyProjectLabelRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyProjectLabel(
-    authorization,
-    action,
     modifyProjectLabelRequest
 );
 ```
@@ -22508,8 +20224,6 @@ const { status, data } = await apiInstance.modifyProjectLabel(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyProjectLabelRequest** | **ModifyProjectLabelRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyProjectLabel'|
 
 
 ### Return type
@@ -22518,7 +20232,7 @@ const { status, data } = await apiInstance.modifyProjectLabel(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22551,13 +20265,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyRelease')
 let modifyReleaseRequest: ModifyReleaseRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyRelease(
-    authorization,
-    action,
     modifyReleaseRequest
 );
 ```
@@ -22567,8 +20277,6 @@ const { status, data } = await apiInstance.modifyRelease(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyReleaseRequest** | **ModifyReleaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyRelease'|
 
 
 ### Return type
@@ -22577,7 +20285,7 @@ const { status, data } = await apiInstance.modifyRelease(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22609,13 +20317,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTeamLevelDepotSpec')
 let modifyTeamLevelDepotSpecRequest: ModifyTeamLevelDepotSpecRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTeamLevelDepotSpec(
-    authorization,
-    action,
     modifyTeamLevelDepotSpecRequest
 );
 ```
@@ -22625,8 +20329,6 @@ const { status, data } = await apiInstance.modifyTeamLevelDepotSpec(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTeamLevelDepotSpecRequest** | **ModifyTeamLevelDepotSpecRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTeamLevelDepotSpec'|
 
 
 ### Return type
@@ -22635,7 +20337,7 @@ const { status, data } = await apiInstance.modifyTeamLevelDepotSpec(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22667,13 +20369,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTeamMemberLocked')
 let modifyTeamMemberUnlockedRequest: ModifyTeamMemberUnlockedRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTeamMemberLocked(
-    authorization,
-    action,
     modifyTeamMemberUnlockedRequest
 );
 ```
@@ -22683,8 +20381,6 @@ const { status, data } = await apiInstance.modifyTeamMemberLocked(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTeamMemberUnlockedRequest** | **ModifyTeamMemberUnlockedRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTeamMemberLocked'|
 
 
 ### Return type
@@ -22693,7 +20389,7 @@ const { status, data } = await apiInstance.modifyTeamMemberLocked(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22725,13 +20421,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTeamMemberUnlocked')
 let modifyTeamMemberUnlockedRequest: ModifyTeamMemberUnlockedRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTeamMemberUnlocked(
-    authorization,
-    action,
     modifyTeamMemberUnlockedRequest
 );
 ```
@@ -22741,8 +20433,6 @@ const { status, data } = await apiInstance.modifyTeamMemberUnlocked(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTeamMemberUnlockedRequest** | **ModifyTeamMemberUnlockedRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTeamMemberUnlocked'|
 
 
 ### Return type
@@ -22751,7 +20441,7 @@ const { status, data } = await apiInstance.modifyTeamMemberUnlocked(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22783,13 +20473,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTestCase')
 let modifyTestCaseRequest: ModifyTestCaseRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTestCase(
-    authorization,
-    action,
     modifyTestCaseRequest
 );
 ```
@@ -22799,8 +20485,6 @@ const { status, data } = await apiInstance.modifyTestCase(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTestCaseRequest** | **ModifyTestCaseRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTestCase'|
 
 
 ### Return type
@@ -22809,7 +20493,7 @@ const { status, data } = await apiInstance.modifyTestCase(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22841,13 +20525,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTestCaseSection')
 let modifyTestCaseSectionRequest: ModifyTestCaseSectionRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTestCaseSection(
-    authorization,
-    action,
     modifyTestCaseSectionRequest
 );
 ```
@@ -22857,8 +20537,6 @@ const { status, data } = await apiInstance.modifyTestCaseSection(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTestCaseSectionRequest** | **ModifyTestCaseSectionRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTestCaseSection'|
 
 
 ### Return type
@@ -22867,7 +20545,7 @@ const { status, data } = await apiInstance.modifyTestCaseSection(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22899,13 +20577,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyTestRun')
 let modifyTestRunRequest: ModifyTestRunRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyTestRun(
-    authorization,
-    action,
     modifyTestRunRequest
 );
 ```
@@ -22915,8 +20589,6 @@ const { status, data } = await apiInstance.modifyTestRun(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyTestRunRequest** | **ModifyTestRunRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyTestRun'|
 
 
 ### Return type
@@ -22925,7 +20597,7 @@ const { status, data } = await apiInstance.modifyTestRun(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -22957,13 +20629,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ModifyWorkItemSplitIssues')
 let modifyWorkItemSplitIssuesRequest: ModifyWorkItemSplitIssuesRequest; // (optional)
 
 const { status, data } = await apiInstance.modifyWorkItemSplitIssues(
-    authorization,
-    action,
     modifyWorkItemSplitIssuesRequest
 );
 ```
@@ -22973,8 +20641,6 @@ const { status, data } = await apiInstance.modifyWorkItemSplitIssues(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **modifyWorkItemSplitIssuesRequest** | **ModifyWorkItemSplitIssuesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ModifyWorkItemSplitIssues'|
 
 
 ### Return type
@@ -22983,7 +20649,7 @@ const { status, data } = await apiInstance.modifyWorkItemSplitIssues(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23015,13 +20681,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'PlanIterationIssue')
 let planIterationIssueRequest: PlanIterationIssueRequest; // (optional)
 
 const { status, data } = await apiInstance.planIterationIssue(
-    authorization,
-    action,
     planIterationIssueRequest
 );
 ```
@@ -23031,8 +20693,6 @@ const { status, data } = await apiInstance.planIterationIssue(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **planIterationIssueRequest** | **PlanIterationIssueRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'PlanIterationIssue'|
 
 
 ### Return type
@@ -23041,7 +20701,7 @@ const { status, data } = await apiInstance.planIterationIssue(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23073,13 +20733,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ReleaseArtifactVersion')
 let describeArtifactChecksumsRequest: DescribeArtifactChecksumsRequest; // (optional)
 
 const { status, data } = await apiInstance.releaseArtifactVersion(
-    authorization,
-    action,
     describeArtifactChecksumsRequest
 );
 ```
@@ -23089,8 +20745,6 @@ const { status, data } = await apiInstance.releaseArtifactVersion(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeArtifactChecksumsRequest** | **DescribeArtifactChecksumsRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ReleaseArtifactVersion'|
 
 
 ### Return type
@@ -23099,7 +20753,7 @@ const { status, data } = await apiInstance.releaseArtifactVersion(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23131,13 +20785,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'ReorderCdPipelines')
 let reorderCdPipelinesRequest: ReorderCdPipelinesRequest; // (optional)
 
 const { status, data } = await apiInstance.reorderCdPipelines(
-    authorization,
-    action,
     reorderCdPipelinesRequest
 );
 ```
@@ -23147,8 +20797,6 @@ const { status, data } = await apiInstance.reorderCdPipelines(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **reorderCdPipelinesRequest** | **ReorderCdPipelinesRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'ReorderCdPipelines'|
 
 
 ### Return type
@@ -23157,7 +20805,7 @@ const { status, data } = await apiInstance.reorderCdPipelines(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23189,13 +20837,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'SetGrantToResource')
 let setGrantToResourceRequest: SetGrantToResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.setGrantToResource(
-    authorization,
-    action,
     setGrantToResourceRequest
 );
 ```
@@ -23205,8 +20849,6 @@ const { status, data } = await apiInstance.setGrantToResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **setGrantToResourceRequest** | **SetGrantToResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'SetGrantToResource'|
 
 
 ### Return type
@@ -23215,7 +20857,7 @@ const { status, data } = await apiInstance.setGrantToResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23247,13 +20889,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'SetPredicatePolicyOnResource')
 let setPredicatePolicyOnResourceRequest: SetPredicatePolicyOnResourceRequest; // (optional)
 
 const { status, data } = await apiInstance.setPredicatePolicyOnResource(
-    authorization,
-    action,
     setPredicatePolicyOnResourceRequest
 );
 ```
@@ -23263,8 +20901,6 @@ const { status, data } = await apiInstance.setPredicatePolicyOnResource(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **setPredicatePolicyOnResourceRequest** | **SetPredicatePolicyOnResourceRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'SetPredicatePolicyOnResource'|
 
 
 ### Return type
@@ -23273,7 +20909,7 @@ const { status, data } = await apiInstance.setPredicatePolicyOnResource(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23305,13 +20941,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'StopCodingCIBuild')
 let describeCodingCIBuildStageRequest: DescribeCodingCIBuildStageRequest; // (optional)
 
 const { status, data } = await apiInstance.stopCodingCIBuild(
-    authorization,
-    action,
     describeCodingCIBuildStageRequest
 );
 ```
@@ -23321,8 +20953,6 @@ const { status, data } = await apiInstance.stopCodingCIBuild(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **describeCodingCIBuildStageRequest** | **DescribeCodingCIBuildStageRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'StopCodingCIBuild'|
 
 
 ### Return type
@@ -23331,7 +20961,7 @@ const { status, data } = await apiInstance.stopCodingCIBuild(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23363,13 +20993,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'TriggerCdPipeline')
 let triggerCdPipelineRequest: TriggerCdPipelineRequest; // (optional)
 
 const { status, data } = await apiInstance.triggerCdPipeline(
-    authorization,
-    action,
     triggerCdPipelineRequest
 );
 ```
@@ -23379,8 +21005,6 @@ const { status, data } = await apiInstance.triggerCdPipeline(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **triggerCdPipelineRequest** | **TriggerCdPipelineRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'TriggerCdPipeline'|
 
 
 ### Return type
@@ -23389,7 +21013,7 @@ const { status, data } = await apiInstance.triggerCdPipeline(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23421,13 +21045,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'TriggerCodingCIBuild')
 let triggerCodingCIBuildRequest: TriggerCodingCIBuildRequest; // (optional)
 
 const { status, data } = await apiInstance.triggerCodingCIBuild(
-    authorization,
-    action,
     triggerCodingCIBuildRequest
 );
 ```
@@ -23437,8 +21057,6 @@ const { status, data } = await apiInstance.triggerCodingCIBuild(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **triggerCodingCIBuildRequest** | **TriggerCodingCIBuildRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'TriggerCodingCIBuild'|
 
 
 ### Return type
@@ -23447,7 +21065,7 @@ const { status, data } = await apiInstance.triggerCodingCIBuild(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 
@@ -23479,13 +21097,9 @@ import {
 const configuration = new Configuration();
 const apiInstance = new DefaultApi(configuration);
 
-let authorization: string; //认证信息 (default to undefined)
-let action: string; //Action (default to 'UpdateUserGroupById')
 let updateUserGroupByIdRequest: UpdateUserGroupByIdRequest; // (optional)
 
 const { status, data } = await apiInstance.updateUserGroupById(
-    authorization,
-    action,
     updateUserGroupByIdRequest
 );
 ```
@@ -23495,8 +21109,6 @@ const { status, data } = await apiInstance.updateUserGroupById(
 |Name | Type | Description  | Notes|
 |------------- | ------------- | ------------- | -------------|
 | **updateUserGroupByIdRequest** | **UpdateUserGroupByIdRequest**|  | |
-| **authorization** | [**string**] | 认证信息 | defaults to undefined|
-| **action** | [**string**] | Action | defaults to 'UpdateUserGroupById'|
 
 
 ### Return type
@@ -23505,7 +21117,7 @@ const { status, data } = await apiInstance.updateUserGroupById(
 
 ### Authorization
 
-No authorization required
+[BasicAuth](../README.md#BasicAuth), [ApiKeyAuth](../README.md#ApiKeyAuth), [BearerAuth](../README.md#BearerAuth)
 
 ### HTTP request headers
 

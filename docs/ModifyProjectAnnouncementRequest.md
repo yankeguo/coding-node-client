@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectName** | **string** | 项目名 | [default to '']
-**Content** | **string** | 公告内容 | [default to '']
-**Id** | **number** | 公告id | [default to 0]
+**ProjectName** | **string** | 项目名 | [optional] [default to '']
+**Content** | **string** | 公告内容 | [optional] [default to '']
+**Id** | **number** | 公告id | [optional] [default to 0]
 
 ## Example
 

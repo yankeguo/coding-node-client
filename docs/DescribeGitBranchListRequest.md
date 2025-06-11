@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 **KeyWord** | **string** | 查询的关键词 | [optional] [default to undefined]
-**PageNumber** | **number** | 分页页码 | [default to undefined]
-**PageSize** | **number** | 分页页距,默认为10 | [default to undefined]
+**PageNumber** | **number** | 分页页码 | [optional] [default to undefined]
+**PageSize** | **number** | 分页页距,默认为10 | [optional] [default to undefined]
 
 ## Example
 

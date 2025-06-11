@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**AccurateActions** | **boolean** | 针对模糊配置的 action 定义，是否转换成精确的 action 定义返回 | [default to undefined]
-**PolicyId** | **number** | 权限组 ID | [default to undefined]
+**AccurateActions** | **boolean** | 针对模糊配置的 action 定义，是否转换成精确的 action 定义返回 | [optional] [default to undefined]
+**PolicyId** | **number** | 权限组 ID | [optional] [default to undefined]
 
 ## Example
 

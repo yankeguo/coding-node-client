@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BuildId** | **number** | 构建 ID | [default to undefined]
+**BuildId** | **number** | 构建 ID | [optional] [default to undefined]
 
 ## Example
 

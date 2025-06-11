@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotId** | **number** | 仓库id | [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与DepotId二选一即可 | [optional] [default to undefined]
 **KeyWord** | **string** | 查询的关键词 | [optional] [default to undefined]
 **PageNumber** | **number** | 分页页码 | [optional] [default to undefined]

@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FileId** | **number** | 文件 ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**FileId** | **number** | 文件 ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **IssueCode** | **number** | 事项Code, 对应页面的ID字段, ProjectName + IssueCode 可以查询事项的附件和描述中图片的下载地址 | [optional] [default to undefined]
 **QueryComment** | **boolean** | 是否查询事项评论中的图片路径， 可查询所有评论中的图片路径 | [optional] [default to undefined]
 

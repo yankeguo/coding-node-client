@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **Description** | **string** | 版本描述 | [optional] [default to undefined]
 **IterationCodes** | **Array&lt;number&gt;** | 关联迭代code列表 | [optional] [default to undefined]
 **LabelIds** | **Array&lt;number&gt;** | 标签ID列表 | [optional] [default to undefined]
-**Name** | **string** | 版本名称 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**Name** | **string** | 版本名称 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 **ReleaseDate** | **string** | 版本发布日期 | [optional] [default to undefined]
 **StartDate** | **string** | 版本开始时间 | [optional] [default to undefined]
 

@@ -6,9 +6,9 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Content** | **string** | 待修改的合并请求描述 | [optional] [default to undefined]
-**DepotId** | **number** | 仓库 ID | [default to undefined]
+**DepotId** | **number** | 仓库 ID | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径，与仓库ID二选一 | [optional] [default to undefined]
-**MergeId** | **number** | 合并请求 IID | [default to undefined]
+**MergeId** | **number** | 合并请求 IID | [optional] [default to undefined]
 **Title** | **string** | 待修改的合并请求标题 | [optional] [default to undefined]
 
 ## Example

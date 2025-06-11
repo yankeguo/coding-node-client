@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**UserId** | **number** | 用户Id | [default to undefined]
+**UserId** | **number** | 用户Id | [optional] [default to undefined]
 **ShowDepartment** | **boolean** | 是否展示部门 | [optional] [default to false]
 
 ## Example

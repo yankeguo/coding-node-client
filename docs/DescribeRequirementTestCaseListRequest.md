@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**IssueId** | **number** | 需求 ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**IssueId** | **number** | 需求 ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

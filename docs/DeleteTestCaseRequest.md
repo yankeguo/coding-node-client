@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CaseId** | **number** | 用例 ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**CaseId** | **number** | 用例 ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

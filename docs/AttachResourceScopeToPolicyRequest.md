@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PolicyId** | **number** | 权限组 ID | [default to undefined]
-**ResourceInfos** | [**Array&lt;ResourceInfoOfPolicyScope&gt;**](ResourceInfoOfPolicyScope.md) | 添加的资源 | [default to undefined]
+**PolicyId** | **number** | 权限组 ID | [optional] [default to undefined]
+**ResourceInfos** | [**Array&lt;ResourceInfoOfPolicyScope&gt;**](ResourceInfoOfPolicyScope.md) | 添加的资源 | [optional] [default to undefined]
 
 ## Example
 

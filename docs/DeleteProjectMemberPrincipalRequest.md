@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Principals** | [**Array&lt;PrincipalDel&gt;**](PrincipalDel.md) | 成员主体信息 | [default to undefined]
-**ProjectId** | **number** | 项目Id | [default to undefined]
+**Principals** | [**Array&lt;PrincipalDel&gt;**](PrincipalDel.md) | 成员主体信息 | [optional] [default to undefined]
+**ProjectId** | **number** | 项目Id | [optional] [default to undefined]
 
 ## Example
 

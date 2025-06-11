@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**Sha** | **string** | 提交sha | [default to undefined]
-**Type** | **string** | ref类型,all 查询分支和标签，branch查询分支，tag查询标签 | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**Sha** | **string** | 提交sha | [optional] [default to undefined]
+**Type** | **string** | ref类型,all 查询分支和标签，branch查询分支，tag查询标签 | [optional] [default to undefined]
 
 ## Example
 

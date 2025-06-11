@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Name** | **string** | 分组名称 | [default to undefined]
+**Name** | **string** | 分组名称 | [optional] [default to undefined]
 **ParentId** | **number** | 父级 ID，默认 0 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**SectionId** | **number** | 分组 ID | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**SectionId** | **number** | 分组 ID | [optional] [default to undefined]
 
 ## Example
 

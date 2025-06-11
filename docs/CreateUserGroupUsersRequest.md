@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**UserGroupUserInfos** | [**Array&lt;UserGroupUserInfos&gt;**](UserGroupUserInfos.md) | 用户用户组id列表 | [default to undefined]
+**UserGroupUserInfos** | [**Array&lt;UserGroupUserInfos&gt;**](UserGroupUserInfos.md) | 用户用户组id列表 | [optional] [default to undefined]
 
 ## Example
 

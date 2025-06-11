@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PipelineJsonContent** | **string** | 部署流程 JSON 配置（注意：stages 的 refId 和 requisiteStageRefIds 字段必传） | [default to undefined]
+**PipelineJsonContent** | **string** | 部署流程 JSON 配置（注意：stages 的 refId 和 requisiteStageRefIds 字段必传） | [optional] [default to undefined]
 
 ## Example
 

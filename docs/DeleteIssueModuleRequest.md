@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ModuleId** | **number** | 模块ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**ModuleId** | **number** | 模块ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

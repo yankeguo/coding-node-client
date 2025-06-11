@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PageNumber** | **number** | 请求页数 | [default to undefined]
-**PageSize** | **number** | 请求条数 | [default to undefined]
-**ProjectId** | **number** | 项目Id | [default to undefined]
+**PageNumber** | **number** | 请求页数 | [optional] [default to undefined]
+**PageSize** | **number** | 请求条数 | [optional] [default to undefined]
+**ProjectId** | **number** | 项目Id | [optional] [default to undefined]
 **RoleId** | **number** | 用户组Id | [optional] [default to undefined]
 
 ## Example

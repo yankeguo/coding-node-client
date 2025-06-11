@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ScopeType** | **number** | 所属主体类型： 1项目、2团队 | [default to 0]
-**ResourceCode** | **string** | 资源 ID | [default to '']
-**ScopeId** | **number** | 所属主体 ID | [default to 0]
+**ScopeType** | **number** | 所属主体类型： 1项目、2团队 | [optional] [default to 0]
+**ResourceCode** | **string** | 资源 ID | [optional] [default to '']
+**ScopeId** | **number** | 所属主体 ID | [optional] [default to 0]
 
 ## Example
 

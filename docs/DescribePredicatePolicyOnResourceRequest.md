@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [default to undefined]
+**Resource** | [**ResourceInfo**](ResourceInfo.md) |  | [optional] [default to undefined]
 
 ## Example
 

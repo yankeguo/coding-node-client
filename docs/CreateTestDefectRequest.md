@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DefectId** | **number** | 缺陷 ID | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
-**TestId** | **number** | 测试任务 ID | [default to undefined]
+**DefectId** | **number** | 缺陷 ID | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
+**TestId** | **number** | 测试任务 ID | [optional] [default to undefined]
 
 ## Example
 

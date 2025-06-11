@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**BranchProtection** | [**BranchProtection**](BranchProtection.md) |  | [default to undefined]
-**DepotId** | **number** | 仓库id | [default to undefined]
+**BranchProtection** | [**BranchProtection**](BranchProtection.md) |  | [optional] [default to undefined]
+**DepotId** | **number** | 仓库id | [optional] [default to undefined]
 **DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
 
 ## Example

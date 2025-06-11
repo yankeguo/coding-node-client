@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**ProjectName** | **string** | 项目标识 | [default to undefined]
+**ProjectName** | **string** | 项目标识 | [optional] [default to undefined]
 
 ## Example
 

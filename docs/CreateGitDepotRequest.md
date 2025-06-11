@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotName** | **string** | 仓库名称 | [default to undefined]
+**DepotName** | **string** | 仓库名称 | [optional] [default to undefined]
 **Description** | **string** | 仓库的描述信息 | [optional] [default to undefined]
-**ProjectId** | **number** | 项目id | [default to undefined]
+**ProjectId** | **number** | 项目id | [optional] [default to undefined]
 **Shared** | **boolean** | 仓库是否允许公开访问 | [optional] [default to undefined]
 
 ## Example

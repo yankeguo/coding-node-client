@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**FileName** | **string** | 文件名 | [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**FileName** | **string** | 文件名 | [optional] [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

@@ -6,7 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **ParentId** | **number** | 父级 ID，默认 0 | [optional] [default to undefined]
-**ProjectName** | **string** | 项目名称 | [default to undefined]
+**ProjectName** | **string** | 项目名称 | [optional] [default to undefined]
 
 ## Example
 

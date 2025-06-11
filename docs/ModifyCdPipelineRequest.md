@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PipelineConfigId** | **string** | 部署流程 ID | [default to undefined]
-**PipelineJsonContent** | **string** | 部署流程 JSON 配置 | [default to undefined]
+**PipelineConfigId** | **string** | 部署流程 ID | [optional] [default to undefined]
+**PipelineJsonContent** | **string** | 部署流程 JSON 配置 | [optional] [default to undefined]
 
 ## Example
 

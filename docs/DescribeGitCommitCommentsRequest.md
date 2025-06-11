@@ -5,10 +5,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**PageNumber** | **number** | 页码数量 | [default to undefined]
-**PageSize** | **number** | 页码大小 | [default to undefined]
-**Sha** | **string** | 提交Sha | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**PageNumber** | **number** | 页码数量 | [optional] [default to undefined]
+**PageSize** | **number** | 页码大小 | [optional] [default to undefined]
+**Sha** | **string** | 提交Sha | [optional] [default to undefined]
 
 ## Example
 

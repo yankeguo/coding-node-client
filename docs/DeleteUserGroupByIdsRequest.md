@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**GroupIds** | **Array&lt;number&gt;** | 用户组id列表 | [default to undefined]
+**GroupIds** | **Array&lt;number&gt;** | 用户组id列表 | [optional] [default to undefined]
 
 ## Example
 

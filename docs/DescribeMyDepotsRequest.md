@@ -5,8 +5,8 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**PageNumber** | **number** | 页数 | [default to undefined]
-**PageSize** | **number** | 页码 | [default to undefined]
+**PageNumber** | **number** | 页数 | [optional] [default to undefined]
+**PageSize** | **number** | 页码 | [optional] [default to undefined]
 
 ## Example
 

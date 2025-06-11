@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**MemberUserId** | **number** | 成员 Id | [default to undefined]
+**MemberUserId** | **number** | 成员 Id | [optional] [default to undefined]
 **SshKeyId** | **number** | SSH 公钥 Id | [optional] [default to undefined]
 
 ## Example

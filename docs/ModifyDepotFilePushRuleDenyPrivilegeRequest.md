@@ -5,13 +5,13 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**DepotPath** | **string** | 仓库路径 | [default to undefined]
-**FilePushRuleId** | **number** | 文件推送规则 ID | [default to undefined]
-**IsDeny** | **boolean** | 拒绝推送 | [default to undefined]
-**IsRole** | **boolean** | 特权者是角色（IsUser和IsRole有且只能有一个为true） | [default to undefined]
-**IsUser** | **boolean** | 特权者是用户（IsUser和IsRole有且只能有一个为true） | [default to undefined]
+**DepotPath** | **string** | 仓库路径 | [optional] [default to undefined]
+**FilePushRuleId** | **number** | 文件推送规则 ID | [optional] [default to undefined]
+**IsDeny** | **boolean** | 拒绝推送 | [optional] [default to undefined]
+**IsRole** | **boolean** | 特权者是角色（IsUser和IsRole有且只能有一个为true） | [optional] [default to undefined]
+**IsUser** | **boolean** | 特权者是用户（IsUser和IsRole有且只能有一个为true） | [optional] [default to undefined]
 **RoleId** | **number** | 角色 ID | [optional] [default to undefined]
-**UserGlobalKey** | **string** | 用户全局 key | [default to undefined]
+**UserGlobalKey** | **string** | 用户全局 key | [optional] [default to undefined]
 
 ## Example
 

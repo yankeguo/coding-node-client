@@ -5,9 +5,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**CloudProvider** | **string** | 云账号类型（可选值：KUBERNETES、TENCENT） | [default to undefined]
-**Credential** | [**CloudAccountCredential**](CloudAccountCredential.md) |  | [default to undefined]
-**Name** | **string** | 云账号名称 | [default to undefined]
+**CloudProvider** | **string** | 云账号类型（可选值：KUBERNETES、TENCENT） | [optional] [default to undefined]
+**Credential** | [**CloudAccountCredential**](CloudAccountCredential.md) |  | [optional] [default to undefined]
+**Name** | **string** | 云账号名称 | [optional] [default to undefined]
 
 ## Example
 
