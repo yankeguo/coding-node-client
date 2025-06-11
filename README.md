@@ -26,7 +26,7 @@ import { Configuration, DefaultApi } from "@yankeguo/coding-node-client";
 
 // Create configuration
 const config = new Configuration({
-  basePath: "https://your-team.coding.net",
+  basePath: "https://e.coding.net/open-api",
   accessToken: "your-access-token",
 });
 
