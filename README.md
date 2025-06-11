@@ -36,10 +36,7 @@ const api = new DefaultApi(config);
 // Example: Get current user info
 async function getCurrentUser() {
   try {
-    const response = await api.describeCodingCurrentUser(
-      "Bearer your-token",
-      "DescribeCodingCurrentUser",
-    );
+    const response = await api.describeCodingCurrentUser();
     console.log(response.data);
   } catch (error) {
     console.error("Error:", error);
@@ -138,15 +135,11 @@ import { ServiceHookApi } from "@yankeguo/coding-node-client";
 const serviceHookApi = new ServiceHookApi(config);
 
 // Example: Create a service hook
-const hook = await serviceHookApi.createServiceHook(
-  "Bearer your-token",
-  "CreateServiceHook",
-  {
-    ProjectName: "your-project",
-    HookUrl: "https://your-webhook-url.com",
-    HookEvents: ["push", "merge_request"],
-  },
-);
+const hook = await serviceHookApi.createServiceHook({
+  ProjectName: "your-project",
+  HookUrl: "https://your-webhook-url.com",
+  HookEvents: ["push", "merge_request"],
+});
 ```
 
 ### 3. WikiApi
@@ -159,11 +152,9 @@ import { WikiApi } from "@yankeguo/coding-node-client";
 const wikiApi = new WikiApi(config);
 
 // Example: Get wiki list
-const wikis = await wikiApi.describeWikiList(
-  "Bearer your-token",
-  "DescribeWikiList",
-  { ProjectName: "your-project" },
-);
+const wikis = await wikiApi.describeWikiList({
+  ProjectName: "your-project",
+});
 ```
 
 ## Common Use Cases
@@ -172,39 +163,29 @@ const wikis = await wikiApi.describeWikiList(
 
 ```typescript
 // Get all projects
-const projects = await api.describeCodingProjects(
-  "Bearer your-token",
-  "DescribeCodingProjects",
-  { PageSize: 20 },
-);
+const projects = await api.describeCodingProjects({
+  PageSize: 20,
+});
 
 // Create a new project
-const newProject = await api.createCodingProject(
-  "Bearer your-token",
-  "CreateCodingProject",
-  {
-    ProjectName: "my-new-project",
-    ProjectDisplayName: "My New Project",
-    ProjectDescription: "A sample project",
-  },
-);
+const newProject = await api.createCodingProject({
+  ProjectName: "my-new-project",
+  ProjectDisplayName: "My New Project",
+  ProjectDescription: "A sample project",
+});
 ```
 
 ### 2. Repository Operations
 
 ```typescript
 // Get repository information
-const repo = await api.describeGitDepot(
-  "Bearer your-token",
-  "DescribeGitDepot",
-  {
-    ProjectName: "your-project",
-    DepotName: "your-repo",
-  },
-);
+const repo = await api.describeGitDepot({
+  ProjectName: "your-project",
+  DepotName: "your-repo",
+});
 
 // Create a new branch
-await api.createGitBranch("Bearer your-token", "CreateGitBranch", {
+await api.createGitBranch({
   ProjectName: "your-project",
   DepotName: "your-repo",
   BranchName: "feature/new-feature",
@@ -216,17 +197,13 @@ await api.createGitBranch("Bearer your-token", "CreateGitBranch", {
 
 ```typescript
 // List issues
-const issues = await api.describeIssueList(
-  "Bearer your-token",
-  "DescribeIssueList",
-  {
-    ProjectName: "your-project",
-    PageSize: 20,
-  },
-);
+const issues = await api.describeIssueList({
+  ProjectName: "your-project",
+  PageSize: 20,
+});
 
 // Create a new issue
-const issue = await api.createIssue("Bearer your-token", "CreateIssue", {
+const issue = await api.createIssue({
   ProjectName: "your-project",
   Type: "DEFECT",
   Name: "Bug Report",
@@ -238,25 +215,17 @@ const issue = await api.createIssue("Bearer your-token", "CreateIssue", {
 
 ```typescript
 // Trigger a build
-const build = await api.triggerCodingCIBuild(
-  "Bearer your-token",
-  "TriggerCodingCIBuild",
-  {
-    ProjectName: "your-project",
-    JobName: "your-job",
-    Ref: "master",
-  },
-);
+const build = await api.triggerCodingCIBuild({
+  ProjectName: "your-project",
+  JobName: "your-job",
+  Ref: "master",
+});
 
 // Get build status
-const buildInfo = await api.describeCodingCIBuild(
-  "Bearer your-token",
-  "DescribeCodingCIBuild",
-  {
-    ProjectName: "your-project",
-    BuildId: build.data.Response.Data.BuildId,
-  },
-);
+const buildInfo = await api.describeCodingCIBuild({
+  ProjectName: "your-project",
+  BuildId: build.data.Response.Data.BuildId,
+});
 ```
 
 ## Error Handling
@@ -294,11 +263,7 @@ const issueRequest: CreateIssueRequest = {
   Name: "Bug title",
 };
 
-const response: CreateIssue200Response = await api.createIssue(
-  "Bearer token",
-  "CreateIssue",
-  issueRequest,
-);
+const response: CreateIssue200Response = await api.createIssue(issueRequest);
 ```
 
 ## API Documentation
@@ -378,7 +343,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 See [package.json](./package.json) for version information.
 
-Current version: `202506.11.0`
+Current version: `202506.11.1`
 
 ---
 
