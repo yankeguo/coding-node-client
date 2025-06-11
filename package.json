@@ -1,6 +1,6 @@
 {
   "name": "@yankeguo/coding-node-client",
-  "version": "202506.11.0",
+  "version": "202506.11.1",
   "description": "An Axios based Node.js client for CODING.NET OpenAPI",
   "main": "dist/index.js",
   "directories": {
